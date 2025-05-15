@@ -142,6 +142,25 @@ document.addEventListener('DOMContentLoaded', function() {
             statusLabel.style.backgroundColor = 'Red';
             statusLabel.style.color = 'White';
         }
+        const zplData = generateZpl(currentCustomer, currentCustomerNumber);
+        
+        try {
+            selectedDevice.send(zplData);
+            statusLabel.textContent = 'Erfolgreich gedruckt!';
+            //statusLabel.textContent = `${buttonText} erfolgreich gedruckt!`;
+            statusLabel.style.backgroundColor = 'lightgreen';
+            statusLabel.style.color = 'black';
+            setTimeout(() => {
+                statusLabel.textContent = 'Scannen Sie das gedruckte Etikett, um zu überprüfen';
+                statusLabel.style.backgroundColor = 'yellow';
+                statusLabel.style.color = 'black';
+            }, 2000);            
+        } catch(error) {
+            statusLabel.textContent = `Fehler beim Drucken: ${error}`;
+            statusLabel.style.backgroundColor = 'red';
+            statusLabel.style.color = 'white';
+            console.error("Druckfehler: ", error);
+        }
     }
 
     function verifyLabel(scannedBarcode) {
@@ -268,6 +287,7 @@ document.addEventListener('DOMContentLoaded', function() {
     kundeNummerInput.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
             processScan();
+            handlePrintButtonClick(e);
         }
     });
 
