@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BW Post Login</title>
+    <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+    <div class="header">
+        <!--<img src="./images/logo.png" alt="bw-post-logo" class="logo">-->
+        <img src="./images/bw_post_logo_png.png" alt="bw-post-logo" class="logo">
+    </div>
+
+    <div class="login-card">
+        <div class="login-card-main">
+            <select name="" id="">
+                <option value="EN">EN</option>
+                <option value="DE">DE</option>
+                <option value="IT">IT</option>
+            </select>
+
+            <p>Please Login</p>
+        
+        <div class="username_div">
+            <!-- <label for="floatingInput">Email address</label>-->
+            <input type="email" name="username" class="username" id="floatingInput" placeholder="Username">
+            
+        </div>
+        
+        <div class="password_div">
+            <!--<label for="floatingPassword">Password</label>-->
+            <input type="password" name="password" class="password" id="floatingPassword" placeholder="Password">
+            
+        </div>
+
+        <div class="forgot-pass"> <a class="forgot_pass_anchor" href="#"> forgot password?</a></div>
+<!--
+        <div class="remember-me">
+            <input type="checkbox" name="remember-me" id="floatingRememberMe">
+            <label for="floatingRememberMe">remember me</label>
+        </div> -->
+
+        <div class="sign-in"> <button class="sign-in-button" onclick="window.location.href='dashboard.html'">Sign in</button></div>
+    </div>
+    </div>
+
+    <div class="footer">
+        Copyright © 2025 Sai Malka, BWPOST GmbH & Co. KG
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

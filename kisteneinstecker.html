@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📋 kisteneinstecker</title>
+    <link rel="stylesheet" href="kisteneinstecker.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-links">
+            <a href="./dashboard.html">Home</a>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Left Section - Input Section -->
+        <div class="content1">
+            <div class="dropdown_kopies">
+                <div class="dropdown_kopies_header">Anzahl Druck</div>
+                <select name="kopies" id="dropdown_kopies_header">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="fach-einlesen">
+                <!--<label for="fach-nummer">Fach Nummer Eingeben</label>-->
+                <label>Fach Nummer Eingeben</label>
+                <input type="text" id="fach-nummer" class="fach-nummer" autocomplete="off">
+            </div>
+            
+            <div class="action-buttons">
+                <button class="ok-button" id="ok-button" data-value="ok">OK</button>
+                <button class="druck-button" id="print-button">Drucken</button>
+            </div>
+
+            <div class="content3">
+                <div class="number-buttons">
+                    <button class="number-button" data-value="1">1</button>
+                    <button class="number-button" data-value="2">2</button>
+                    <button class="number-button" data-value="3">3</button>
+                    <button class="number-button" data-value="4">4</button>
+                    <button class="number-button" data-value="5">5</button>
+                    <button class="number-button" data-value="6">6</button>
+                    <button class="number-button" data-value="7">7</button>
+                    <button class="number-button" data-value="8">8</button>
+                    <button class="number-button" data-value="9">9</button>
+                    <button class="number-button clear" data-value="clear">←</button>
+                    <button class="number-button" data-value="0">0</button>
+                    <button class="number-button" data-value="enter">Enter</button>
+                </div>
+            </div>
+            <!-- Print Quantity Selection -->
+            
+        </div>
+
+        <!-- Middle Section - Information Display -->
+        <div class="content2">
+            <div class="frame2">
+                <div class="tag">
+                    <div class="current-day-header">Tag</div>
+                    <div class="current-day" id="current-day">None</div>
+                </div>
+                <div class="fach-nummer">
+                    <div class="fach-nummer-header">Fach Nummer:</div>
+                    <div class="fach-nummer-label" id="fach-display">0000</div>
+                </div>
+                <div class="box-nummer">
+                    <div class="box-nummer-header">Box Nummer:</div>
+                    <div class="box-nummer-label" id="box-display">0000</div>
+                </div>
+                <div class="bezeich-nummer">
+                    <div class="bezeich-nummer-header">Bezeichnung:</div>
+                    <div class="bezeich-nummer-label" id="bezeich-display">0000</div>
+                </div>
+                <div class="tour-nummer">
+                    <div class="tour-nummer-header">Tour Nummer:</div>
+                    <div class="tour-nummer-label" id="tour-display">0000</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Endlos Print Section with side-by-side elements -->
+        <div class="endlos_drucken">
+            <div class="dropdown_tag">
+                <div class="dropdown_tag_header">Tag auswählen</div>
+                <select name="machine" id="dropdown_tag_list">
+                    <option value="alle">Alle</option>
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="T">T</option>
+                </select>
+            </div>
+
+            <div class="dropdown_endlos_druck_sort_kopies">
+                <div class="dropdown_endlos_druck_header">Endlosdruck Sortierung</div>
+                <select name="sort" id="dropdown_endlos_druck_sort">
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17BB">17 BB</option>
+                    <option value="18BB">18 BB</option>
+                    <option value="19BB">19 BB</option>
+                    <option value="27BB">27 BB</option>
+                    <option value="20ZAK">20 ZAK</option>
+                    <option value="21ZAK">21 ZAK</option>
+                    <option value="23RMK">23 RMK</option>
+                    <option value="24RMK">24 RMK</option>
+                </select>
+            </div>
+
+            <div class="endlos_drucken_sort_druck-buttons-div">
+                <button class="endlos_drucken_sort_druck-buttons" id="sort-print-button">Drucken</button>
+            </div>
+            
+            <div class="endlos_drucken_machine">
+                <div class="dropdown_endlos_druck_machine_header">Endlosdruck Maschine</div>
+                <select name="machine" id="dropdown_endlos_druck_maschine_list">
+                    <option value="SL33">SL 33</option>
+                    <option value="SL34">SL 34</option>
+                    <option value="SL35">SL 35</option>
+                    <option value="SL36">SL 36</option>
+                    <option value="SL37">SL 37</option>
+                    <option value="SL38">SL 38</option>
+                </select>
+            </div>
+            
+            <div class="endlos_drucken_maschine_druck-buttons-div">    
+                <button class="endlos_drucken_maschine_druck-buttons" id="machine-print-button">Drucken</button>
+            </div>
+        </div>
+
+        <!-- System Information Section -->
+        <div class="user_info-container">            
+            <div class="content4">
+                <div class="system-info">
+                    <span class="destop-name" id="desktop-name">Workstation</span>
+                    <span class="date-time" id="current-time">00:00:00</span>
+                </div>
+                <div class="update-info">
+                    <span class="last-update" id="last-update">Letztes Update: 01.01.2025 00:00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="kisteneinstecker.js"></script>
+</body>
+</html>

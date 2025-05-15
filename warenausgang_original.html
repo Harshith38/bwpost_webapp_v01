@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warenausgang</title>
+    <link rel="stylesheet" href="warenausgang.css">
+</head>
+<body>
+    <div class="dropdown_wagen_palette">
+        <div class="dropdown_wagen_palette_header"> Type</div>
+        <select name="wagen_palette" id="dropdown_wagen_palette_list">
+            <option value="wagen">Wagen</option>
+            <option value="palette">Palette</option>
+        </select>
+    </div>
+
+    
+    <div class="dropdown_tag">
+        <div class="dropdown_tag_header">Tag auswählen</div>
+        <select name="machine" id="dropdown_tag_list">
+            <option value="alle">Alle</option>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="T">T</option>
+        </select>
+    </div>
+
+    <div class="content2">
+        <div class="frame2">
+            <div class="wagen">
+                <div class="wagen_label">Wagen Nummer</div>
+                <input type="text" class="wagen_nummer" id="wagen_nummer">
+            </div>
+            <div class="wagen_gewicht">
+                <div class="wagen_gewicht_label">Gewicht</div>
+                <input type="text" class="wagen_gewicht_nummer" id="wagen_gewicht_nummer">
+            </div>
+            <div class="kisten">
+                <div class="kisten_header">Kisten</div>
+                <input type= "text" class="kisten_nummer" id="kisten_nummer">
+            </div>
+            <div class="tour">
+                <div class="tour_nummer_header">Tour</div>
+                <input input="text" class = "tour_nummer" id="tour_display">
+            </div>
+            <div class="ID_nummer">
+                <div class="ID_nummer_header">ID</div>
+                <input class="ID_nummer" id="ID-display">
+            </div>
+
+            <div class="ok_button_div">
+                <button class="ok_button" id="ok_button">OK</button>
+            </div>
+
+            <div class="print_button_div">
+                <button class="print_button" id="print_button">Drucken</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cancel_div">
+        <div class="cancel_oder">
+            <div class="cancel_oder_label">scan ID to cancel</div>
+            <input type="text" class="cancel_oder_nummer" id="cancel_oder_nummer">
+        </div>
+        <button class="cancel_button" id="cancel_button">Cancel</button>
+    </div>
+
+    <div class="versand_bericht_div">
+        <button class="versand_bericht_button" id="versand_bericht_button">Versandbericht</button>
+    </div>
+</body>
+</html>
