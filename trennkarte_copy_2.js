@@ -220,21 +220,47 @@ document.addEventListener('DOMContentLoaded', function() {
     
         const labelWidthDots = Math.round(labelWidthMM * dotsPerMM);
         const labelHeightDots = Math.round(labelHeightMM * dotsPerMM);
+
+        //let zpl = `^XA
+        //^MMB
+        
+        //^LS0
+        
+        //^FO30,30^BY3.5,2.3,70^B2N,70,N,N,N^FD${formattedBarcode}^FS
+
+        //^CI28
+        //^FO50,150^A0N,20,20^FD${customerId}^FS
+        //^FO400,150^A0N,20,20^FD${dateTimeString}^FS
+        //^FO50,180^A0N,25,25^FD${customerName}^FS
+        //^FO51,181^A0N,25,25^FD${customerName}^FS
+        
+        //^XZ`;
     
         let zpl = `^XA
         ^MMB
-        
+        ^PW630
+        ^LL315
         ^LS0
         
-        ^FO30,30^BY3.5,2.3,70^B2N,70,N,N,N^FD${formattedBarcode}^FS
+        ^FX Remove centering commands
+        ^CWA,E:TT0003M_.FNT
+
+        ^FX Barcode positioned 30 dots from left
+        ^FO35,30^BY3.5,2.5,60^B2N,60,N,N,N^FD${formattedBarcode}^FS
 
         ^CI28
-        ^FO50,150^A0N,20,20^FD${customerId}^FS
-        ^FO400,150^A0N,20,20^FD${dateTimeString}^FS
-        ^FO50,180^A0N,25,25^FD${customerName}^FS
-        ^FO51,181^A0N,25,25^FD${customerName}^FS
+        ^FX Customer ID and date positioned 30 dots from left
+        ^FO35,120^A0N,20,20^FD${customerId}^FS
+        ^FO335,120^A0N,20,20^FD${dateTimeString}^FS
+        
+        ^FX Customer name positioned 30 dots from left - removed centering
+        ^FO35,150^A0N,25,25^FD${customerName}^FS
+        ^FO36,151^A0N,25,25^FD${customerName}^FS
         
         ^XZ`;
+
+
+
         return zpl;
     }
 
