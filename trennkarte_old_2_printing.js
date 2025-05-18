@@ -313,7 +313,6 @@ document.addEventListener('DOMContentLoaded', function() {
     kundeNummerInput.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
             processScan();
-            handlePrintButtonClick(e);
         }
     });
 
