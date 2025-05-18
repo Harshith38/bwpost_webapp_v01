@@ -191,6 +191,34 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    function calculatePrufziffer(code) {
+        // Ensure we're working with a string
+        code = code.toString();
+        
+        let odd = 0;  // Sum for positions 0,2,4,... (zero-indexed)
+        let even = 0; // Sum for positions 1,3,5,... (zero-indexed)
+        
+        for (let i = 0; i < code.length; i++) {
+          const digit = parseInt(code[i], 10);
+          
+          if (i % 2 === 0) {
+            odd += digit;
+          } else {
+            even += digit;
+          }
+        }
+        
+        // Apply the formula
+        const prufcode = (odd * 3 + even) % 10;
+        
+        return prufcode;
+      }
+      
+      // Example usage
+      const code_1 = "040000002018500";
+      const prufziffer = calculatePrufziffer(code_1);
+      console.log("Prüfziffer:", prufziffer);
+
     function generateBarcodeText(customerId) {
         const customerIdString = String(customerId);
 
@@ -200,8 +228,9 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (customerIdString.length === 8){
             base = '0400000';
         }
-        const checkDigit = '1'; // Replace with actual check digit calculation
-        return base + customerIdString + checkDigit;
+        const base_text = base + customerIdString;
+        const checkDigit = calculatePrufziffer(base_text); // pruffziffer rechnen
+        return  base_text + checkDigit;
     }
 
     // Function to handle number button clicks
@@ -263,11 +292,14 @@ document.addEventListener('DOMContentLoaded', function() {
         ^CI28
         ^FX Customer ID and date positioned 30 dots from left
         ^FO35,120^A0N,20,20^FD${customerId}^FS
-        ^FO335,120^A0N,20,20^FD${dateTimeString}^FS
+        ^FO385,120^A0N,20,20^FD${dateTimeString}^FS
         
         ^FX Customer name positioned 30 dots from left - removed centering
-        ^FO35,150^A0N,25,25^FD${customerName}^FS
-        ^FO36,151^A0N,25,25^FD${customerName}^FS
+        ^FO35,160^A0N,25,25^FD${customerName}^FS
+        
+        
+        ^FO35,220^A0N,25,25^FDPrüfcode: ^FS
+        ^FO385,220^A0N,25,25^FD User ^FS
         
         ^XZ`;
 
@@ -327,7 +359,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Update the desktop name and current time
-    document.querySelector('.destop-name').textContent = 'Sai Malka';
+    document.querySelector('.destop-name').textContent = 'User';
+    //document.querySelector('.destop-name').textContent = window.location.hostname || 'Local Computer';
+
     setInterval(function() {
         document.querySelector('.date-time').textContent = new Date().toLocaleTimeString();
     }, 1000);
