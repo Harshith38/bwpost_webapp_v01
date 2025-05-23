@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const kundeNummerInput = document.getElementById('kunde-nummer');
     const statusLabel = document.querySelector('.status-label');
     const currentCustomerLabel = document.querySelector('.current-customer-label');
+    const currentCustomerLabel_2 = document.querySelector('.current-customer-label-2');
     const previousCustomerLabel = document.querySelector('.previous-customer-label');
+    const previousCustomerLabel_2 = document.querySelector('.previous-customer-label-2');
     const currentCustomerNumLabel = document.querySelector('.current-customer-number');
     const previousCustomerNumLabel = document.querySelector('.previous-customer-number');
     const okButton = document.querySelector('.ok-button');
@@ -11,11 +13,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const printButtons = document.querySelectorAll('.print-button');
 
     let customerData = []; // To store data from customers.json
+
     let currentCustomer = null;
+    let currentCustomer_2 = null;
     let previousCustomer = null;
+    let previousCustomer_2 = null;
     let currentCustomerNumber = null;
     let previousCustomerNumber = null;
     let verificationMode = false;
+    let pruf_code = null;
+
+    const DEFAULT_NAME = 'USER'
+    let desktopName = localStorage.getItem('desktopName') || DEFAULT_NAME; 
 
     let selectedDevice; // To store the discovered printer
 
@@ -68,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
             customerData = await response.json();
             console.log('Customer data loaded:', customerData.length, 'customers');
             const firstCustomer = customerData[0];
-            console.log('Customer Id:', firstCustomer.ID, 'Customer Name: ', firstCustomer.CustomerName);
+            console.log('Customer Id:', firstCustomer.ID, 'Customer Name: ', firstCustomer.NAME1);
             
             statusLabel.textContent = 'Kundendaten geladen. Bereit zum Scannen.';
             statusLabel.style.backgroundColor = 'lightgreen';
@@ -104,22 +113,43 @@ document.addEventListener('DOMContentLoaded', function() {
         const customerMatch = customerData.find(customer => customer.ID === barcodeNumber);
 
         console.log("customerMatch", customerMatch);
+        if (!customerMatch) {
+            statusLabel.textContent = `Kein Kunde für Barcode: ${barcodeValue} gefunden!!`;
+            statusLabel.style.backgroundColor = 'Red';
+            statusLabel.style.color = 'White';
+            return;
+        } else {
 
-        if (customerMatch) {
+        
+
+        let cust_status = customerMatch.STATUS;
+        let cust_machine_export = customerMatch.ISEXPORTMASCHINE;
+        let cust_mahnstufe = customerMatch.MAHNSTUFE;
+
+        pruf_code = cust_status.toString() + cust_machine_export.toString() + cust_mahnstufe.toString();
+
+        console.log("Prufcode: ", pruf_code);   
+
+        
             // Update previous customer
             if (currentCustomer) {
                 previousCustomer = currentCustomer;
+                previousCustomer_2 = currentCustomer_2;
                 previousCustomerNumber = currentCustomerNumber;
                 previousCustomerLabel.textContent = previousCustomer;
+                previousCustomerLabel_2.textContent = previousCustomer_2;
                 previousCustomerNumLabel.textContent = previousCustomerNumber;
             }
 
             // Update current customer
-            currentCustomer = customerMatch.CustomerName;
+            currentCustomer = customerMatch.NAME1;
+            currentCustomer_2 = customerMatch.NAME2;
             currentCustomerNumber = customerMatch.ID;
             currentCustomerLabel.textContent = currentCustomer;
+            currentCustomerLabel_2.textContent = currentCustomer_2;
             currentCustomerNumLabel.textContent = currentCustomerNumber;
 
+            if (pruf_code == "110") {
             // Generate the barcode
             const barcodeElement = document.getElementById('barcode');
             if (barcodeElement) {
@@ -138,7 +168,8 @@ document.addEventListener('DOMContentLoaded', function() {
             statusLabel.textContent = 'Scannen Sie das gedruckte Etikett, um zu überprüfen';
             statusLabel.style.backgroundColor = 'Yellow';
             statusLabel.style.color = 'black';
-            const zplData = generateZpl(currentCustomer, currentCustomerNumber);
+            const zplData = generateZpl(desktopName, pruf_code, currentCustomerNumber, currentCustomer, currentCustomer_2);
+            //const zplData = generateZpl(currentCustomer, currentCustomer_2, currentCustomerNumber, pruf_code);
         
             try {
                 selectedDevice.send(zplData);
@@ -158,11 +189,34 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error("Druckfehler: ", error);
             }
         } else {
-            statusLabel.textContent = `Kein Kunde für Barcode: ${barcodeValue} gefunden!!`;
-            statusLabel.style.backgroundColor = 'Red';
-            statusLabel.style.color = 'White';
-        }
-        
+            let msg_k = '--****---KUNDE GESPEERT!!---****--'
+            //console.log('kunde gespeert!!')
+            currentCustomerLabel.textContent = msg_k;
+            currentCustomerLabel_2.textContent = currentCustomer;
+            let a = currentCustomerNumber.toString()+ ' '+ currentCustomer;
+            let num_1 = 0;
+            verificationMode = false;
+            //const zplData = generateZpl(msg_k, currentCustomer, currentCustomerNumber);
+            const zplData = generateZpl(desktopName, pruf_code, num_1, msg_k, a);//, currentCustomer);
+            
+    
+        try {
+            selectedDevice.send(zplData);
+            statusLabel.textContent = 'Erfolgreich gedruckt!';
+            //statusLabel.textContent = `${buttonText} erfolgreich gedruckt!`;
+            statusLabel.style.backgroundColor = 'lightgreen';
+            statusLabel.style.color = 'black';
+            setTimeout(() => {
+                statusLabel.textContent = 'Kunde Gesperrt, nächte kunde';
+                statusLabel.style.backgroundColor = 'red';
+                statusLabel.style.color = 'white';
+            }, 2000);            
+        } catch(error) {
+            statusLabel.textContent = `Fehler beim Drucken: ${error}`;
+            statusLabel.style.backgroundColor = 'red';
+            statusLabel.style.color = 'white';
+            console.error("Druckfehler: ", error);
+        }}}        
     }
 
     function verifyLabel(scannedBarcode) {
@@ -249,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function() {
         kundeNummerInput.focus();
     }
 
-    function generateZpl(customerName, customerId) {
+    function generateZpl(user, code, customerId, customerName, currentCustomer_2) {
         const formattedBarcode = generateBarcodeText(customerId);
         const currentDate = new Date();
         const formattedDate = `${String(currentDate.getDate()).padStart(2, '0')}.${String(currentDate.getMonth() + 1).padStart(2, '0')}.${currentDate.getFullYear()}`;
@@ -261,21 +315,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
         const labelWidthDots = Math.round(labelWidthMM * dotsPerMM);
         const labelHeightDots = Math.round(labelHeightMM * dotsPerMM);
-
-        //let zpl = `^XA
-        //^MMB
-        
-        //^LS0
-        
-        //^FO30,30^BY3.5,2.3,70^B2N,70,N,N,N^FD${formattedBarcode}^FS
-
-        //^CI28
-        //^FO50,150^A0N,20,20^FD${customerId}^FS
-        //^FO400,150^A0N,20,20^FD${dateTimeString}^FS
-        //^FO50,180^A0N,25,25^FD${customerName}^FS
-        //^FO51,181^A0N,25,25^FD${customerName}^FS
-        
-        //^XZ`;
     
         let zpl = `^XA
         ^MMB
@@ -296,14 +335,13 @@ document.addEventListener('DOMContentLoaded', function() {
         
         ^FX Customer name positioned 30 dots from left - removed centering
         ^FO35,160^A0N,25,25^FD${customerName}^FS
+        ^FO35,190^A0N,25,25^FD${currentCustomer_2}^FS
         
         
-        ^FO35,220^A0N,25,25^FDPrüfcode: ^FS
-        ^FO385,220^A0N,25,25^FD User ^FS
+        ^FO35,230^A0N,25,25^FDPrüfcode: ${code}^FS
+        ^FO385,230^A0N,25,25^FD ${user} ^FS
         
         ^XZ`;
-
-
 
         return zpl;
     }
@@ -312,14 +350,14 @@ document.addEventListener('DOMContentLoaded', function() {
     async function handlePrintButtonClick(e) {
         const buttonText = e.target.textContent;
         console.log(`Printing ${buttonText} for customer: ${currentCustomer || 'None'}, ID: ${currentCustomerNumber}, Device: ${selectedDevice ? selectedDevice.name : 'None'}`);
-        
+
         if (!currentCustomer || !selectedDevice) {
             statusLabel.textContent = 'Bitte scannen Sie zuerst eine Kundenummer.';
             statusLabel.style.backgroundColor = 'red';
             statusLabel.style.color = 'white';
             return;
         }
-        
+
         statusLabel.textContent = `Drucke ${buttonText}...`;
         statusLabel.style.backgroundColor = 'blue';
         statusLabel.style.color = 'white';
@@ -328,38 +366,41 @@ document.addEventListener('DOMContentLoaded', function() {
         let print_copy = 0;
 
         while (print_copy < copies) {
-        const zplData = generateZpl(currentCustomer, currentCustomerNumber);
-        
-        try {
-            await selectedDevice.send(zplData);
-            statusLabel.textContent = `${buttonText} Etikett wird gedruckt!`;
-            statusLabel.style.backgroundColor = 'green';
-            statusLabel.style.color = 'white';
-            setTimeout(() => {
-
-                if (verificationMode){
-                    statusLabel.textContent = 'Scannen Sie das gedruckte Etikett, um zu überprüfen';
-                    statusLabel.style.backgroundColor = 'yellow';
+            const zplData = generateZpl(desktopName, pruf_code, currentCustomerNumber, currentCustomer, currentCustomer_2);
+            // const zplData = generateZpl(currentCustomer, currentCustomer_2, currentCustomerNumber, pruf_code); 
+            //const zplData = generateZpl(currentCustomer, currentCustomerNumber, pruf_code);
+            
+            try {
+                await selectedDevice.send(zplData);
+                statusLabel.textContent = `${buttonText} Etikett wird gedruckt!`;
+                statusLabel.style.backgroundColor = 'green';
+                statusLabel.style.color = 'white';
+                setTimeout(() => {
+                    if (verificationMode){
+                        statusLabel.textContent = 'Scannen Sie das gedruckte Etikett, um zu überprüfen';
+                        statusLabel.style.backgroundColor = 'yellow';
+                        statusLabel.style.color = 'black';
+                    } else {
+                    statusLabel.textContent =  `${buttonText} erfolgreich gedruckt! Bereit zum Kunden einlesen`;
+                    statusLabel.style.backgroundColor = 'lightgreen';
                     statusLabel.style.color = 'black';
-                } else {
-                statusLabel.textContent =  `${buttonText} erfolgreich gedruckt! Bereit zum Kunden einlesen`;
-                statusLabel.style.backgroundColor = 'lightgreen';
-                statusLabel.style.color = 'black';
-                }
-            }, 2000);            
-        } catch(error) {
-            statusLabel.textContent = `Fehler beim Drucken: ${error}`;
-            statusLabel.style.backgroundColor = 'red';
-            statusLabel.style.color = 'white';
-            console.error("Druckfehler: ", error);
+                    }
+                }, 2000);            
+            } catch(error) {
+                statusLabel.textContent = `Fehler beim Drucken: ${error}`;
+                statusLabel.style.backgroundColor = 'red';
+                statusLabel.style.color = 'white';
+                console.error("Druckfehler: ", error);
+            }
+            print_copy++;
         }
-        print_copy++;
-     }
-     kundeNummerInput.focus();
+        kundeNummerInput.focus();
     }
 
+
     // Update the desktop name and current time
-    document.querySelector('.destop-name').textContent = 'User';
+    //document.querySelector('.destop-name').textContent = 'User';
+    document.querySelector('.destop-name').textContent = desktopName;
     //document.querySelector('.destop-name').textContent = window.location.hostname || 'Local Computer';
 
     setInterval(function() {
