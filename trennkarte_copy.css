@@ -93,7 +93,7 @@ body {
     padding: 10px;
 }
 
-.current-customer-label, .current-customer-number {
+.current-customer-label, .current-customer-number, .current-customer-label-2 {
     font-family: "Roboto Mono", monospace;
     font-size: 20px;
     font-weight: bold;
@@ -102,7 +102,7 @@ body {
     word-wrap: break-word;
 }
 
-.current-customer-label{
+.current-customer-label-2{
     margin-bottom: 30px;
 }
 
