@@ -418,6 +418,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     okButton.addEventListener('click', processScan);
+
+    okButton.addEventListener('click', ()=>{
+        processScan();
+        kundeNummerInput.focus();
+    });
     
     // Add event listeners to number buttons
     numberButtons.forEach(button => {
