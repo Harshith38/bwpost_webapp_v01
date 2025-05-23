@@ -318,3 +318,11 @@ body {
 .section4 .quick-button:hover {
     background-color: #ddd;
 }
+
+.section5 .quick-button {
+    background-color: #e6565d;
+}
+
+.section5 .quick-button:hover {
+    background-color: #dddddd;
+}
