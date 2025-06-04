@@ -10616,14 +10616,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 2400935,
-    "NAME1": "VDAA \u2014 Ver\u00adband deut\u00adscher Arbeits\u00adrechts\u00adAn\u00adw\u00e4lte e.V.",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2402064,
     "NAME1": "Mikro - Partner Stuttgart",
     "NAME2": "Gesellschaft f\u00fcr Soft- und Hardware mbH",
@@ -14713,8 +14705,8 @@
   },
   {
     "ID": 4010367,
-    "NAME1": "Tier\u00e4rztliche Gemeinschaftspraxis",
-    "NAME2": "Dr. Mark Pflanz & Dr. Stefanie Pflanz",
+    "NAME1": "Tierarzt Plus Mittlerer Neckar GmbH",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -42595,9 +42587,9 @@
     "ID": 2402696,
     "NAME1": "ZWEI HERREN - Musikkabarett",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 3,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2402698,
@@ -47976,6 +47968,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016221,
+    "NAME1": "Beck & Brehm UG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4001086,
     "NAME1": "",
     "NAME2": "",
@@ -51811,7 +51811,7 @@
     "ID": 4012826,
     "NAME1": "S\u00fcdwest Media Network GmbH",
     "NAME2": "Andrea Haller",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
@@ -53698,7 +53698,7 @@
   {
     "ID": 4012101,
     "NAME1": "NABU Waiblingen e.V.",
-    "NAME2": "",
+    "NAME2": "Bruno Lorinser",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -56328,14 +56328,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4012711,
-    "NAME1": "HWS Denk GmbH & Co. KG",
-    "NAME2": "Steuerberatungsgesellschaft",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2148100,
     "NAME1": "Medi Baden-W\u00fcrttemberg e.V.",
     "NAME2": "",
@@ -57896,6 +57888,30 @@
     "MAHNSTUFE": 1
   },
   {
+    "ID": 5404840,
+    "NAME1": "Minol Messtechnik W. Lehmann GmbH & Co.KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013461,
+    "NAME1": "Reinhard Michalsky",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012711,
+    "NAME1": "HWS Denk GmbH & Co. KG",
+    "NAME2": "Steuerberatungsgesellschaft",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013443,
     "NAME1": "Melanie Richter",
     "NAME2": "",
@@ -57979,6 +57995,22 @@
     "ID": 4012602,
     "NAME1": "ALMET GmbH",
     "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013460,
+    "NAME1": "Adrijan Sejdija",
+    "NAME2": "CAYA Postbox 894079",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013462,
+    "NAME1": "Georg Chatziemmanouil",
+    "NAME2": "c/o Andreas Chatziemmanouil",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -59088,6 +59120,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403633,
+    "NAME1": "Coltec CMC GmbH & Co. KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013378,
     "NAME1": "Bunja Fatty",
     "NAME2": "",
@@ -59261,6 +59301,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403634,
+    "NAME1": "Stadtwerke Ludwigsburg-Kornwestheim GmbH -\tMesswesen Strom",
+    "NAME2": "ID 1942",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012891,
+    "NAME1": "Evangelische Kirchengemeinde Berglen Pfarramt Oppelsbohm",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
