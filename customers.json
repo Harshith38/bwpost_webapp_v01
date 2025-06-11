@@ -8273,7 +8273,7 @@
   },
   {
     "ID": 2400750,
-    "NAME1": "Aktuell Lohnsteuerhilfeverein e.V.",
+    "NAME1": "b.b.h. Lohnsteuerhilfe",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -53562,7 +53562,7 @@
   {
     "ID": 4013064,
     "NAME1": "Karin Fox",
-    "NAME2": "",
+    "NAME2": "Betreuungsb\u00fcro",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -57912,6 +57912,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013464,
+    "NAME1": "Simon Jakobi",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013443,
     "NAME1": "Melanie Richter",
     "NAME2": "",
@@ -58949,6 +58957,22 @@
     "NAME2": "f\u00fcr KIM",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403635,
+    "NAME1": "Buonissimo World",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013463,
+    "NAME1": "Sultana Ucurum",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
