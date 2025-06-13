@@ -6555,8 +6555,8 @@
     "ID": 2046000,
     "NAME1": "Volksbank Leonberg-Strohg\u00e4u",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -47974,6 +47974,14 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403636,
+    "NAME1": "Kiosk 642",
+    "NAME2": "Kaya S\u00fcleyman",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4001086,
