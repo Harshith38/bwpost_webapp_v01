@@ -195,8 +195,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error("Druckfehler: ", error);
             }
         } else {
-            let msg_k = '--****---KUNDE GESPEERT!!---****--'
-            //console.log('kunde gespeert!!')
+            let msg_k = '--****---KUNDE GESPERRT!!---****--'
+            //console.log('kunde gesperrt!!')
             currentCustomerLabel.textContent = msg_k;
             currentCustomerLabel_2.textContent = currentCustomer;
             let a = currentCustomerNumber.toString()+ ' '+ currentCustomer;
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function() {
             statusLabel.style.backgroundColor = 'lightgreen';
             statusLabel.style.color = 'black';
             setTimeout(() => {
-                statusLabel.textContent = 'Kunde Gesperrt, nächte kunde';
+                statusLabel.textContent = 'Kunde Gesperrt, nicht Kleben, nächste kunde';
                 statusLabel.style.backgroundColor = 'red';
                 statusLabel.style.color = 'white';
             }, 2000);            
