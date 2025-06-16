@@ -11,6 +11,8 @@ body {
     border-bottom: 1px solid #ddd;
 }
 
+
+
 .header-links a {
     text-decoration: none;
     color: #333;
@@ -231,7 +233,7 @@ body {
 /* Quick Access Sections */
 .quick-access-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     padding: 20px;
     margin-top: 20px;
@@ -275,6 +277,10 @@ body {
     font-weight: bold;
     transition: all 0.2s;
     text-align: center;
+}
+
+#quick-button-postkarten {
+    margin-top: 30px;
 }
 
 .quick-button:hover {
