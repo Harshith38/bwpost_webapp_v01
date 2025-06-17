@@ -3168,14 +3168,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 2231100,
-    "NAME1": "Manfred Schlienz GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2231700,
     "NAME1": "Gemeindetag Baden-W\u00fcrttemberg",
     "NAME2": "",
@@ -16841,8 +16833,8 @@
   },
   {
     "ID": 2401632,
-    "NAME1": "Universit\u00e4t Hohenheim ",
-    "NAME2": "150l FG Synthetische Biologie",
+    "NAME1": "Universit\u00e4t Hohenheim",
+    "NAME2": "150l FG Lebensmittelinformatik",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -31987,14 +31979,6 @@
     "ID": 4012169,
     "NAME1": "K\u00e4hny Maschinenbau GmbH",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5400359,
-    "NAME1": "MKG am Dick",
-    "NAME2": "Dr. Dr. Silke Mayr",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
