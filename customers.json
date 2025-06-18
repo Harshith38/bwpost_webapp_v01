@@ -1000,14 +1000,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2104200,
-    "NAME1": "VR Bank Hohenneuffen-Teck eG",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2089600,
     "NAME1": "Akademie f\u00fcr Kommunikation",
     "NAME2": "in Baden-W\u00fcrttemberg",
@@ -8171,14 +8163,6 @@
     "ID": 2400658,
     "NAME1": "Autohaus Rhein Ludwigsburg",
     "NAME2": "Zweigniederlassung der Heermann und Rhein GmbH",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5400126,
-    "NAME1": "SPD Ortsverein",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -35632,14 +35616,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404596,
-    "NAME1": "Auto Bebion N\u00fcrtingen GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2402321,
     "NAME1": "Alessia Russo",
     "NAME2": "",
@@ -47968,6 +47944,22 @@
     "MAHNSTUFE": 1
   },
   {
+    "ID": 7400951,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016228,
+    "NAME1": "A + K Ventilatoren Vertriebs-GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4001086,
     "NAME1": "",
     "NAME2": "",
@@ -54278,14 +54270,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
-  },
-  {
-    "ID": 5404760,
-    "NAME1": "Medical Airport Service GmbH",
-    "NAME2": "Aeromedical-Center Germany",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
   },
   {
     "ID": 2403131,
