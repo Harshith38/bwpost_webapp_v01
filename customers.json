@@ -13812,7 +13812,7 @@
     "NAME1": "MANGLER Immobilien & Hausverwaltung",
     "NAME2": "Inhaberin Gabriele Roser",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -34408,14 +34408,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404614,
-    "NAME1": "Zweckverband Sozialstation Unterer Fils",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 5400374,
     "NAME1": "Druck-und Copy Center Esslingen",
     "NAME2": "Frau Andrea Haspel",
@@ -40019,14 +40011,6 @@
     "ID": 74014764,
     "NAME1": "Dr. F. Hohenstein",
     "NAME2": "Hals-,Nasen-,Ohrenarzt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402608,
-    "NAME1": "KFZ-Sachverst\u00e4ndigenb\u00fcro Ljubez",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -46794,7 +46778,7 @@
   {
     "ID": 4012782,
     "NAME1": "Seniorenforum Schorndorf e.V.",
-    "NAME2": "",
+    "NAME2": "- Stadtseniorenrat -",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -50957,7 +50941,7 @@
     "NAME2": "Postfachleerung und Bringservice",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
+    "MAHNSTUFE": 1
   },
   {
     "ID": 74015989,
@@ -58957,6 +58941,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012892,
+    "NAME1": "B\u00fcndnis 90/Die Gr\u00fcnen",
+    "NAME2": "Kreisvervand Rems/Murr",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
