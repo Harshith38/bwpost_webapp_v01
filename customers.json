@@ -39170,7 +39170,7 @@
   {
     "ID": 7400513,
     "NAME1": "BWPOST B\u00f6blingen GmbH",
-    "NAME2": "P2-7172/091",
+    "NAME2": "P2-7112/091",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -47944,6 +47944,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403638,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403639,
+    "NAME1": "SWR Media Services GmbH",
+    "NAME2": "Bestellnummer 4500273473",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403640,
+    "NAME1": "SWR S\u00fcdwestrundfunk",
+    "NAME2": "Bestellnummer 4500271193",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4001086,
     "NAME1": "",
     "NAME2": "",
@@ -50633,7 +50657,7 @@
   },
   {
     "ID": 7400671,
-    "NAME1": "BWP-BB  P2-7172/091",
+    "NAME1": "BWP-BB  P2-7112/091",
     "NAME2": "eigene Einspeiserauftr\u00e4ge",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -57990,6 +58014,22 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403637,
+    "NAME1": "Immoservice BW",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012893,
+    "NAME1": "Bernhard Schuppert",
+    "NAME2": "Steuerberater",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4013385,
