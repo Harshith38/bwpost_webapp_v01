@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trennkarte Erstellen</title>
     <!--<link rel="stylesheet" href="trennkarte.css">-->
-    <link rel="stylesheet" href="trennkarte_v3_PZA.css">
+    <link rel="stylesheet" href="trennkarte_copy_2.css">
 
 </head>
 <body>
@@ -99,13 +99,7 @@
         
     </div>
 
-    <div class="tab-navigation">
-        <button class="tab-button active" onclick="switchTab(1)">Standard</button>
-        <button class="tab-button" onclick="switchTab(2)">PZA</button>
-    </div>
-
-    <!-- Frist Set of Quick Access Buttons for PostCon (New) -->
-    <div id="quick-access-1" class="quick-access-container">
+    <div class="quick-access-container">
         <div class="quick-access section1">
             <div class="quick-section-header">Postcon</div>
             <div class="quick-buttons">
@@ -114,10 +108,6 @@
                 <button class="quick-button" data-customer="4000000">712-1</button>
                 <button class="quick-button" data-customer="2340400">717-2</button>
                 <button class="quick-button" data-customer="5400022">734-1</button>
-                <div class="quick-section-header">Tourisierte Sendungen</div>
-                <div class="quick-buttons section5">
-                    <button class="quick-button" data-customer="2402559">Sem, P2 | 2402559</button>
-                </div>
             </div>
         </div>
 
@@ -136,17 +126,8 @@
             <div class="quick-buttons">
                 <button class="quick-button" data-customer="2124900">P2-rest | 6431</button>
                 <button class="quick-button" data-customer="2080400">P2-003 | 8821</button>
-                <button class="quick-button" data-customer="2139300">P2-008 | 0912</button>
-                <button class="quick-button" data-customer="2139500">P2-010 | 9961</button>
-                <button class="quick-button" data-customer="2078300">P2-037 | 7212</button>
-            </div>
-        </div>
-        <div class="quick-access section3">
-            <div class="quick-section-header">P2</div>
-            <div class="quick-buttons">
                 <button class="quick-button" data-customer="4000006">P2-057 | 7121</button>
-                <button class="quick-button" data-customer="2401591">P2-071 | 4503</button>
-                <button class="quick-button" data-customer="7400513">P2-091 | 7112</button>
+                <button class="quick-button" data-customer="7400513">P2-091 | 7172</button>
                 <button class="quick-button" data-customer="2403566">sMail GEA</button>
             </div>
         </div>
@@ -163,69 +144,19 @@
             </div>
 
         </div>
-        <!--
+
         <div class="quick-access section5">
             <div class="quick-section-header">Tourisierte Sendungen</div>
             <div class="quick-buttons">
                 <button class="quick-button" data-customer="2402559">Sem, P2 | 2402559</button>
             </div>
         </div>
-        -->
 
 
     </div>
-
-    <!-- Second Set of Quick Access Buttons for PZA (New) -->
-    <div id="quick-access-2" class="quick-access-container hidden">
-        <div class="quick-section new-section1">
-            <div class="quick-section-header">PZA</div>
-            <div class="quick-buttons">
-                <button class="quick-button" data-customer="2284500">Stadtverwaltung Leonberg</button>
-                <button class="quick-button" data-customer="2403297">Amtsgericht Stuttgart - Bad Cannstatt</button>
-                <button class="quick-button" data-customer="4000002">BWPOST Rems-Murr GmbH</button>
-            </div>
-        </div>
-        <!--
-        <div class="quick-section new-section2">
-            <div class="quick-section-header">International</div>
-            <div class="quick-buttons">
-                <button class="quick-button" data-customer="3100001">INT-EU-001</button>
-                <button class="quick-button" data-customer="3100002">INT-US-002</button>
-                <button class="quick-button" data-customer="3100003">INT-ASIA-003</button>
-            </div>
-        </div>
-
-        <div class="quick-section new-section3">
-            <div class="quick-section-header">Special Services</div>
-            <div class="quick-buttons">
-                <button class="quick-button" data-customer="3200001">SPEC-001</button>
-                <button class="quick-button" data-customer="3200002">SPEC-002</button>
-                <button class="quick-button" data-customer="3200003">SPEC-003</button>
-            </div>
-        </div>
-
-        <div class="quick-section new-section4">
-            <div class="quick-section-header">Premium</div>
-            <div class="quick-buttons">
-                <button class="quick-button" data-customer="3300001">PREM-001</button>
-                <button class="quick-button" data-customer="3300002">PREM-002</button>
-            </div>
-        </div>
-
-        <div class="quick-section new-section5">
-            <div class="quick-section-header">Archive</div>
-            <div class="quick-buttons">
-                <button class="quick-button" data-customer="3400001">ARCH-001</button>
-            </div>
-        </div>
-        -->
-    </div>
-
     <script type="text/javascript" src="BrowserPrint-3.1.250.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
     
-    <script src="trennkarte_v4_PZA.js"></script>
-    <!--<script src="tab-toggle.js"></script>-->
+    <script src="trennkarte_copy_quick_buttons_no_verify_v3.js"></script>
 </body>
 </html>
-
