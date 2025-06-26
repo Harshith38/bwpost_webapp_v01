@@ -65,7 +65,7 @@ body {
 }
 
 .kunde-nummer {
-    width: 12.6em;
+    width: 12.9 em;
     font-size: 16px;
     padding: 5px;
     margin-bottom: 10px;
@@ -95,7 +95,8 @@ body {
 .system-info {
     display: flex;
     gap: 10px;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .destop-name {
@@ -177,13 +178,13 @@ body {
 }
 
 .number-button {
-    padding: 12px;
+    padding: 14px 8px;
     text-align: center;
     border-radius: 5px;
     background-color: #f2f2f2;
     border: 1px solid #ddd;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     transition: background-color 0.2s ease-in-out;
 }
@@ -229,14 +230,14 @@ body {
 }
 
 .print-button {
-    padding: 10px;
+    padding: 9px;
     text-align: center;
     background-color: #2196F3;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 14px;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -285,13 +286,13 @@ body {
 }
 
 .quick-button {
-    padding: 10px 15px;
-    background-color: #c7e658;
+    padding: 9px 15px;
+    background-color: #e6e934;
     color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     transition: all 0.2s;
     text-align: center;
@@ -299,6 +300,9 @@ body {
 
 #quick-button-postkarten {
     margin-top: 30px;
+}
+.PZA_color{
+    color: red;
 }
 
 .quick-button:hover {
