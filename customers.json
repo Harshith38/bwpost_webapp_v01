@@ -6539,9 +6539,9 @@
     "ID": 2046000,
     "NAME1": "Volksbank Leonberg-Strohg\u00e4u",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 3,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2400896,
@@ -10147,7 +10147,7 @@
     "ID": 2401281,
     "NAME1": "Stuttgart Fernsehturm + Briefkasten",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -32232,14 +32232,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 74010829,
-    "NAME1": "BSM B\u00fcroservice",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 74011469,
     "NAME1": "VR - Bank eG",
     "NAME2": "",
@@ -39505,7 +39497,7 @@
   },
   {
     "ID": 2402813,
-    "NAME1": "MAD MUSIC  Beleuchtungstechnik GmbH",
+    "NAME1": "mad music VERANSTALTUNGSTECHNIK GMBH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -43293,14 +43285,6 @@
     "NAME2": "Fachzahn\u00e4rztin f\u00fcr Oralchirurgie",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 74013083,
-    "NAME1": "Amtsgericht B\u00f6blingen",
-    "NAME2": "Nachlass-u.Betreuungsgericht",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -48744,14 +48728,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 74015572,
-    "NAME1": "Zahnarztpraxis",
-    "NAME2": "Julia Pomoja",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 74015410,
     "NAME1": "Finanzamt Calw",
     "NAME2": "",
@@ -50756,7 +50732,7 @@
     "NAME1": "Oberfinanzdirektion Baden-W\u00fcrttemberg",
     "NAME2": "LOS 4 - PLZ 76...",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -53196,14 +53172,6 @@
     "NAME1": "Bechtle Verlag & Druck",
     "NAME2": "Cannstatter Zeitung/Untert\u00fcrkheimer Zeitung",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 7400630,
-    "NAME1": "Ortega",
-    "NAME2": "",
-    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -57904,6 +57872,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74010829,
+    "NAME1": "BSM B\u00fcroservice",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013443,
     "NAME1": "Melanie Richter",
     "NAME2": "",
@@ -58229,6 +58205,30 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013465,
+    "NAME1": "Aesthetic Brands GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013466,
+    "NAME1": "Elisabeth Starkulla",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013467,
+    "NAME1": "Klaus Eugen B\u00e4uchle",
+    "NAME2": "c/o Uwe B\u00e4uchle",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -59353,8 +59353,8 @@
   },
   {
     "ID": 4012891,
-    "NAME1": "Evangelische Kirchengemeinde Berglen Pfarramt Oppelsbohm",
-    "NAME2": "",
+    "NAME1": "Evangelische Kirchengemeinde Berglen",
+    "NAME2": "Pfarramt Oppelsbohm",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
