@@ -286,13 +286,13 @@ body {
 }
 
 .quick-button {
-    padding: 9px 15px;
+    padding: 10px 15px;
     background-color: #e6e934;
     color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     transition: all 0.2s;
     text-align: center;
