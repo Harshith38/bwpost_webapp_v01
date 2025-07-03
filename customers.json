@@ -9800,14 +9800,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2401248,
-    "NAME1": "DAK-Gesundheit Fachzentrum Station\u00e4re Leistungen - deutschlandweit",
-    "NAME2": "LOS 21 (deutschlandweit)",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 7400035,
     "NAME1": "FENDAL-FARBEN",
     "NAME2": "",
@@ -9942,14 +9934,6 @@
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2401251,
-    "NAME1": "DAK-FZE - deutschlandweit",
-    "NAME2": "LOS 21 (deutschlandweit)",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
   },
   {
     "ID": 2401353,
@@ -13571,14 +13555,6 @@
     "ID": 2401268,
     "NAME1": "SV SparkassenVersicherung Gesch\u00e4ftsstelle",
     "NAME2": "Robert Zimmermann",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2401249,
-    "NAME1": "DAK-Gesundheit Fachzentrum Mitgliedschaft und Beitrag - deutschlandweit",
-    "NAME2": "LOS 21 (deutschlandweit)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -47952,6 +47928,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016236,
+    "NAME1": "Hans-Werner Wei\u00dfling Sanit\u00e4r",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4001086,
     "NAME1": "",
     "NAME2": "",
@@ -58683,6 +58667,14 @@
     "ID": 2403631,
     "NAME1": "AB0711-Fahrservice Almas",
     "NAME2": "Obed Almas",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013468,
+    "NAME1": "Margot Wilk",
+    "NAME2": "c/o Schindera",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
