@@ -2962,7 +2962,7 @@
   {
     "ID": 2229600,
     "NAME1": "bioMerieux Deutschland GmbH",
-    "NAME2": "Bestellnummer: 440057303",
+    "NAME2": "Bestellnummer: PO 4400520659",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -4626,14 +4626,6 @@
   {
     "ID": 2339500,
     "NAME1": "Maier Sports GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2339600,
-    "NAME1": "MVZ Kirchheim GmbH Abt. Kinder- und Jugendmedizin",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -31907,7 +31899,7 @@
     "ID": 74010454,
     "NAME1": "BWPOST GmbH & Co. KG - DAK BB",
     "NAME2": "DAK B\u00f6blingen",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -35465,8 +35457,8 @@
   },
   {
     "ID": 4012338,
-    "NAME1": "KIRSCH Verpackungssysteme",
-    "NAME2": "Handels- und Vertriebsgesellschaft mbH",
+    "NAME1": "KIRSCH Verpackungssysteme GmbH",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -48563,7 +48555,7 @@
     "ID": 2403376,
     "NAME1": "Home and more design",
     "NAME2": "Elvisa Hamzic",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -57752,6 +57744,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 5404842,
+    "NAME1": "TK Aufz\u00fcge GmbH",
+    "NAME2": "Domitrovic 2. OG",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013426,
     "NAME1": "Edith Junginger",
     "NAME2": "",
@@ -57992,6 +57992,14 @@
     "MAHNSTUFE": 1
   },
   {
+    "ID": 5404841,
+    "NAME1": "Evang. Stadtkirchengemeinde",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013385,
     "NAME1": "Susanne Felbermayr",
     "NAME2": "",
@@ -58213,6 +58221,14 @@
     "NAME2": "c/o Uwe B\u00e4uchle",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404843,
+    "NAME1": "TK Aufz\u00fcge GmbH",
+    "NAME2": "Duclos 1. OG",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -59461,6 +59477,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403641,
+    "NAME1": "Pen Personalgewinnung GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
