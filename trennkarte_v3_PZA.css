@@ -153,12 +153,13 @@ body {
 }
 
 .ok-button, .update-button {
-    padding: 20px;
+    padding: 17px;
     background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -321,7 +322,7 @@ body {
 }
 
 .section1 .quick-button:hover {
-    background-color: #ddd;
+    background-color: #b1fcca;
 }
 
 .section2 .quick-button {
@@ -329,7 +330,7 @@ body {
 }
 
 .section2 .quick-button:hover {
-    background-color: #ddd;
+    background-color: #bdeefa;
 }
 
 .section3 .quick-button {
@@ -337,7 +338,7 @@ body {
 }
 
 .section3 .quick-button:hover {
-    background-color: #ddd;
+    background-color: #b1fcca;
 }
 
 .section4 .quick-button {
@@ -345,7 +346,7 @@ body {
 }
 
 .section4 .quick-button:hover {
-    background-color: #ddd;
+    background-color: #bdeefa;
 }
 
 .section5 .quick-button {
@@ -353,7 +354,7 @@ body {
 }
 
 .section5 .quick-button:hover {
-    background-color: #dddddd;
+    background-color: #f7afb3;
 }
 
 .tab-navigation {
