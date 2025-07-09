@@ -4209,7 +4209,7 @@
   },
   {
     "ID": 2298100,
-    "NAME1": "DAK-FZE - regional",
+    "NAME1": "DAK-FZE",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -5741,7 +5741,7 @@
     "NAME2": "Adalbert Baum",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
+    "MAHNSTUFE": 0
   },
   {
     "ID": 2352600,
@@ -6058,14 +6058,6 @@
   {
     "ID": 2336600,
     "NAME1": "Ecovis RTS BW Steuerberatungsgesellschaft GmbH & Co. KG",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2284500,
-    "NAME1": "Stadtverwaltung Leonberg",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -35915,7 +35907,7 @@
     "ID": 2294800,
     "NAME1": "Dr. Dorothee Scheurer",
     "NAME2": "Fachzahn\u00e4rztin f\u00fcr Kieferorthop\u00e4die",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -51025,7 +51017,7 @@
   },
   {
     "ID": 4013317,
-    "NAME1": "Klaus-Dieter Schuch",
+    "NAME1": "Andrea Schuch",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -57746,7 +57738,7 @@
   {
     "ID": 5404842,
     "NAME1": "TK Aufz\u00fcge GmbH",
-    "NAME2": "Domitrovic 2. OG",
+    "NAME2": "Domitrovic 2. OG 7V5/4700000785",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -58226,7 +58218,15 @@
   {
     "ID": 5404843,
     "NAME1": "TK Aufz\u00fcge GmbH",
-    "NAME2": "Duclos 1. OG",
+    "NAME2": "Duclos 1. OG 7V5/4700000785",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403643,
+    "NAME1": "Zentrum f\u00fcr Schulqualit\u00e4t und Lehrerbildung",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -59000,6 +59000,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403642,
+    "NAME1": "Kieferorthop\u00e4die Scheurer",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013380,
     "NAME1": "Ernst Uwe Neubauer",
     "NAME2": "c/o Guido Wiest",
@@ -59363,6 +59371,22 @@
     "ID": 4012891,
     "NAME1": "Evangelische Kirchengemeinde Berglen",
     "NAME2": "Pfarramt Oppelsbohm",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013469,
+    "NAME1": "Johann Sonnleitner",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016239,
+    "NAME1": "HWS Sindelfingen GmbH & Co. KG",
+    "NAME2": "Steuerberatungsgesellschaft",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
