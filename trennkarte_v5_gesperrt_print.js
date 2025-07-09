@@ -218,9 +218,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error("Druckfehler: ", error);
             }
         } else {
-            let msg_k = '--****---KUNDE GESPERRT!!---****--'
+            let msg_k = '-!!!!---KUNDE GESPERRT!---!!!-'
             //console.log('kunde gesperrt!!')
-            currentCustomerLabel.textContent = msg_k + 'Bitte Nicht Kleben !!';
+            currentCustomerLabel.textContent = msg_k + 'Bitte nicht an die Maschine schicken.!!';
             currentCustomerLabel_2.textContent = currentCustomer;
             //let a = currentCustomerNumber.toString()+ ' '+ currentCustomer;
             //let num_1 = 0;
@@ -512,7 +512,7 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         let msg_k = '--****---KUNDE GESPERRT!!---****--'
             //console.log('kunde gesperrt!!')
-            currentCustomerLabel.textContent = msg_k + 'Bitte Nicht Kleben !!';
+            currentCustomerLabel.textContent = msg_k + 'Bitte nicht an die Maschine schicken !!';
             currentCustomerLabel_2.textContent = currentCustomer;
             //let a = currentCustomerNumber.toString()+ ' '+ currentCustomer;
             //let num_1 = 0;
