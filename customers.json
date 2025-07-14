@@ -6064,6 +6064,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2284500,
+    "NAME1": "Stadtverwaltung Leonberg",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2306100,
     "NAME1": "Evangelische Fachschule f\u00fcr Sozialp\u00e4dagogik Stuttgart",
     "NAME2": "",
@@ -9435,14 +9443,6 @@
     "ID": 2400294,
     "NAME1": "Baden-W\u00fcrttembergischer Triathlonverband e.V.",
     "NAME2": "BWTV",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5400046,
-    "NAME1": "Thumm & Co. Maschinenbau GmbH",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -41585,7 +41585,7 @@
   },
   {
     "ID": 2402937,
-    "NAME1": "Blumen Paule-Liebchen",
+    "NAME1": "Blumen Paule-Liebchen OHG",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -45160,14 +45160,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404694,
-    "NAME1": "Anna Sarkisova",
-    "NAME2": "im REWE-Markt Echterdingen",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 5404695,
     "NAME1": "Haus Edelberg",
     "NAME2": "Senioren-Zentrum Plochingen",
@@ -47906,7 +47898,7 @@
   {
     "ID": 2403640,
     "NAME1": "SWR S\u00fcdwestrundfunk",
-    "NAME2": "Bestellnummer 4500271193",
+    "NAME2": "Bestellnummer 400085992",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -47917,6 +47909,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013470,
+    "NAME1": "Franz Schubert",
+    "NAME2": "Claudia Schubert",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013472,
+    "NAME1": "Sanja Kammerer",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -57738,7 +57746,7 @@
   {
     "ID": 5404842,
     "NAME1": "TK Aufz\u00fcge GmbH",
-    "NAME2": "Domitrovic 2. OG 7V5/4700000785",
+    "NAME2": "Domitrovic EG 7V5/4700000785",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -57853,6 +57861,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013471,
+    "NAME1": "Charlotte Hopp-Boothroxd",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -58227,6 +58243,14 @@
     "ID": 2403643,
     "NAME1": "Zentrum f\u00fcr Schulqualit\u00e4t und Lehrerbildung",
     "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016240,
+    "NAME1": "Dr. Dennis William Hickey",
+    "NAME2": "Fachzahnarzt f\u00fcr Kieferorthop\u00e4die",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
