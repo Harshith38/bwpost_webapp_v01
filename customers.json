@@ -57872,6 +57872,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 5404845,
+    "NAME1": "agentur kmr Hack & Salzer GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013443,
     "NAME1": "Melanie Richter",
     "NAME2": "",
@@ -58645,6 +58653,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404844,
+    "NAME1": "Wildwasser Esslingen e.V.",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -59533,6 +59549,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403644,
+    "NAME1": "Landesmannschaft der Banater Schwaben",
+    "NAME2": "Landesverband Baden-W\u00fcrttemberg e.V.",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
