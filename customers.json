@@ -1440,14 +1440,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 2149200,
-    "NAME1": "bofrost* Vertriebs LXXXVI GmbH & Co. KG",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2149500,
     "NAME1": "Nagel Technik GmbH",
     "NAME2": "",
@@ -16033,7 +16025,7 @@
   },
   {
     "ID": 4012130,
-    "NAME1": "Zahnarztpraxis Dr. Hansj\u00f6rg H\u00e4ussermann",
+    "NAME1": "Zahnmedizin Schorndorf MVZ",
     "NAME2": "Postkartenversand",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -27459,8 +27451,8 @@
     "ID": 2402159,
     "NAME1": "Schm\u00fccker Gastro & Catering GmbH",
     "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -47880,6 +47872,14 @@
     "MAHNSTUFE": 1
   },
   {
+    "ID": 4001435,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4001086,
     "NAME1": "",
     "NAME2": "",
@@ -48508,8 +48508,8 @@
     "NAME1": "Home and more design",
     "NAME2": "Elvisa Hamzic",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4013282,
@@ -57824,6 +57824,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403645,
+    "NAME1": "G\u00f6tz - HFD",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013443,
     "NAME1": "Melanie Richter",
     "NAME2": "",
@@ -57963,6 +57971,14 @@
     "ID": 74016241,
     "NAME1": "Media Markt Tv-Hifi-Elektro GmbH",
     "NAME2": "Sindelfingen",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012894,
+    "NAME1": "Joshua Fritz",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -59178,6 +59194,22 @@
   {
     "ID": 2403633,
     "NAME1": "Coltec CMC GmbH & Co. KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013474,
+    "NAME1": "Stephan Winckler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4001437,
+    "NAME1": "Joshua Fritz",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
