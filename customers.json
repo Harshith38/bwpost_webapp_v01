@@ -3640,14 +3640,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2275700,
-    "NAME1": "proklinikum F\u00f6rderverein Klinikum Esslingen e. V.",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2275800,
     "NAME1": "Stadtwerke Ditzingen GmbH & Co. KG KST SWD",
     "NAME2": "",
@@ -6099,9 +6091,9 @@
     "ID": 2402210,
     "NAME1": "Ed. Z\u00fcblin AG",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 3,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2400814,
@@ -12704,14 +12696,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4010115,
-    "NAME1": "B\u00fcro-Schlang GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4010122,
     "NAME1": "W\u00fcrttembergischer Christusbund e.V.",
     "NAME2": "",
@@ -12883,7 +12867,7 @@
     "ID": 4010596,
     "NAME1": "Bj\u00f6rn Kirsten",
     "NAME2": "Deutsche Verm\u00f6gensberatung",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -46267,56 +46251,56 @@
     "ID": 74015757,
     "NAME1": "Leader Mittlerer Schwarzw.",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015760,
     "NAME1": "Ordnungsamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015761,
     "NAME1": "Oswald-v.-Nell-Breuning Schule",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015763,
     "NAME1": "Personalrat",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015764,
     "NAME1": "Rechtsamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015783,
     "NAME1": "Dezernat 2 Herr Kopp",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015782,
     "NAME1": "Kreisstra\u00dfen",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -46923,64 +46907,64 @@
     "ID": 74015732,
     "NAME1": "Jugendzahnpflege",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015733,
     "NAME1": "Asyl",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015737,
     "NAME1": "Erich-Hauser-Schule",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015744,
     "NAME1": "Gesundheitsamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015745,
     "NAME1": "Gewerbeaufsichtsamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015746,
     "NAME1": "Gustav-Werner-Schule",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015747,
     "NAME1": "Hauptamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015752,
     "NAME1": "Kreisbauamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -47834,7 +47818,7 @@
   {
     "ID": 2403640,
     "NAME1": "SWR S\u00fcdwestrundfunk",
-    "NAME2": "Bestellnummer 400085992",
+    "NAME2": "Bestellnummer: 400085992",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -48051,24 +48035,24 @@
     "ID": 74015735,
     "NAME1": "EDV",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015738,
     "NAME1": "Feuerwehrwesen",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015739,
     "NAME1": "Forst\u00e4mer",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -48083,64 +48067,64 @@
     "ID": 74015748,
     "NAME1": "Immissions- u. Naturschutz",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015754,
     "NAME1": "Kreismedienzentrum",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015755,
     "NAME1": "Landrat",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015756,
     "NAME1": "Landwirtschaftsamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015758,
     "NAME1": "Leader Oberer-Neckar",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015759,
     "NAME1": "Nahverkehr, Sch\u00fclerbef.",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015762,
     "NAME1": "Personalamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015765,
     "NAME1": "Amt f\u00fcr Schule und Bauen",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -48155,8 +48139,8 @@
     "ID": 74015778,
     "NAME1": "EDV",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -48747,8 +48731,8 @@
     "ID": 74015734,
     "NAME1": "Bu\u00dfgeldstelle",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -49075,32 +49059,32 @@
     "ID": 74015736,
     "NAME1": "Eigenbetrieb Abfallwirtsch.",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015740,
     "NAME1": "F\u00fchrerscheinstelle",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015749,
     "NAME1": "Jugendamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015753,
     "NAME1": "Kreiskasse",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -50123,24 +50107,24 @@
     "ID": 74015741,
     "NAME1": "Geschwindigkeits\u00fcberw. Laser",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015743,
     "NAME1": "Geschwindigkeits\u00fcberw. Station\u00e4r",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015766,
     "NAME1": "Sozialamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -50451,8 +50435,8 @@
     "ID": 2403455,
     "NAME1": "Barbara Henneberger",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -50963,8 +50947,8 @@
     "ID": 74015742,
     "NAME1": "Geschwindigkeits\u00fcberw. Mobil",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -54931,8 +54915,8 @@
     "ID": 74015775,
     "NAME1": "Kreistag u. Aussch\u00fcsse",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -54947,8 +54931,8 @@
     "ID": 74015774,
     "NAME1": "Zulassungsstelle",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -54963,8 +54947,8 @@
     "ID": 74015771,
     "NAME1": "Veterin\u00e4ramt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -55483,8 +55467,8 @@
     "ID": 74015769,
     "NAME1": "Versorgungsamt",
     "NAME2": "Landratsamt Rottweil",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -55875,16 +55859,16 @@
     "ID": 74015731,
     "NAME1": "Archiv- u. Kuturamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015780,
     "NAME1": "Vermessungsamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -55915,48 +55899,48 @@
     "ID": 74015772,
     "NAME1": "Wasserwirtschaftsamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015770,
     "NAME1": "Versorgungsamt-soz.Entsch.",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015768,
     "NAME1": "Stra\u00dfenverkehrsamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015767,
     "NAME1": "Stra\u00dfenbauamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015751,
     "NAME1": "Kommunal- u. Pr\u00fcfungsamt",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74015750,
     "NAME1": "K\u00e4mmerei",
     "NAME2": "Landratsamt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -58632,6 +58616,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 5404846,
+    "NAME1": "Electrostar GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2275700,
+    "NAME1": "proklinikum F\u00f6rderverein Klinikum Esslingen e. V.",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 5404830,
     "NAME1": "TUTI - Kiosk",
     "NAME2": "ServicePoint",
@@ -58701,6 +58701,14 @@
     "NAME2": "c/o Schindera",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016245,
+    "NAME1": "Feuerwehr B\u00f6blingen",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -59002,7 +59010,7 @@
   {
     "ID": 4012892,
     "NAME1": "B\u00fcndnis 90/Die Gr\u00fcnen",
-    "NAME2": "Kreisvervand Rems/Murr",
+    "NAME2": "Kreisverband Rems/Murr",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -59210,6 +59218,14 @@
   {
     "ID": 4001437,
     "NAME1": "Joshua Fritz",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4010115,
+    "NAME1": "B\u00fcro-Schlang GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -59547,6 +59563,14 @@
     "ID": 2403644,
     "NAME1": "Landesmannschaft der Banater Schwaben",
     "NAME2": "Landesverband Baden-W\u00fcrttemberg e.V.",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403646,
+    "NAME1": "BANSBACH GmbH",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
