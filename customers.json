@@ -2617,7 +2617,7 @@
   },
   {
     "ID": 2197500,
-    "NAME1": "Anwaltskanzlei Sauer, Strobel, Strobel, Mattes",
+    "NAME1": "PLATO Rechtsanw\u00e4lte Fachanw\u00e4lte",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -45945,8 +45945,8 @@
   },
   {
     "ID": 4012786,
-    "NAME1": "Landesarbeitsgemeinschaft f\u00fcr Zahnges. BaW\u00fc e.V. (LAGZ)",
-    "NAME2": "Reg. Arbeitsgem. Zahnges. Rems-Murr-Kreis",
+    "NAME1": "Arbeitsgemeinschaft Jugendzahnpflege im Rems-Murr-Kreis",
+    "NAME2": "GS: Landratsamt Rems-Murr-Kreis",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -47861,6 +47861,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013476,
+    "NAME1": "Lars Engelfried",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -58216,6 +58224,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013475,
+    "NAME1": "Helga Eick",
+    "NAME2": "c/o Stefan Eick",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4011804,
     "NAME1": "4xB Muth",
     "NAME2": "B\u00fcro- und Datenservice",
@@ -59440,6 +59456,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013477,
+    "NAME1": "Magdalena Ross",
+    "NAME2": "Haus Elim Weiler zum Stein",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2027600,
     "NAME1": "Knisel Bus + Reisen GmbH + Co. KG",
     "NAME2": "",
@@ -59539,6 +59563,14 @@
     "ID": 2403629,
     "NAME1": "Stuttgarter Zeitung Verlags GmbH",
     "NAME2": "f\u00fcr KIM",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403647,
+    "NAME1": "Burghardt + Schmidt GmbH",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
