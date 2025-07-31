@@ -20,7 +20,7 @@ body {
 }
 
 /* Container for type and tag dropdowns */
-.dropdown_wagen_palette, .dropdown_tag {
+.dropdown_wagen_palette, .dropdown_tag, .today_date_div{
     display: inline-block;
     width: 48%;
     background-color: white;
@@ -35,7 +35,7 @@ body {
     margin-right: 2%;
 }
 
-.dropdown_wagen_palette_header, .dropdown_tag_header {
+.dropdown_wagen_palette_header, .dropdown_tag_header, .today_date_div_header {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -118,7 +118,7 @@ input[type="text"]:focus {
     text-align: center;
 }
 
-.ok_button, .print_button, .cancel_button, .versand_bericht_button {
+.ok_button, .print_button, .cancel_button, .versand_bericht_button, .heute_button {
     padding: 12px 25px;
     font-size: 16px;
     font-weight: 600;
@@ -127,6 +127,15 @@ input[type="text"]:focus {
     cursor: pointer;
     transition: background-color 0.3s;
     width: 100%;
+}
+
+.heute_button {
+    background-color: #1bc0b8;
+    color: white;
+}
+
+.heute_button:hover {
+    background-color: #33a2d6;
 }
 
 .ok_button {
@@ -148,7 +157,7 @@ input[type="text"]:focus {
 }
 
 /* Cancel section */
-.cancel_div {
+.cancel_div, .today_date_div {
     display: flex;
     gap: 15px;
     background-color: white;
