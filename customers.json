@@ -5849,7 +5849,7 @@
   },
   {
     "ID": 2021900,
-    "NAME1": "Handballverband W\u00fcrttemberg e.V.",
+    "NAME1": "Baden-W\u00fcrttembergischer Handball-Verband e.V.",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -58648,6 +58648,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403648,
+    "NAME1": "Abenteuerspielplatz Geiger-Memberg e.V.",
+    "NAME2": "ID 1218",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 5404830,
     "NAME1": "TUTI - Kiosk",
     "NAME2": "ServicePoint",
@@ -59461,6 +59469,14 @@
     "NAME2": "Haus Elim Weiler zum Stein",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012895,
+    "NAME1": "FOQUS Fellbach",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
