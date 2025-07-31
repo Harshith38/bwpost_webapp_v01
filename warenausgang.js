@@ -2,17 +2,30 @@ document.addEventListener('DOMContentLoaded', function() {
     // Sample tour data for autocomplete
     const tourSuggestions = [
         "Tour-P2-sMail",
-        "R-ZAK-T-4",
-        "R-ZAK-T-3",
-        "R-ZAK-T-2",
-        "R-ZAK-T-1",
-        "R-7870",
-        "R-7860",
+        "R-3060",
+        "R-3065",
+        "R-7500",
+        "R-3070",
+        "R-3652",
+        "R-3040",
+        "BR-BB",
+        "BR-HBG",
+        "BR-SFI",
+        "BR-LEO",
+        "R-3631",
+        "R-3582",
+        "R-3511",
+        "R-7601",
         "R-7830",
         "R-7765",
+        "R-7310",
+        "R-7250",
+        "R-7860",
+        "R-7870",
+        "R-3540",
+        "R-3510",
         "R-7725",
-        "R-7601"
-
+        "Rems Murr"
     ];
     
     // Storage for warenausgang data
@@ -32,6 +45,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const typeSelector = document.getElementById('dropdown_wagen_palette_list');
     const tagSelector = document.getElementById('dropdown_tag_list');
     
+    const heuteButton = document.getElementById('heute_button');
+
+    const todayDateLabel = document.querySelector('.today_date');
+    
     // Set up autocomplete for tour input
     setupAutocomplete(tourInput, tourSuggestions);
     
@@ -41,11 +58,17 @@ document.addEventListener('DOMContentLoaded', function() {
     cancelButton.addEventListener('click', cancelOrder);
     berichtButton.addEventListener('click', showVersandBericht);
     
+    heuteButton.addEventListener('click', createNewDataTable);
+    
     // Create modal element for Versand Bericht
     createBerichtModal();
     
     // Automatically generate ID based on current timestamp and random number
     idInput.value = generateID();
+
+    const DEFAULT_datum = 'Bitte aktualisieren'
+    let datum = localStorage.getItem('date') || DEFAULT_datum; 
+    document.querySelector('.today_date').textContent = datum;
     
     // Functions
     
@@ -187,6 +210,19 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Show confirmation
         alert('Daten erfolgreich gespeichert.');
+    }
+
+
+    function createNewDataTable() {
+        let datum = new Date().toLocaleDateString("de-DE");
+        todayDateLabel.textContent = datum;
+        localStorage.setItem('date', datum);
+        //console.log(date); // 31.7.2025
+
+        localStorage.removeItem('warenausgangData');
+        
+        // refreshes the page
+        location.reload();
     }
     
     function clearFields() {
