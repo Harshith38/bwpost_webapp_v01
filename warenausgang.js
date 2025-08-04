@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "R-3040",
         "BR-BB",
         "BR-HBG",
+        "BR-SHO",
         "BR-SFI",
         "BR-LEO",
         "R-3631",
@@ -25,6 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "R-3540",
         "R-3510",
         "R-7725",
+        'PES',
+        "R-5041-Wagen-1",
         "Rems Murr"
     ];
     
@@ -48,6 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const heuteButton = document.getElementById('heute_button');
 
     const todayDateLabel = document.querySelector('.today_date');
+    const currentTourLabel = document.querySelector('.current-tour');
+    const currentWagenWeight = document.querySelector('.current-wagen-weight');
     
     // Set up autocomplete for tour input
     setupAutocomplete(tourInput, tourSuggestions);
@@ -65,12 +70,65 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Automatically generate ID based on current timestamp and random number
     idInput.value = generateID();
+    kistenInput.value = '0';
+    wagenNummerInput.value = '0';
+    tourInput.focus();
 
     const DEFAULT_datum = 'Bitte aktualisieren'
     let datum = localStorage.getItem('date') || DEFAULT_datum; 
     document.querySelector('.today_date').textContent = datum;
+
+    let idInput_nummer = null;
+    let tour_nummer_print = null;
+    let gewicht_nummer_print = null;
+    let type_print = null;
+
     
     // Functions
+    let selectedDevice; // To store the discovered printer
+
+    // Function to set up Zebra printing
+    function setupZebraPrinting(){
+        //Get the default device - adjust the device type if needed ("printer" is usually correct)
+        BrowserPrint.getDefaultDevice("printer", function(device){
+            selectedDevice = device;
+            console.log("default Zebra printer found:", device);
+            //statusLabel.textContent = `Zebra Drucker beriet: ${device ? device.name : 'Nicht gefunden'}`;
+            //statusLabel.style.backgroundColor = device ? 'lightgreen' : 'red';
+            //statusLabel.style.color = 'black';
+        }, function(error){
+            console.error("Error getting default printer:", error);
+            //statusLabel.textContent = `Fehler beim Initialisieren des Druckers: ${error}`;
+            //statusLabel.style.backgroundColor = 'red';
+            //statusLabel.style.color = 'white';
+        });
+
+        // Discover any other local Zebra printers
+        BrowserPrint.getLocalDevices(function(deviceList) {
+            console.log("Local Zebra printer:", deviceList);
+            if (deviceList.length === 0 && !selectedDevice) {
+                //statusLabel.textContent = 'Keine lokalen Zebra Drucker gefunden.';
+                //statusLabel.style.backgroundColor = 'red';
+                //statusLabel.style.color = 'white';
+            } else if (deviceList.length > 0 && !selectedDevice) {
+                selectedDevice = deviceList[0]; // Select the first found printer as default if none was explicitly default
+                console.log("Selected first local printer:", selectedDevice);
+                console.log(`Zebra Drucer bereit: ${selectedDevice.name}`);
+                //statusLabel.textContent = `Zebra Drucer bereit: ${selectedDevice.name}`;
+                //statusLabel.style.backgroundColor = 'lightgreen';
+                //statusLabel.style.color = 'black';
+            }
+        }, function(error) {
+            console.error("Error getting local printer:", error);
+            //statusLabel.textContent = `Fehler beim suchen nach Drucker: ${error}`;
+            //statusLabel.style.backgroundColor = 'red';
+            //statusLabel.style.color = 'white';
+        }, "printer");
+    }
+
+    // Set up Zebra printing when page loads
+    setupZebraPrinting();
+    
     
     function setupAutocomplete(inputElement, suggestions) {
         let currentFocus;
@@ -177,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function generateID() {
         const timestamp = new Date().getTime().toString().slice(-6);
         const random = Math.floor(Math.random() * 10000).toString().padStart(4, '0');
-        return `WA-${timestamp}-${random}`;
+        return `${timestamp}${random}`;
     }
     
     function saveData() {
@@ -186,6 +244,9 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('Bitte füllen Sie alle Felder aus.');
             return;
         }
+
+        let tour_replace_text = tourInput.value;
+        let tour_value = tour_replace_text.replace(/ß/g, "-");
         
         // Create data object
         const newData = {
@@ -195,7 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
             wagen: wagenNummerInput.value,
             gewicht: gewichtInput.value,
             kisten: kistenInput.value,
-            tour: tourInput.value,
+            tour:tour_value,
             timestamp: new Date().toISOString()
         };
         
@@ -205,11 +266,54 @@ document.addEventListener('DOMContentLoaded', function() {
         // Save to localStorage
         localStorage.setItem('warenausgangData', JSON.stringify(warenausgangData));
         
+        //let a  = 23546;
+        //let b=  "Wagen";
+        //let c = "200";
+        //let d = "Br-BB";
+        currentTourLabel.textContent = 'Tour: ' + tour_value;
+        //currentCustomerNumLabel.textContent = currentCustomerNumber;
+        currentWagenWeight.textContent ='Gewicht: ' + newData.gewicht +' '+ 'kg';
+        idInput_nummer = newData.id;
+        tour_nummer_print = tour_value;
+        gewicht_nummer_print = newData.gewicht;
+        type_print = newData.type;
+
+
+
+        // copied from the trennkarte javascript file *****
+        const zplData = generateZpl(newData.id, newData.type, newData.gewicht, tour_value);
+        //const zplData = generateZpl(a,b,c,d);
+        //const zplData = generateZpl(desktopName, pruf_code, currentCustomerNumber, currentCustomer, currentCustomer_2);
+            //const zplData = generateZpl(currentCustomer, currentCustomer_2, currentCustomerNumber, pruf_code);
+        
+            try {
+                selectedDevice.send(zplData);
+                console.log("Label sent to printer")
+                //statusLabel.textContent = 'Erfolgreich gedruckt!';
+                //statusLabel.textContent = `${buttonText} erfolgreich gedruckt!`;
+                //statusLabel.style.backgroundColor = 'lightgreen';
+                //statusLabel.style.color = 'black';
+                //setTimeout(() => {
+                    //statusLabel.textContent = 'Scannen Sie das gedruckte Etikett, um zu überprüfen';
+                    //statusLabel.style.backgroundColor = 'yellow';
+                    //statusLabel.style.color = 'black';
+                    //statusLabel.textContent = 'Gedruckt!, Bereit zum Scannen.';
+                   // statusLabel.style.backgroundColor = 'lightgreen';
+                    //statusLabel.style.color = 'black';
+                //}, 2000);            
+            } catch(error) {
+                //statusLabel.textContent = `Fehler beim Drucken: ${error}`;
+                //statusLabel.style.backgroundColor = 'red';
+                //statusLabel.style.color = 'white';
+                console.error("Druckfehler: ", error);
+            }
+        
+        
         // Clear fields and generate new ID
         clearFields();
-        
         // Show confirmation
-        alert('Daten erfolgreich gespeichert.');
+        //alert('Daten erfolgreich gespeichert.');
+
     }
 
 
@@ -220,25 +324,116 @@ document.addEventListener('DOMContentLoaded', function() {
         //console.log(date); // 31.7.2025
 
         localStorage.removeItem('warenausgangData');
-        
+
         // refreshes the page
         location.reload();
     }
     
     function clearFields() {
-        wagenNummerInput.value = '';
+        wagenNummerInput.value = '0';
         gewichtInput.value = '';
-        kistenInput.value = '';
+        kistenInput.value = '0';
         tourInput.value = '';
         idInput.value = generateID();
+        //wagenNummerInput.focus();
+        tourInput.focus();
     }
+    
+    //const zplData = generateZpl(id, type, gewicht, tour);
+    
+    function generateZpl(id, type, gewicht, tour) {
+        //const code_id = parseInt(id)
+        //const formattedBarcode = generateBarcodeText(code_id);
+        const currentDate = new Date();
+        const formattedDate = `${String(currentDate.getDate()).padStart(2, '0')}.${String(currentDate.getMonth() + 1).padStart(2, '0')}.${currentDate.getFullYear()}`;
+        const formattedTime = `${String(currentDate.getHours()).padStart(2, '0')}:${String(currentDate.getMinutes()).padStart(2, '0')}`;
+        const dateTimeString = `${formattedDate} ${formattedTime}`;
+        const labelWidthMM = 90;
+        const labelHeightMM = 50;
+        const dotsPerMM = 8; // Adjust based on printer's DPI
+    
+        const labelWidthDots = Math.round(labelWidthMM * dotsPerMM);
+        const labelHeightDots = Math.round(labelHeightMM * dotsPerMM);
+    
+        let zpl = `^XA
+        ^MMB
+        ^PW630
+        ^LL315
+        ^LS0
+        
+        ^FX Remove centering commands
+        ^CWA,E:TT0003M_.FNT
+
+        ^FX Barcode positioned 90 dots from left
+        
+        ^FO35,30^BY3,2.5,100^B2N,60,N,N,N^FD${id}^FS
+        
+        ^FO385,30^A0N,30,30^FD${dateTimeString}^FS
+        ^FO400,70^A0N,40,40^FD${type}^FS
+        
+        ^FO35,120^A0N,70,60^FD${tour}^FS
+        ^FO35,210^A0N,80,80^FD${gewicht} kg^FS
+
+        
+        ^CI28
+        ^FX Customer ID and date positioned 30 dots from left
+        
+        
+        
+        ^FX Customer name positioned 30 dots from left - removed centering
+        
+        
+        
+        
+        ^XZ`;
+
+        return zpl;
+    }
+
     
     function printLabel() {
         // Check if data is entered
-        if (!wagenNummerInput.value || !gewichtInput.value || !kistenInput.value || !tourInput.value) {
-            alert('Bitte füllen Sie alle Felder aus, bevor Sie drucken.');
-            return;
-        }
+        //if (!wagenNummerInput.value || !gewichtInput.value || !kistenInput.value || !tourInput.value) {
+         //   alert('Bitte füllen Sie alle Felder aus, bevor Sie drucken.');
+          //  return;
+       // }
+        //let a  = '463493-3652';
+        //let b=  "Wagen";
+        //let c = "200";
+        //let d = "R-3500";
+        //let d = "Tour-P2-sMail";
+
+        
+
+
+        // copied from the trennkarte javascript file *****
+        //const zplData = generateZpl(newData.id, newData.type, newData.gewicht, newData.tour);
+        const zplData = generateZpl( idInput_nummer,type_print,gewicht_nummer_print,tour_nummer_print);
+        //const zplData = generateZpl(desktopName, pruf_code, currentCustomerNumber, currentCustomer, currentCustomer_2);
+            //const zplData = generateZpl(currentCustomer, currentCustomer_2, currentCustomerNumber, pruf_code);
+        
+            try {
+                selectedDevice.send(zplData);
+                console.log("Label sent to printer")
+                //statusLabel.textContent = 'Erfolgreich gedruckt!';
+                //statusLabel.textContent = `${buttonText} erfolgreich gedruckt!`;
+                //statusLabel.style.backgroundColor = 'lightgreen';
+                //statusLabel.style.color = 'black';
+                //setTimeout(() => {
+                    //statusLabel.textContent = 'Scannen Sie das gedruckte Etikett, um zu überprüfen';
+                    //statusLabel.style.backgroundColor = 'yellow';
+                    //statusLabel.style.color = 'black';
+                    //statusLabel.textContent = 'Gedruckt!, Bereit zum Scannen.';
+                   // statusLabel.style.backgroundColor = 'lightgreen';
+                    //statusLabel.style.color = 'black';
+                //}, 2000);            
+            } catch(error) {
+                //statusLabel.textContent = `Fehler beim Drucken: ${error}`;
+                //statusLabel.style.backgroundColor = 'red';
+                //statusLabel.style.color = 'white';
+                console.error("Druckfehler: ", error);
+            }
+       
         
         alert('Etikett wird gedruckt...');
         // In real implementation, this would connect to a printer
@@ -455,7 +650,7 @@ document.addEventListener('DOMContentLoaded', function() {
         doc.save('Versandbericht_' + new Date().toISOString().slice(0,10) + '.pdf');
         
     }
-    
+
     // Load any existing data when page loads
     loadDataFromStorage();
 });
