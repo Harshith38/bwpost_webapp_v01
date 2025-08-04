@@ -36,29 +36,41 @@
         <!-- Main Information Entry Section -->
         <div class="content2">
             <div class="frame2">
-                <div class="wagen">
-                    <div class="wagen_label">Wagen Nummer</div>
-                    <input type="text" class="wagen_nummer" id="wagen_nummer" autocomplete="off">
-                </div>
-                <div class="wagen_gewicht">
-                    <div class="wagen_gewicht_label">Gewicht (kg)</div>
-                    <input type="text" class="wagen_gewicht_nummer" id="wagen_gewicht_nummer" autocomplete="off">
-                </div>
-                <div class="kisten">
-                    <div class="kisten_header">Kisten</div>
-                    <input type="text" class="kisten_nummer" id="kisten_nummer" autocomplete="off">
-                </div>
-                <div class="tour">
-                    <div class="tour_nummer_header">Tour</div>
-                    <input type="text" class="tour_nummer" id="tour_display" autocomplete="off">
-                </div>
                 <div class="ID_nummer">
                     <div class="ID_nummer_header">ID</div>
                     <input type="text" class="ID_nummer" id="ID-display" readonly>
                 </div>
+
+                <div class="wagen">
+                    <div class="wagen_label">Wagen Nummer</div>
+                    <input type="text" class="wagen_nummer" id="wagen_nummer" readonly>
+                </div>
+            
+                <div class="kisten">
+                    <div class="kisten_header">Kisten</div>
+                    <input type="text" class="kisten_nummer" id="kisten_nummer" readonly>
+                </div>
+                
+                <div class="tour">
+                    <div class="tour_nummer_header">Tour</div>
+                    <input type="text" class="tour_nummer" id="tour_display" autocomplete="off">
+                </div>
+
+                <div class="wagen_gewicht">
+                    <div class="wagen_gewicht_label">Gewicht (kg)</div>
+                    <input type="text" class="wagen_gewicht_nummer" id="wagen_gewicht_nummer" autocomplete="off">
+                </div>
             </div>
             
             <div class="action-buttons">
+                <div class="display_box">
+                    
+                    <div class="current-tour">None</div>
+                    
+                    <div class="current-wagen-weight">0000</div>
+                    <div></div>
+                </div>
+
                 <div class="ok_button_div">
                     <button class="ok_button" id="ok_button">OK</button>
                 </div>
@@ -84,9 +96,14 @@
         </div>
     </div>
 
+    <script type="text/javascript" src="BrowserPrint-3.1.250.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+  
     <script src="warenausgang.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+  
 </body>
 </html>
