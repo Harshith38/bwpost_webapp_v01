@@ -77,6 +77,14 @@ select:focus {
     padding-right: 20px;
 }
 
+.display_box {
+    border: 1px solid #421c1c;
+    border-radius: 8px;
+    padding: 15px;
+    gap: 10px;
+    font-size: 18px;
+}
+
 /* Right side - Buttons */
 .action-buttons {
     flex: 1;
