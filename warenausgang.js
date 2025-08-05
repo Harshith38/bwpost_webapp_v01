@@ -1,34 +1,52 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Sample tour data for autocomplete
     const tourSuggestions = [
-        "Tour-P2-sMail",
-        "R-3060",
-        "R-3065",
-        "R-7500",
-        "R-3070",
-        "R-3652",
-        "R-3040",
+        "SMail-P2-037_P2-7212",
+        "R-3060-Ludwigsburg",
+        "R-3065-Marbach",
+        "R-7500-Ditzingen",
+        "R-3070-Bietigheim",
+        "R-3652-Vaihingen",
+        "R-3040-Taschentour",
+        "R-3640-Freiberg",
         "BR-BB",
         "BR-HBG",
         "BR-SHO",
         "BR-SFI",
         "BR-LEO",
-        "R-3631",
-        "R-3582",
-        "R-3511",
-        "R-7601",
-        "R-7830",
-        "R-7765",
-        "R-7310",
-        "R-7250",
-        "R-7860",
-        "R-7870",
-        "R-3540",
-        "R-3510",
-        "R-7725",
+        "R-3631-Kornwestheim",
+        "R-3582-LE-Setten",
+        "R-3511-Plochingen",
+        "R-7601-Degerloch",
+        "R-7830-Wangen",
+        "R-7765-Mitte",
+        "R-7310-Zuffenhausen",
+        "R-7250-Wolfbusch",
+        "R-7860-Cannstatt",
+        "R-7870-OST",
+        "R-3540-Kirchheim",
+        "R-3510-Esslingen",
+        "R-7725-West",
+        "R-7110-Möhringen",
         'PES',
-        "R-5041-Wagen-1",
-        "Rems Murr"
+        "R-5011-WAGEN-1",
+        "R-5013-WAGEN-3",
+        "R-5021-WAGEN-1",
+        "R-5031-WAGEN-1",
+        "R-5032-WAGEN-2",
+        "R-5033-WAGEN-3",
+        "R-5034-WAGEN-4",
+        "R-5035-WAGEN-5",
+        "R-5036-WAGEN-6",
+        "R-5037-WAGEN-7",
+        "R-5038-WAGEN-8",
+        "R-5039-WAGEN-9",
+        "R-5040-WAGEN-10",
+        "R-5041-WAGEN-1",
+        "R-5043-WAGEN-3",
+        "Sperre-BB",
+        "Sperre-RMK",
+        "Rems-Murr"
     ];
     
     // Storage for warenausgang data
@@ -247,6 +265,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
         let tour_replace_text = tourInput.value;
         let tour_value = tour_replace_text.replace(/ß/g, "-");
+        let tour_sum_value = null;
+        if (tour_value == "BR-BB" ||
+        tour_value == "BR-HBG" ||
+        tour_value == "BR-SHO" ||
+        tour_value == "BR-SFI" ||
+        tour_value == "Sperre-BB" ||
+        tour_value == "BR-LEO") {
+            tour_sum_value = "Böblingen";
+        } else if(tour_value == "R-5011-WAGEN-1" ||
+            tour_value == "R-5013-WAGEN-3" ||
+            tour_value == "R-5021-WAGEN-1" ||
+            tour_value == "R-5031-WAGEN-1" ||
+            tour_value == "R-5032-WAGEN-2" ||
+            tour_value == "R-5033-WAGEN-3" ||
+            tour_value == "R-5034-WAGEN-4" ||
+            tour_value == "R-5035-WAGEN-5" ||
+            tour_value == "R-5036-WAGEN-6" ||
+            tour_value == "R-5037-WAGEN-7" ||
+            tour_value == "R-5038-WAGEN-8" ||
+            tour_value == "R-5039-WAGEN-9" ||
+            tour_value == "R-5040-WAGEN-10" ||
+            tour_value == "R-5041-WAGEN-1" ||
+            tour_value == "Sperre-RMK" ||
+            tour_value == "R-5043-WAGEN-3" ) {
+            tour_sum_value = "Rems-Murr";
+
+        } 
+        else {
+            tour_sum_value = tour_value;
+        }
+
         
         // Create data object
         const newData = {
@@ -256,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function() {
             wagen: wagenNummerInput.value,
             gewicht: gewichtInput.value,
             kisten: kistenInput.value,
-            tour:tour_value,
+            tour:tour_sum_value,
             timestamp: new Date().toISOString()
         };
         
@@ -266,10 +315,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Save to localStorage
         localStorage.setItem('warenausgangData', JSON.stringify(warenausgangData));
         
-        //let a  = 23546;
-        //let b=  "Wagen";
-        //let c = "200";
-        //let d = "Br-BB";
+        
         currentTourLabel.textContent = 'Tour: ' + tour_value;
         //currentCustomerNumLabel.textContent = currentCustomerNumber;
         currentWagenWeight.textContent ='Gewicht: ' + newData.gewicht +' '+ 'kg';
@@ -371,8 +417,8 @@ document.addEventListener('DOMContentLoaded', function() {
         ^FO385,30^A0N,30,30^FD${dateTimeString}^FS
         ^FO400,70^A0N,40,40^FD${type}^FS
         
-        ^FO35,120^A0N,70,60^FD${tour}^FS
-        ^FO35,210^A0N,80,80^FD${gewicht} kg^FS
+        ^FO20,120^A0N,70,55^FD${tour}^FS
+        ^FO20,210^A0N,80,80^FD${gewicht} kg^FS
 
         
         ^CI28
