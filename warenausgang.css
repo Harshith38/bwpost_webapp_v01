@@ -38,7 +38,7 @@ body {
 .dropdown_wagen_palette_header, .dropdown_tag_header, .today_date_div_header {
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #333;
 }
 
@@ -147,21 +147,21 @@ input[type="text"]:focus {
 }
 
 .ok_button {
-    background-color: #4285f4;
-    color: white;
-}
-
-.ok_button:hover {
-    background-color: #3367d6;
-}
-
-.print_button {
     background-color: #34a853;
     color: white;
 }
 
+.ok_button:hover {
+    background-color: #37f767;
+}
+
+.print_button {
+    background-color: #4285f4;
+    color: white;
+}
+
 .print_button:hover {
-    background-color: #2d8e47;
+    background-color: #3dc1d8;
 }
 
 /* Cancel section */
