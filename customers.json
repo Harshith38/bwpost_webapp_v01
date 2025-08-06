@@ -5442,7 +5442,7 @@
   {
     "ID": 2346000,
     "NAME1": "Gesellschaft f\u00fcr Arch\u00e4ologie in",
-    "NAME2": "W\u00fcrttemberg u. Hohenzollern e. V.",
+    "NAME2": "Baden W\u00fcrttemberg e. V.",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -21786,14 +21786,6 @@
   {
     "ID": 4011110,
     "NAME1": "Erwin Fr\u00fch GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 4011863,
-    "NAME1": "Alfons K\u00f6ster & Co. GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -59496,6 +59488,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013480,
+    "NAME1": "Laura Serby",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2027600,
     "NAME1": "Knisel Bus + Reisen GmbH + Co. KG",
     "NAME2": "",
@@ -59608,6 +59608,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016256,
+    "NAME1": "Dr. Holger Immler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2164604,
     "NAME1": "Filderstadt - Stadtbibliothek",
     "NAME2": "",
@@ -59645,6 +59653,30 @@
     "NAME2": "c/o Evelin Fischer",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74010610,
+    "NAME1": "Stern Apotheke",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016257,
+    "NAME1": "Apotheke Hulb",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403649,
+    "NAME1": "Domenico Cacciatore",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
