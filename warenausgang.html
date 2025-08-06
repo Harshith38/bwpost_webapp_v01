@@ -24,14 +24,22 @@
             </select>
         </div>
 
-        <div class="dropdown_tag">
+        <div class="dropdown_label_druck">
+            <div class="dropdown_label_druck_header">Label Drucken Type</div>
+            <select name="lable_druck" id="dropdown_label_druck_list">
+                <option value="lang_label">Lang_label</option>
+                <option value="kurz_label">Klebe_Etikett</option>
+            </select>
+        </div>
+
+        <!--<div class="dropdown_tag">
             <div class="dropdown_tag_header">Tag auswählen</div>
             <select name="machine" id="dropdown_tag_list">
                 <option value="T">T</option>
                 <option value="A">A</option>
                 <option value="B">B</option>
             </select>
-        </div>
+        </div>-->
         
         <!-- Main Information Entry Section -->
         <div class="content2">
@@ -49,6 +57,15 @@
                 <div class="kisten">
                     <div class="kisten_header">Kisten</div>
                     <input type="text" class="kisten_nummer" id="kisten_nummer" readonly>
+                </div>
+
+                <div class="dropdown_tag">
+                    <div class="dropdown_tag_header">Tag auswählen</div>
+                    <select name="machine" id="dropdown_tag_list">
+                        <option value="T">T</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                    </select>
                 </div>
                 
                 <div class="tour">
@@ -87,7 +104,7 @@
                 <div class="cancel_oder_label">Scan ID zum Stornieren</div>
                 <input type="text" class="cancel_oder_nummer" id="cancel_oder_nummer" autocomplete="off">
             </div>
-            <button class="cancel_button" id="cancel_button">Cancel</button>
+            <button class="cancel_button" id="cancel_button">Stornieren!</button>
         </div>
 
         <!-- Report Button Section -->
