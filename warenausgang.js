@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Sample tour data for autocomplete
     const tourSuggestions = [
         "SMail-P2-037_P2-7212",
+        "P2",
         "R-3060-Ludwigsburg",
         "R-3065-Marbach",
         "R-7500-Ditzingen",
@@ -64,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const cancelButton = document.getElementById('cancel_button');
     const berichtButton = document.getElementById('versand_bericht_button');
     const typeSelector = document.getElementById('dropdown_wagen_palette_list');
+    const drucktypeSelector = document.getElementById('dropdown_label_druck_list');
     const tagSelector = document.getElementById('dropdown_tag_list');
     
     const heuteButton = document.getElementById('heute_button');
@@ -82,6 +84,27 @@ document.addEventListener('DOMContentLoaded', function() {
     berichtButton.addEventListener('click', showVersandBericht);
     
     heuteButton.addEventListener('click', createNewDataTable);
+
+    document.getElementById('tour_display').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            document.getElementById('wagen_gewicht_nummer').focus();
+        }
+    });
+
+    document.getElementById('wagen_gewicht_nummer').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            document.getElementById('ok_button').focus();
+        }
+    });
+
+    document.getElementById('ok_button').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            saveData();
+        }
+    });
     
     // Create modal element for Versand Bericht
     createBerichtModal();
@@ -324,10 +347,22 @@ document.addEventListener('DOMContentLoaded', function() {
         gewicht_nummer_print = newData.gewicht;
         type_print = newData.type;
 
+        
+        let zplData = '';
 
+        if (drucktypeSelector.value === 'lang_label'){
+            zplData = generateZpl_lang(newData.id, newData.type, newData.gewicht, tour_value);
+            console.log("lang drcuk");
+            console.log(drucktypeSelector.value);
+        } else {
+            zplData = generateZpl_kurz(newData.id, newData.type, newData.gewicht, tour_value);
+            console.log("kurz druck");
+            console.log(drucktypeSelector.value);
+        }
 
         // copied from the trennkarte javascript file *****
-        const zplData = generateZpl(newData.id, newData.type, newData.gewicht, tour_value);
+        //const zplData = generateZpl(newData.id, newData.type, newData.gewicht, tour_value);
+        
         //const zplData = generateZpl(a,b,c,d);
         //const zplData = generateZpl(desktopName, pruf_code, currentCustomerNumber, currentCustomer, currentCustomer_2);
             //const zplData = generateZpl(currentCustomer, currentCustomer_2, currentCustomerNumber, pruf_code);
@@ -387,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     //const zplData = generateZpl(id, type, gewicht, tour);
     
-    function generateZpl(id, type, gewicht, tour) {
+    function generateZpl_lang(id, type, gewicht, tour) {
         //const code_id = parseInt(id)
         //const formattedBarcode = generateBarcodeText(code_id);
         const currentDate = new Date();
@@ -412,7 +447,56 @@ document.addEventListener('DOMContentLoaded', function() {
 
         ^FX Barcode positioned 90 dots from left
         
-        ^FO35,30^BY3,2.5,100^B2N,60,N,N,N^FD${id}^FS
+        ^FO480,400^BY3,2.5,100^B2R,60,N,N,N^FD${id}^FS
+        
+        ^FO485,900^A0R,40,40^FD${dateTimeString}^FS
+        ^FO420,900^A0R,50,50^FD${type}^FS
+        
+        ^FO300,400^A0R,70,60^FD${tour}^FS
+        ^FO150,400^A0R,80,80^FD${gewicht} kg^FS
+
+        
+        ^CI28
+        ^FX Customer ID and date positioned 30 dots from left
+        
+        
+        
+        ^FX Customer name positioned 30 dots from left - removed centering
+        
+        
+        
+        
+        ^XZ`;
+
+        return zpl;
+    }
+
+    function generateZpl_kurz(id, type, gewicht, tour) {
+        //const code_id = parseInt(id)
+        //const formattedBarcode = generateBarcodeText(code_id);
+        const currentDate = new Date();
+        const formattedDate = `${String(currentDate.getDate()).padStart(2, '0')}.${String(currentDate.getMonth() + 1).padStart(2, '0')}.${currentDate.getFullYear()}`;
+        const formattedTime = `${String(currentDate.getHours()).padStart(2, '0')}:${String(currentDate.getMinutes()).padStart(2, '0')}`;
+        const dateTimeString = `${formattedDate} ${formattedTime}`;
+        const labelWidthMM = 90;
+        const labelHeightMM = 50;
+        const dotsPerMM = 8; // Adjust based on printer's DPI
+    
+        const labelWidthDots = Math.round(labelWidthMM * dotsPerMM);
+        const labelHeightDots = Math.round(labelHeightMM * dotsPerMM);
+    
+        let zpl = `^XA
+        ^MMB
+        ^PW630
+        ^LL315
+        ^LS0
+        
+        ^FX Remove centering commands
+        ^CWA,E:TT0003M_.FNT
+
+        ^FX Barcode positioned 90 dots from left
+        
+        ^FO70,30^BY3,2.5,100^B2N,60,N,N,N^FD${id}^FS
         
         ^FO385,30^A0N,30,30^FD${dateTimeString}^FS
         ^FO400,70^A0N,40,40^FD${type}^FS
@@ -454,6 +538,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // copied from the trennkarte javascript file *****
         //const zplData = generateZpl(newData.id, newData.type, newData.gewicht, newData.tour);
+        
         const zplData = generateZpl( idInput_nummer,type_print,gewicht_nummer_print,tour_nummer_print);
         //const zplData = generateZpl(desktopName, pruf_code, currentCustomerNumber, currentCustomer, currentCustomer_2);
             //const zplData = generateZpl(currentCustomer, currentCustomer_2, currentCustomerNumber, pruf_code);
