@@ -3344,14 +3344,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2207700,
-    "NAME1": "Rausch + Partner Steuerberater",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2208000,
     "NAME1": "Nuntius Marketing Logistik GmbH & Co. KG",
     "NAME2": "",
@@ -4483,9 +4475,9 @@
     "ID": 2268000,
     "NAME1": "KURZ Entsorgung GmbH",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2268100,
@@ -7947,14 +7939,6 @@
     "ID": 2400672,
     "NAME1": "Autohaus Felix Kloz GmbH",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2325500,
-    "NAME1": "GCH Stuttgart und Koblenz Betriebs GmbH",
-    "NAME2": "Wyndham Stuttgart Airport Messe",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -35040,14 +35024,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404628,
-    "NAME1": "Herbst Logistics GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 5404629,
     "NAME1": "Heinrich Feess GmbH & Co. KG",
     "NAME2": "Zentrale",
@@ -36412,14 +36388,6 @@
     "NAME1": "Caritasverband f\u00fcr Stuttgart e.V.",
     "NAME2": "Kinderg\u00e4stehaus",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402073,
-    "NAME1": "Pima-mpu GmbH",
-    "NAME2": "",
-    "STATUS": 3,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -42569,8 +42537,8 @@
   },
   {
     "ID": 2022800,
-    "NAME1": "Baden-W\u00fcrttembergische Spielbanken GmbH & Co. KG Spielbank Stuttgart",
-    "NAME2": "",
+    "NAME1": "Baden-W\u00fcrttembergische Spielbanken GmbH & Co. KG",
+    "NAME2": "Spielbank Stuttgart",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -59064,6 +59032,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013479,
+    "NAME1": "Thomas K\u00fchner",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013380,
     "NAME1": "Ernst Uwe Neubauer",
     "NAME2": "c/o Guido Wiest",
@@ -59625,7 +59601,7 @@
   },
   {
     "ID": 2403641,
-    "NAME1": "Pen Personalgewinnung GmbH",
+    "NAME1": "PEN Performance GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
