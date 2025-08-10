@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function setupAutocomplete(inputElement, suggestions) {
         let currentFocus;
         
-        // Execute function when someone writes in the text field
+        
         inputElement.addEventListener("input", function(e) {
             let val = this.value;
             
@@ -194,23 +194,43 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // For each item in the array...
             for (let i = 0; i < suggestions.length; i++) {
-                // Check if the item starts with the same letters as the text field value
-                if (suggestions[i].substr(0, val.length).toUpperCase() === val.toUpperCase()) {
-                    // Create a DIV element for each matching element
+                // Convert both strings to uppercase for case-insensitive comparison
+                const suggestionUpper = suggestions[i].toUpperCase();
+                const valUpper = val.toUpperCase();
+                
+                
+                const matchIndex = suggestionUpper.indexOf(valUpper);
+                
+                if (matchIndex !== -1) {
+                    
                     const itemElement = document.createElement("DIV");
                     
-                    // Make the matching letters bold
-                    itemElement.innerHTML = "<strong>" + suggestions[i].substr(0, val.length) + "</strong>";
-                    itemElement.innerHTML += suggestions[i].substr(val.length);
                     
-                    // Insert an input field that will hold the current array item's value
+                    let displayText = "";
+                    
+                    
+                    if (matchIndex > 0) {
+                        displayText += suggestions[i].substring(0, matchIndex);
+                    }
+                    
+                    
+                    displayText += "<strong>" + suggestions[i].substring(matchIndex, matchIndex + val.length) + "</strong>";
+                    
+                    
+                    if (matchIndex + val.length < suggestions[i].length) {
+                        displayText += suggestions[i].substring(matchIndex + val.length);
+                    }
+                    
+                    itemElement.innerHTML = displayText;
+                    
+                    
                     itemElement.innerHTML += "<input type='hidden' value='" + suggestions[i] + "'>";
                     
-                    // Execute when someone clicks on the item value
+                    
                     itemElement.addEventListener("click", function(e) {
-                        // Insert the value for the autocomplete text field
+                        
                         inputElement.value = this.getElementsByTagName("input")[0].value;
-                        // Close the list of autocompleted values
+                        
                         closeAllLists();
                     });
                     
@@ -219,37 +239,49 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
-        // Execute a function when pressed a key on the keyboard
+    
         inputElement.addEventListener("keydown", function(e) {
+            // Find the dropdown list if it exists
             let x = document.getElementById(this.id + "-autocomplete-list");
-            if (x) x = x.getElementsByTagName("div");
+            if (x) x = x.getElementsByTagName("div");  // Get all suggestion divs
             
-            if (e.keyCode == 40) { // Down arrow
-                currentFocus++;
-                addActive(x);
-            } else if (e.keyCode == 38) { // Up arrow
-                currentFocus--;
-                addActive(x);
-            } else if (e.keyCode == 13) { // Enter
-                e.preventDefault();
-                if (currentFocus > -1) {
-                    if (x) x[currentFocus].click();
+            if (e.keyCode == 40) { // Down arrow key (code 40)
+                currentFocus++;     
+                addActive(x);       
+            } else if (e.keyCode == 38) { // Up arrow key (code 38)
+                currentFocus--;    
+                addActive(x);       
+            } else if (e.keyCode == 13) { // Enter key (code 13)
+                e.preventDefault(); 
+                
+            
+                if (x && x.length > 0) {  // If there are suggestions showing
+                    if (currentFocus > -1) {
+                        
+                        x[currentFocus].click();
+                    } else {
+                        x[0].click();  // Click the first item (index 0)
+                    }
                 }
+                
             }
         });
         
+       
         function addActive(x) {
             if (!x) return false;
             
-            // Remove the "active" class on all items
+            // Remove highlight from all items
             removeActive(x);
             
+            // Handle wrapping (if at bottom, go to top; if at top, go to bottom)
             if (currentFocus >= x.length) currentFocus = 0;
             if (currentFocus < 0) currentFocus = (x.length - 1);
             
-            // Add class "autocomplete-active"
+            // Add the highlight CSS class to current item
             x[currentFocus].classList.add("autocomplete-active");
         }
+        
         
         function removeActive(x) {
             for (let i = 0; i < x.length; i++) {
@@ -257,17 +289,19 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         
+        
         function closeAllLists(elmnt) {
-            // Close all autocomplete lists except the one passed as an argument
+            // Find all elements with class "autocomplete-items"
             const x = document.getElementsByClassName("autocomplete-items");
             for (let i = 0; i < x.length; i++) {
+                // Remove all dropdowns except the one passed as parameter
                 if (elmnt != x[i] && elmnt != inputElement) {
                     x[i].parentNode.removeChild(x[i]);
                 }
             }
         }
         
-        // Close the list when someone clicks on the document
+        // Close dropdown when clicking elsewhere
         document.addEventListener("click", function (e) {
             closeAllLists(e.target);
         });
@@ -352,12 +386,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (drucktypeSelector.value === 'lang_label'){
             zplData = generateZpl_lang(newData.id, newData.type, newData.gewicht, tour_value);
-            console.log("lang drcuk");
-            console.log(drucktypeSelector.value);
+            //console.log("lang drcuk");
+            //console.log(drucktypeSelector.value);
         } else {
             zplData = generateZpl_kurz(newData.id, newData.type, newData.gewicht, tour_value);
-            console.log("kurz druck");
-            console.log(drucktypeSelector.value);
+           // console.log("kurz druck");
+           // console.log(drucktypeSelector.value);
         }
 
         // copied from the trennkarte javascript file *****
@@ -418,6 +452,8 @@ document.addEventListener('DOMContentLoaded', function() {
         idInput.value = generateID();
         //wagenNummerInput.focus();
         tourInput.focus();
+        typeSelector.value = 'wagen';
+        tagSelector.value = 'T';
     }
     
     //const zplData = generateZpl(id, type, gewicht, tour);
@@ -534,12 +570,25 @@ document.addEventListener('DOMContentLoaded', function() {
         //let d = "Tour-P2-sMail";
 
         
+        let zplData = '';
+
+        if (drucktypeSelector.value === 'lang_label'){
+            zplData = generateZpl_lang(idInput_nummer,type_print,gewicht_nummer_print,tour_nummer_print);
+            //console.log("lang drcuk");
+            //console.log(drucktypeSelector.value);
+        } else {
+            zplData = generateZpl_kurz(idInput_nummer,type_print,gewicht_nummer_print,tour_nummer_print);
+           // console.log("kurz druck");
+           // console.log(drucktypeSelector.value);
+        }
+
+        
 
 
         // copied from the trennkarte javascript file *****
         //const zplData = generateZpl(newData.id, newData.type, newData.gewicht, newData.tour);
         
-        const zplData = generateZpl( idInput_nummer,type_print,gewicht_nummer_print,tour_nummer_print);
+        //const zplData = generateZpl(idInput_nummer,type_print,gewicht_nummer_print,tour_nummer_print);
         //const zplData = generateZpl(desktopName, pruf_code, currentCustomerNumber, currentCustomer, currentCustomer_2);
             //const zplData = generateZpl(currentCustomer, currentCustomer_2, currentCustomerNumber, pruf_code);
         
@@ -688,12 +737,23 @@ document.addEventListener('DOMContentLoaded', function() {
                     tour: item.tour,
                     kisten: parseInt(item.kisten) || 0,
                     gewicht: parseFloat(item.gewicht) || 0,
-                    entries: [item]
+                    wagenCount: item.type === 'wagen' ? 1 : 0,
+                    palettenCount: item.type === 'palette' ? 1 : 0,
+                    entries: [item],
+                    lastUpdated: new Date(item.timestamp)
                 };
             } else {
                 groupedByTour[item.tour].kisten += parseInt(item.kisten) || 0;
                 groupedByTour[item.tour].gewicht += parseFloat(item.gewicht) || 0;
+                groupedByTour[item.tour].wagenCount += item.type === 'wagen' ? 1 : 0;
+                groupedByTour[item.tour].palettenCount += item.type === 'palette' ? 1 : 0;
                 groupedByTour[item.tour].entries.push(item);
+            
+                // Update last updated time to the most recent
+                const entryDate = new Date(item.timestamp);
+                if (entryDate > groupedByTour[item.tour].lastUpdated) {
+                    groupedByTour[item.tour].lastUpdated = entryDate;
+                }
             }
         });
         
@@ -705,7 +765,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const thead = document.createElement('thead');
         const headerRow = document.createElement('tr');
         
-        const headers = ['Tour', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen/Paletten', 'Tag'];
+        const headers = ['Tour', 'Abstellzeit', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten', 'Tag'];
         
         headers.forEach(headerText => {
             const th = document.createElement('th');
@@ -726,6 +786,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const tourCell = document.createElement('td');
             tourCell.textContent = groupData.tour;
             row.appendChild(tourCell);
+
+            // Abstellzeit (last updated time)
+            const abstellzeitCell = document.createElement('td');
+            const abstellzeit = `${String(groupData.lastUpdated.getHours()).padStart(2, '0')}:${String(groupData.lastUpdated.getMinutes()).padStart(2, '0')}`;
+            abstellzeitCell.textContent = abstellzeit;
+            row.appendChild(abstellzeitCell);
             
             // Kisten
             const kistenCell = document.createElement('td');
@@ -737,10 +803,15 @@ document.addEventListener('DOMContentLoaded', function() {
             gewichtCell.textContent = groupData.gewicht.toFixed(2);
             row.appendChild(gewichtCell);
             
-            // Anzahl Wagen/Paletten
+            // Anzahl Wagen
             const wagenCell = document.createElement('td');
-            wagenCell.textContent = groupData.entries.length;
+            wagenCell.textContent = groupData.wagenCount || 0;
             row.appendChild(wagenCell);
+            
+            // Anzahl Paletten
+            const palettenCell = document.createElement('td');
+            palettenCell.textContent = groupData.palettenCount || 0;
+            row.appendChild(palettenCell);
             
             // Tag
             const tagCell = document.createElement('td');
