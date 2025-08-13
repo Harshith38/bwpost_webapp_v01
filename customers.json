@@ -329,7 +329,7 @@
   },
   {
     "ID": 2037000,
-    "NAME1": "Alzheimer Gesellschaft BW e.V.",
+    "NAME1": "Alzheimer Gesellschaft Baden-W\u00fcrttemberg e.V.",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -6401,7 +6401,7 @@
   },
   {
     "ID": 2400226,
-    "NAME1": "TP Torbau GmbH",
+    "NAME1": "TP-Torbau GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -10665,7 +10665,7 @@
   },
   {
     "ID": 2401289,
-    "NAME1": "F\u00f6rderverein collegium iuvenum Stuttgarte.V.",
+    "NAME1": "F\u00f6rderverein collegium iuvenum Stuttgart e.V.",
     "NAME2": "Knabenchor Stuttgart",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -15745,8 +15745,8 @@
   },
   {
     "ID": 4012126,
-    "NAME1": "Kreuzbund Stadtverband Backnang e.V.",
-    "NAME2": "c/o Josef Jochem",
+    "NAME1": "Kreuzbund Stadtverband Backnang e.V. c/o Josef Jochem",
+    "NAME2": "ID 783",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -39034,7 +39034,7 @@
   {
     "ID": 4012378,
     "NAME1": "SHK Dienstleistungen",
-    "NAME2": "",
+    "NAME2": "ID 1182",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -40361,7 +40361,7 @@
   },
   {
     "ID": 2402627,
-    "NAME1": "italienisches Kulturinstitut",
+    "NAME1": "Italienisches Kulturinstitut",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -41066,7 +41066,7 @@
   {
     "ID": 4012557,
     "NAME1": "Marius Vogel",
-    "NAME2": "",
+    "NAME2": "ID 1209",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -41315,8 +41315,8 @@
     "ID": 2402873,
     "NAME1": "Kussmaul Bedachungen GmbH",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -46824,6 +46824,46 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013482,
+    "NAME1": "Michael Winckler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013483,
+    "NAME1": "Gabriele Danco",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013484,
+    "NAME1": "Christine Kamenik",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013485,
+    "NAME1": "Giovanni Murari",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013486,
+    "NAME1": "Theresia Entenmann",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012787,
     "NAME1": "Hilde-und-Herrmann-Walter-Stiftung",
     "NAME2": "",
@@ -49106,7 +49146,7 @@
   {
     "ID": 4012550,
     "NAME1": "KP Immobilienmanagement GmbH",
-    "NAME2": "Kai Pflanz",
+    "NAME2": "ID 1199",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
@@ -57104,6 +57144,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403650,
+    "NAME1": "Gemeinn\u00fctzige Elternstiftung Baden-W\u00fcrttemberg",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013481,
+    "NAME1": "HH Immobilien GmbH",
+    "NAME2": "Hasan Haydar",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012852,
     "NAME1": "Hausarztpraxis Dangel",
     "NAME2": "",
@@ -57952,6 +58008,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4014000,
+    "NAME1": "Zeitungsverlag GmbH & Co. Waiblingen KG",
+    "NAME2": "ID 1174",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013385,
     "NAME1": "Susanne Felbermayr",
     "NAME2": "",
@@ -58203,6 +58267,14 @@
     "ID": 4013475,
     "NAME1": "Helga Eick",
     "NAME2": "c/o Stefan Eick",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4014003,
+    "NAME1": "DRK Kreisverband Rems-Murr e.V.",
+    "NAME2": "ID 1222",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -59472,6 +59544,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4014002,
+    "NAME1": "Abfallwirtschaft Rems-Murr A\u00f6R",
+    "NAME2": "ID 1195",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2027600,
     "NAME1": "Knisel Bus + Reisen GmbH + Co. KG",
     "NAME2": "",
@@ -59651,6 +59731,14 @@
     "ID": 2403649,
     "NAME1": "Domenico Cacciatore",
     "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4014001,
+    "NAME1": "Savanto GmbH",
+    "NAME2": "ID 1175",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
