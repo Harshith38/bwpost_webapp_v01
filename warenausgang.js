@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const cancelOrderInput = document.getElementById('cancel_oder_nummer');
     const cancelButton = document.getElementById('cancel_button');
     const berichtButton = document.getElementById('versand_bericht_button');
+    const ubersichtButton = document.getElementById('overall_scan_button');
     const typeSelector = document.getElementById('dropdown_wagen_palette_list');
     const drucktypeSelector = document.getElementById('dropdown_label_druck_list');
     const tagSelector = document.getElementById('dropdown_tag_list');
@@ -71,6 +72,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const heuteButton = document.getElementById('heute_button');
 
     const todayDateLabel = document.querySelector('.today_date');
+    const currentIdLabel = document.querySelector('.current-id');
+    const currTagLabel = document.getElementById('current_day');
+    //console.log('current-day found',currTagLabel);
     const currentTourLabel = document.querySelector('.current-tour');
     const currentWagenWeight = document.querySelector('.current-wagen-weight');
     
@@ -82,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
     printButton.addEventListener('click', printLabel);
     cancelButton.addEventListener('click', cancelOrder);
     berichtButton.addEventListener('click', showVersandBericht);
+    ubersichtButton.addEventListener('click',showScanUbersicht);
     
     heuteButton.addEventListener('click', createNewDataTable);
 
@@ -323,6 +328,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let tour_replace_text = tourInput.value;
         let tour_value = tour_replace_text.replace(/ß/g, "-");
         let tour_sum_value = null;
+        let print_label_status = false;
         if (tour_value == "BR-BB" ||
         tour_value == "BR-HBG" ||
         tour_value == "BR-SHO" ||
@@ -330,6 +336,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tour_value == "Sperre-BB" ||
         tour_value == "BR-LEO") {
             tour_sum_value = "Böblingen";
+            print_label_status = true;
         } else if(tour_value == "R-5011-WAGEN-1" ||
             tour_value == "R-5013-WAGEN-3" ||
             tour_value == "R-5021-WAGEN-1" ||
@@ -347,6 +354,7 @@ document.addEventListener('DOMContentLoaded', function() {
             tour_value == "Sperre-RMK" ||
             tour_value == "R-5043-WAGEN-3" ) {
             tour_sum_value = "Rems-Murr";
+            print_label_status = true;
 
         } 
         else {
@@ -363,6 +371,7 @@ document.addEventListener('DOMContentLoaded', function() {
             gewicht: gewichtInput.value,
             kisten: kistenInput.value,
             tour:tour_sum_value,
+            tour2: tour_value,
             timestamp: new Date().toISOString()
         };
         
@@ -373,9 +382,14 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('warenausgangData', JSON.stringify(warenausgangData));
         
         
-        currentTourLabel.textContent = 'Tour: ' + tour_value;
+        currentIdLabel.textContent = newData.id;
+
+        currTagLabel.textContent =  newData.tag;
+        //console.log(typeof(newData.tag));
+        currentTourLabel.textContent = tour_value;
+        //currentTourLabel.textContent = 'Tour: ' + newData.tag;
         //currentCustomerNumLabel.textContent = currentCustomerNumber;
-        currentWagenWeight.textContent ='Gewicht: ' + newData.gewicht +' '+ 'kg';
+        currentWagenWeight.textContent =newData.gewicht +' '+ 'kg';
         idInput_nummer = newData.id;
         tour_nummer_print = tour_value;
         gewicht_nummer_print = newData.gewicht;
@@ -400,10 +414,10 @@ document.addEventListener('DOMContentLoaded', function() {
         //const zplData = generateZpl(a,b,c,d);
         //const zplData = generateZpl(desktopName, pruf_code, currentCustomerNumber, currentCustomer, currentCustomer_2);
             //const zplData = generateZpl(currentCustomer, currentCustomer_2, currentCustomerNumber, pruf_code);
-        
+        if(print_label_status == true){
             try {
                 selectedDevice.send(zplData);
-                console.log("Label sent to printer")
+                //console.log("Label sent to printer")
                 //statusLabel.textContent = 'Erfolgreich gedruckt!';
                 //statusLabel.textContent = `${buttonText} erfolgreich gedruckt!`;
                 //statusLabel.style.backgroundColor = 'lightgreen';
@@ -422,6 +436,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 //statusLabel.style.color = 'white';
                 console.error("Druckfehler: ", error);
             }
+        } //else{
+           // console.log("no print")
+       //}
         
         
         // Clear fields and generate new ID
@@ -615,7 +632,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
        
         
-        alert('Etikett wird gedruckt...');
+        //alert('Etikett wird gedruckt...');
         // In real implementation, this would connect to a printer
     }
     
@@ -829,6 +846,156 @@ document.addEventListener('DOMContentLoaded', function() {
         // Show modal
         modal.style.display = 'block';
     }
+
+    function showScanUbersicht() {
+        // Load latest data from storage
+        loadDataFromStorage();
+    
+        if (warenausgangData.length === 0) {
+            alert('Keine Daten vorhanden.');
+            return;
+        }
+    
+        // Create or find the modal
+        let modal = document.getElementById('ubersichtModal');
+        if (!modal) {
+            modal = document.createElement('div');
+            modal.className = 'modal';
+            modal.id = 'ubersichtModal';
+    
+            const modalContent = document.createElement('div');
+            modalContent.className = 'modal-content';
+    
+            const closeButton = document.createElement('span');
+            closeButton.className = 'close-button';
+            closeButton.innerHTML = '×';
+            closeButton.onclick = function () {
+                modal.style.display = 'none';
+            };
+    
+            const title = document.createElement('h2');
+            title.textContent = 'Gesamte Scan-Liste';
+    
+            const tableContainer = document.createElement('div');
+            tableContainer.id = 'ubersicht-table-container';
+            //
+            const exportButtons = document.createElement('div');
+            exportButtons.className = 'export-buttons';
+            
+            const excelButton = document.createElement('button');
+            excelButton.className = 'export-excel';
+            excelButton.textContent = 'Als Excel exportieren';
+            excelButton.onclick = exportToExcelOverallScan;
+            
+            const pdfButton = document.createElement('button');
+            pdfButton.className = 'export-pdf';
+            pdfButton.textContent = 'Als PDF exportieren';
+            pdfButton.onclick = exportToPDF;
+            
+            // Assemble modal
+            exportButtons.appendChild(excelButton);
+            exportButtons.appendChild(pdfButton);
+            
+            //modalContent.appendChild(closeButton);
+            //modalContent.appendChild(title);
+            //modalContent.appendChild(tableContainer);
+           
+            
+            //modal.appendChild(modalContent);
+            
+
+            //
+    
+            modalContent.appendChild(closeButton);
+            modalContent.appendChild(title);
+            modalContent.appendChild(tableContainer);
+            modalContent.appendChild(exportButtons);
+            modal.appendChild(modalContent);
+            document.body.appendChild(modal);
+    
+            // Close when clicking outside modal
+            window.addEventListener('click', function (event) {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        }
+    
+        // Populate table
+        const tableContainer = document.getElementById('ubersicht-table-container');
+        tableContainer.innerHTML = '';
+    
+        const table = document.createElement('table');
+        table.className = 'bericht-table';
+    
+        // Table header
+        const thead = document.createElement('thead');
+        const headerRow = document.createElement('tr');
+        //const headers = ['ID', 'Tour', 'Tour2', 'Type', 'Tag', 'Wagen', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
+        const headers = ['ID', 'Tour', 'Tour2', 'Type', 'Tag', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
+        
+        headers.forEach(text => {
+            const th = document.createElement('th');
+            th.textContent = text;
+            headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+    
+        // Table body
+        const tbody = document.createElement('tbody');
+        warenausgangData.forEach(item => {
+            const row = document.createElement('tr');
+    
+            const idCell = document.createElement('td');
+            idCell.textContent = item.id;
+            row.appendChild(idCell);
+
+            const tourCell = document.createElement('td');
+            tourCell.textContent = item.tour;
+            row.appendChild(tourCell);
+
+            const tourCell2 = document.createElement('td');
+            tourCell2.textContent = item.tour2;
+            row.appendChild(tourCell2);
+    
+            const typeCell = document.createElement('td');
+            typeCell.textContent = item.type;
+            row.appendChild(typeCell);
+    
+            const tagCell = document.createElement('td');
+            tagCell.textContent = item.tag;
+            row.appendChild(tagCell);
+    
+            //const wagenCell = document.createElement('td');
+            //wagenCell.textContent = item.wagen;
+            //row.appendChild(wagenCell);
+    
+            const gewichtCell = document.createElement('td');
+            gewichtCell.textContent = item.gewicht;
+            row.appendChild(gewichtCell);
+    
+            const kistenCell = document.createElement('td');
+            kistenCell.textContent = item.kisten;
+            row.appendChild(kistenCell);
+    
+            
+    
+            const timestampCell = document.createElement('td');
+            const dateObj = new Date(item.timestamp);
+            timestampCell.textContent = `${dateObj.toLocaleDateString()} ${dateObj.toLocaleTimeString()}`;
+            row.appendChild(timestampCell);
+    
+            tbody.appendChild(row);
+        });
+    
+        table.appendChild(tbody);
+        tableContainer.appendChild(table);
+    
+        // Show modal
+        modal.style.display = 'block';
+    }
+    
     
     function exportToExcel() {
         alert('Export als Excel wird vorbereitet...');
@@ -838,6 +1005,16 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const wb = XLSX.utils.table_to_book(document.querySelector('.bericht-table'));
         XLSX.writeFile(wb, 'Versandbericht_' + new Date().toISOString().slice(0,10) + '.xlsx');
+        
+    }
+    function exportToExcelOverallScan() {
+        alert('Export als Excel wird vorbereitet...');
+        // In a real implementation, this would use a library like SheetJS to create Excel files
+        
+        // Example of how you might implement this with a library:
+        
+        const wb = XLSX.utils.table_to_book(document.querySelector('.bericht-table'));
+        XLSX.writeFile(wb, 'Gesamte_Scan_Liste_' + new Date().toISOString().slice(0,10) + '.xlsx');
         
     }
     

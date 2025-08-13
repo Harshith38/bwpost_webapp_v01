@@ -122,11 +122,11 @@ input[type="text"]:focus {
 }
 
 /* Buttons */
-.ok_button_div, .print_button_div {
+.ok_button_div, .print_button_div,.overall_scan_button_div{
     text-align: center;
 }
 
-.ok_button, .print_button, .cancel_button, .versand_bericht_button, .heute_button {
+.ok_button, .print_button, .cancel_button, .versand_bericht_button, .heute_button, .fracht_button,.overall_scan_button {
     padding: 12px 25px;
     font-size: 16px;
     font-weight: 600;
@@ -136,6 +136,8 @@ input[type="text"]:focus {
     transition: background-color 0.3s;
     width: 100%;
 }
+
+
 
 .heute_button {
     background-color: #1bc0b8;
@@ -164,8 +166,13 @@ input[type="text"]:focus {
     background-color: #1a6572;
 }
 
+.overall_scan_button{
+    background-color: gray;
+    color:white;
+}
+
 /* Cancel section */
-.cancel_div, .today_date_div {
+.cancel_div, .today_date_div, .frachtschein_div {
     display: flex;
     gap: 15px;
     background-color: white;
@@ -175,11 +182,11 @@ input[type="text"]:focus {
     margin-bottom: 20px;
 }
 
-.cancel_oder {
+.cancel_oder, .tour_frachtschein {
     flex: 3;
 }
 
-.cancel_oder_label {
+.cancel_oder_label, .tour_fracht_header,.current-id-head,.current-tour-head,.current-wagen-weight-head, .current_day_head {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -190,6 +197,14 @@ input[type="text"]:focus {
     flex: 1;
     background-color: #ea4335;
     color: white;
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+.fracht_button {
+    flex: 1;
+    background-color: #86ea35;
+    color: black;
     align-self: flex-end;
     margin-bottom: 0;
 }
@@ -341,13 +356,19 @@ input[type="text"]:focus {
         margin-bottom: 20px;
     }
     
-    .cancel_div {
+    .cancel_div, .frachtschein_div {
         flex-direction: column;
     }
     
     .cancel_button {
         margin-top: 0;
     }
+    
+    .fracht_button {
+        margin-top: 0;
+    }
+
+    
     
     .modal-content {
         width: 95%;
