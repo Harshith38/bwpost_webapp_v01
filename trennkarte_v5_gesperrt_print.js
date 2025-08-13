@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const customerNumber = e.target.getAttribute('data-customer');
         
         if (customerNumber) {
-            console.log("Quick button clicked for customer:", customerNumber);
+            //console.log("Quick button clicked for customer:", customerNumber);
             
             // Set the input value to the customer number
             kundeNummerInput.value = customerNumber;
