@@ -93,6 +93,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('tour_display').addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             e.preventDefault();
+            document.getElementById('dropdown_tag_list').focus();
+        }
+    });
+    document.getElementById('dropdown_tag_list').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
             document.getElementById('wagen_gewicht_nummer').focus();
         }
     });
@@ -932,7 +938,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const thead = document.createElement('thead');
         const headerRow = document.createElement('tr');
         //const headers = ['ID', 'Tour', 'Tour2', 'Type', 'Tag', 'Wagen', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
-        const headers = ['ID', 'Tour', 'Tour2', 'Type', 'Tag', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
+        const headers = ['ID', 'Tour', 'Type', 'Tag', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
         
         headers.forEach(text => {
             const th = document.createElement('th');
@@ -951,9 +957,9 @@ document.addEventListener('DOMContentLoaded', function() {
             idCell.textContent = item.id;
             row.appendChild(idCell);
 
-            const tourCell = document.createElement('td');
-            tourCell.textContent = item.tour;
-            row.appendChild(tourCell);
+            //const tourCell = document.createElement('td');
+            //tourCell.textContent = item.tour;
+            //row.appendChild(tourCell);
 
             const tourCell2 = document.createElement('td');
             tourCell2.textContent = item.tour2;
