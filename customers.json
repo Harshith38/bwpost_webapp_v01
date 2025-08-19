@@ -41317,7 +41317,7 @@
     "NAME2": "",
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
+    "MAHNSTUFE": 1
   },
   {
     "ID": 74015019,
@@ -46864,6 +46864,62 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013490,
+    "NAME1": "Klaus Koehler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403655,
+    "NAME1": "brixner architekten BDA",
+    "NAME2": "Robert Brixner",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403656,
+    "NAME1": "Manfred Schmitt",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403658,
+    "NAME1": "Blank Planungsgesellschaft mbH",
+    "NAME2": "Florence Chapron",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403663,
+    "NAME1": "enersol GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403664,
+    "NAME1": "maildrop24 Blanka Honova",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403666,
+    "NAME1": "MUP Immobilienmanagement GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012787,
     "NAME1": "Hilde-und-Herrmann-Walter-Stiftung",
     "NAME2": "",
@@ -48729,8 +48785,8 @@
   },
   {
     "ID": 74016006,
-    "NAME1": "Steuerberater Thomas Weil",
-    "NAME2": "",
+    "NAME1": "Weil & Partner",
+    "NAME2": "Partnerschaftsgesellschaft mbB",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -53315,7 +53371,7 @@
     "ID": 4013079,
     "NAME1": "G\u00f6n\u00fcl Altun D\u00fcd\u00fck",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -53794,14 +53850,6 @@
   {
     "ID": 2403187,
     "NAME1": "Schilling Messe-& Ausstellungsbau GmbH",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2403189,
-    "NAME1": "FOSTEC & Company GmbH",
     "NAME2": "",
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
@@ -57160,6 +57208,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403651,
+    "NAME1": "Auto Deko GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012852,
     "NAME1": "Hausarztpraxis Dangel",
     "NAME2": "",
@@ -58280,6 +58336,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4014004,
+    "NAME1": "Gemeindeverwaltung Winterbach",
+    "NAME2": "ID 1178",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403654,
+    "NAME1": "Thorsten Thiede",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403665,
+    "NAME1": "Halil Messina",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4011804,
     "NAME1": "4xB Muth",
     "NAME2": "B\u00fcro- und Datenservice",
@@ -58413,6 +58493,38 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4014005,
+    "NAME1": "Stadtwerke Waiblingen GmbH",
+    "NAME2": "ID 14005",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403657,
+    "NAME1": "Steffen Grauer",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403659,
+    "NAME1": "Wohnungsreferat Stuttgart e.V.",
+    "NAME2": "c/o Dennis Grunert",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403661,
+    "NAME1": "Deges GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -59312,6 +59424,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403652,
+    "NAME1": "Briefkastenstandort",
+    "NAME2": "BWPOST Stuttgart GmbH",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
+  },
+  {
     "ID": 4013378,
     "NAME1": "Bunja Fatty",
     "NAME2": "",
@@ -59672,6 +59792,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403653,
+    "NAME1": "Beuchle, Hainle Architekten-Part GmbB",
+    "NAME2": "Frank Beuchle, Holger Hainle",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2164604,
     "NAME1": "Filderstadt - Stadtbibliothek",
     "NAME2": "",
@@ -59741,6 +59869,30 @@
     "NAME2": "ID 1175",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013489,
+    "NAME1": "Beartice Dumon",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403660,
+    "NAME1": "Christian R\u00f6per",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403662,
+    "NAME1": "carecompany Michael Sala GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
