@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
         "R-7500-Ditzingen",
         "R-3070-Bietigheim",
         "R-3652-Vaihingen",
-        "R-3040-Taschentour",
         "R-3640-Freiberg",
         "BR-BB",
         "BR-HBG",
@@ -93,15 +92,17 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('tour_display').addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             e.preventDefault();
-            document.getElementById('dropdown_tag_list').focus();
-        }
-    });
-    document.getElementById('dropdown_tag_list').addEventListener('keydown', function(e) {
-        if (e.key === 'Enter') {
-            e.preventDefault();
             document.getElementById('wagen_gewicht_nummer').focus();
+            //document.getElementById('dropdown_tag_list').focus();
+
         }
     });
+    //document.getElementById('dropdown_tag_list').addEventListener('keydown', function(e) {
+    //    if (e.key === 'Enter') {
+    //        e.preventDefault();
+    //        document.getElementById('wagen_gewicht_nummer').focus();
+    //    }
+    //});
 
     document.getElementById('wagen_gewicht_nummer').addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
@@ -372,7 +373,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const newData = {
             id: idInput.value,
             type: typeSelector.value,
-            tag: tagSelector.value,
+            //tag: tagSelector.value,
             wagen: wagenNummerInput.value,
             gewicht: gewichtInput.value,
             kisten: kistenInput.value,
@@ -390,7 +391,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         currentIdLabel.textContent = newData.id;
 
-        currTagLabel.textContent =  newData.tag;
+        //currTagLabel.textContent =  newData.tag;
         //console.log(typeof(newData.tag));
         currentTourLabel.textContent = tour_value;
         //currentTourLabel.textContent = 'Tour: ' + newData.tag;
