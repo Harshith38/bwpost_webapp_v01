@@ -788,7 +788,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const thead = document.createElement('thead');
         const headerRow = document.createElement('tr');
         
-        const headers = ['Tour', 'Abstellzeit', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten', 'Tag'];
+        //const headers = ['Tour', 'Abstellzeit', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten', 'Tag'];
+        const headers = ['Tour', 'Abstellzeit', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten'];
+
         
         headers.forEach(headerText => {
             const th = document.createElement('th');
@@ -837,11 +839,11 @@ document.addEventListener('DOMContentLoaded', function() {
             row.appendChild(palettenCell);
             
             // Tag
-            const tagCell = document.createElement('td');
+            //const tagCell = document.createElement('td');
             // Get unique tags
-            const tags = [...new Set(groupData.entries.map(item => item.tag))].join(', ');
-            tagCell.textContent = tags;
-            row.appendChild(tagCell);
+            //const tags = [...new Set(groupData.entries.map(item => item.tag))].join(', ');
+            //tagCell.textContent = tags;
+            //row.appendChild(tagCell);
             
             tbody.appendChild(row);
         });
@@ -938,7 +940,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const thead = document.createElement('thead');
         const headerRow = document.createElement('tr');
         //const headers = ['ID', 'Tour', 'Tour2', 'Type', 'Tag', 'Wagen', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
-        const headers = ['ID', 'Tour', 'Type', 'Tag', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
+        //const headers = ['ID', 'Tour', 'Type', 'Tag', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
+        const headers = ['ID', 'Tour', 'Type', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
         
         headers.forEach(text => {
             const th = document.createElement('th');
@@ -969,9 +972,9 @@ document.addEventListener('DOMContentLoaded', function() {
             typeCell.textContent = item.type;
             row.appendChild(typeCell);
     
-            const tagCell = document.createElement('td');
-            tagCell.textContent = item.tag;
-            row.appendChild(tagCell);
+            //const tagCell = document.createElement('td');
+            //tagCell.textContent = item.tag;
+            //row.appendChild(tagCell);
     
             //const wagenCell = document.createElement('td');
             //wagenCell.textContent = item.wagen;
