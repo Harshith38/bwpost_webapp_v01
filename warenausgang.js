@@ -327,6 +327,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     function saveData() {
         // Validate inputs
+        //if (!wagenNummerInput.value || !gewichtInput.value || !kistenInput.value || !tourInput.value) {
+         //   alert('Bitte füllen Sie alle Felder aus.');
+          //  return;
+        //}
         if (!wagenNummerInput.value || !gewichtInput.value || !kistenInput.value || !tourInput.value) {
             alert('Bitte füllen Sie alle Felder aus.');
             return;
@@ -477,7 +481,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //wagenNummerInput.focus();
         tourInput.focus();
         typeSelector.value = 'wagen';
-        tagSelector.value = 'T';
+        //tagSelector.value = 'T';
     }
     
     //const zplData = generateZpl(id, type, gewicht, tour);
@@ -790,7 +794,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const headerRow = document.createElement('tr');
         
         //const headers = ['Tour', 'Abstellzeit', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten', 'Tag'];
-        const headers = ['Tour', 'Abstellzeit', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten'];
+        //const headers = ['Tour', 'Abstellzeit', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten'];
+        const headers = ['Tour', 'Abstellzeit', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten'];
 
         
         headers.forEach(headerText => {
@@ -820,9 +825,9 @@ document.addEventListener('DOMContentLoaded', function() {
             row.appendChild(abstellzeitCell);
             
             // Kisten
-            const kistenCell = document.createElement('td');
-            kistenCell.textContent = groupData.kisten;
-            row.appendChild(kistenCell);
+            //const kistenCell = document.createElement('td');
+            //kistenCell.textContent = groupData.kisten;
+            //row.appendChild(kistenCell);
             
             // Gewicht
             const gewichtCell = document.createElement('td');
@@ -942,8 +947,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const headerRow = document.createElement('tr');
         //const headers = ['ID', 'Tour', 'Tour2', 'Type', 'Tag', 'Wagen', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
         //const headers = ['ID', 'Tour', 'Type', 'Tag', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
-        const headers = ['ID', 'Tour', 'Type', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
+        //const headers = ['ID', 'Tour', 'Type', 'Gewicht (kg)', 'Kisten', 'Zeitstempel'];
+        const headers = ['ID', 'Tour', 'Type', 'Gewicht (kg)', 'Zeitstempel'];
         
+
         headers.forEach(text => {
             const th = document.createElement('th');
             th.textContent = text;
@@ -985,9 +992,9 @@ document.addEventListener('DOMContentLoaded', function() {
             gewichtCell.textContent = item.gewicht;
             row.appendChild(gewichtCell);
     
-            const kistenCell = document.createElement('td');
-            kistenCell.textContent = item.kisten;
-            row.appendChild(kistenCell);
+            //const kistenCell = document.createElement('td');
+            //kistenCell.textContent = item.kisten;
+            //row.appendChild(kistenCell);
     
             
     
