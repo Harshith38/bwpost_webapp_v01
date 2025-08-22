@@ -97,6 +97,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         }
     });
+
+
     //document.getElementById('dropdown_tag_list').addEventListener('keydown', function(e) {
     //    if (e.key === 'Enter') {
     //        e.preventDefault();
@@ -644,7 +646,7 @@ document.addEventListener('DOMContentLoaded', function() {
        
         
         //alert('Etikett wird gedruckt...');
-        // In real implementation, this would connect to a printer
+        tourInput.focus();
     }
     
     function cancelOrder() {
@@ -667,6 +669,7 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('warenausgangData', JSON.stringify(warenausgangData));
             alert(`Auftrag mit ID ${idToCancel} wurde storniert.`);
             cancelOrderInput.value = '';
+            tourInput.focus();
         } else {
             alert(`Keine Auftrag mit ID ${idToCancel} gefunden.`);
         }
@@ -737,7 +740,11 @@ document.addEventListener('DOMContentLoaded', function() {
         window.onclick = function(event) {
             if (event.target == modal) {
                 modal.style.display = 'none';
+                tourInput.focus();
+
             }
+            //tourInput.focus();
+           
         };
     }
     
@@ -931,9 +938,11 @@ document.addEventListener('DOMContentLoaded', function() {
             window.addEventListener('click', function (event) {
                 if (event.target == modal) {
                     modal.style.display = 'none';
+                    tourInput.focus();
                 }
             });
         }
+        
     
         // Populate table
         const tableContainer = document.getElementById('ubersicht-table-container');
