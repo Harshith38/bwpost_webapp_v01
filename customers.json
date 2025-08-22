@@ -4539,9 +4539,9 @@
     "ID": 2300200,
     "NAME1": "DAK-Gesundheit Fachzentrum Mitgliedschaft und Beitrag - regional",
     "NAME2": "LOS 21 (regional)",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2300400,
@@ -8600,14 +8600,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2361100,
-    "NAME1": "Zentrale Schuldnerberatung Stuttgart",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2400038,
     "NAME1": "Depot Wangen",
     "NAME2": "",
@@ -8738,14 +8730,6 @@
   {
     "ID": 5400030,
     "NAME1": "Musikverein Unterboihingen e. V.  Stefan Stierl",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2400842,
-    "NAME1": "Arbeitsgericht Stuttgart",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -12896,14 +12880,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4011228,
-    "NAME1": "ROTHWEIN Technik GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4011270,
     "NAME1": "Anwaltskanzlei Sven G\u00fcrtler",
     "NAME2": "",
@@ -14810,14 +14786,6 @@
   {
     "ID": 4011435,
     "NAME1": "Zahnmedizin Schorndorf MVZ",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 4011567,
-    "NAME1": "Olaf Schulz Hausverwaltung",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -33169,7 +33137,7 @@
   },
   {
     "ID": 2224900,
-    "NAME1": "Gemeinde Deizisau ",
+    "NAME1": "Gemeinde Deizisau",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -46920,6 +46888,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4011228,
+    "NAME1": "ROTHWEIN Technik GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2400842,
+    "NAME1": "Arbeitsgericht Stuttgart",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012787,
     "NAME1": "Hilde-und-Herrmann-Walter-Stiftung",
     "NAME2": "",
@@ -58360,6 +58344,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4011567,
+    "NAME1": "Olaf Schulz Hausverwaltung",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4011804,
     "NAME1": "4xB Muth",
     "NAME2": "B\u00fcro- und Datenservice",
@@ -58525,6 +58517,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2361100,
+    "NAME1": "Zentrale Schuldnerberatung Stuttgart",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
