@@ -123,12 +123,16 @@ body {
 }
 
 .current-customer-label, .current-customer-number, .current-customer-label-2 {
-    font-family: "Roboto Mono", monospace;
-    font-size: 18px;
+    font-family: cursive, "Roboto Mono", monospace;
+    font-size: 19px;
     font-weight: bold;
-    width: 550px;
+    width: 580px;
     text-align: left;
     word-wrap: break-word;
+}
+.seperator_line{
+    
+    text-align: left;
 }
 
 .current-customer-label-2{
@@ -136,7 +140,7 @@ body {
 }
 
 .previous-customer-label, .previous-customer-number, .previous-customer-label-2{
-    font-family: "Roboto Mono", monospace;
+    font-family: cursive,"Roboto Mono", monospace;
     font-size: 14px;
     width: 400px;
     text-align: left;
