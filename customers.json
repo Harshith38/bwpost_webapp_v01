@@ -24,14 +24,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2018800,
-    "NAME1": "Stadt Kornwestheim Rathaus",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2018900,
     "NAME1": "M\u00e4rkte Stuttgart GmbH",
     "NAME2": "",
@@ -1038,14 +1030,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2039102,
-    "NAME1": "AOK KundenCenter Untert\u00fcrkheim ",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2039900,
@@ -3128,22 +3112,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2230600,
-    "NAME1": "AOK KundenCenter Vaihingen",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2231000,
-    "NAME1": "AOK KundenCenter Ost",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2231700,
     "NAME1": "Gemeindetag Baden-W\u00fcrttemberg",
     "NAME2": "",
@@ -3366,22 +3334,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2220700,
-    "NAME1": "AOK KundenCenter Zuffenhausen",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2220800,
-    "NAME1": "AOK KundenCenter Weilimdorf",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2221000,
@@ -4408,14 +4360,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2265801,
-    "NAME1": "Klinikum Ludwigsburg - Infopost/Mailings",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2266000,
     "NAME1": "Orthop\u00e4dische Klinik Markgr\u00f6ningen gGmbH",
     "NAME2": "",
@@ -4440,28 +4384,12 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2267500,
-    "NAME1": "KSG GmbH",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2267600,
     "NAME1": "Regionale Kliniken Holding RKH GmbH",
     "NAME2": "Abholungspauschale",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2267700,
-    "NAME1": "Service Dienste Landkreis Karlsruhe GmbH",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
   },
   {
     "ID": 2267800,
@@ -4534,14 +4462,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2300200,
-    "NAME1": "DAK-Gesundheit Fachzentrum Mitgliedschaft und Beitrag - regional",
-    "NAME2": "LOS 21 (regional)",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2300400,
@@ -7100,14 +7020,6 @@
     "NAME1": "Physio Service GmbH",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2400440,
-    "NAME1": "PS Pressevertrieb-Service GmbH",
-    "NAME2": "- Betriebsrat - f\u00fcr Stuttgart-Mitte und S\u00fcd",
-    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -9690,7 +9602,7 @@
   {
     "ID": 2401219,
     "NAME1": "Stadt Kornwestheim",
-    "NAME2": "Eigenbetrieb das K",
+    "NAME2": "Eigenbetrieb \"Das K\"",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -11973,14 +11885,6 @@
     "NAME2": "85 - Gleichstellungsbeauftragte (14)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2400855,
-    "NAME1": "KAISER+KRAFT EUROPA GmbH",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -32264,14 +32168,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2401838,
-    "NAME1": "Stadt Kornwestheim",
-    "NAME2": "Eigenbetrieb Stadtentw\u00e4sserung",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 74010441,
     "NAME1": "Imexal Tore GmbH",
     "NAME2": "",
@@ -33576,14 +33472,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4012376,
-    "NAME1": "Josko Fenster und T\u00fcren GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 5404578,
     "NAME1": "Nicolas Giese",
     "NAME2": "HamburG. S\u00fcd TrafikCaf\u00e9",
@@ -34728,14 +34616,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402401,
-    "NAME1": "Diakonissenmutterhaus der Olgaschwestern in Stuttgart e.V.",
-    "NAME2": "Briefmarken",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2063100,
     "NAME1": "Gemeinde Oberstenfeld",
     "NAME2": "",
@@ -35368,25 +35248,9 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2191600,
-    "NAME1": "Diakonie-Klinikum Stuttgart gGmbH",
-    "NAME2": "Onkologischer Schwerpunkt - Nachsorgeleitstelle",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 4012330,
     "NAME1": "Studienkreis Winnenden",
     "NAME2": "Ralf Fu\u00dfnegger",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 4012333,
-    "NAME1": "Ronald B\u00f6schen",
-    "NAME2": "Schornsteinfegermeister",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -38128,14 +37992,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403064,
-    "NAME1": "Anja",
-    "NAME2": "Heuser",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4012690,
     "NAME1": "Ingrid Mohilo",
     "NAME2": "c/o Monika Leifert",
@@ -38626,14 +38482,6 @@
   {
     "ID": 4012475,
     "NAME1": "Kiosk am Rathaus",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 4012477,
-    "NAME1": "Andreas Schneider Baumpflege",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -39548,14 +39396,6 @@
     "NAME1": "MHK GmbH",
     "NAME2": "Technik die verbindet",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402555,
-    "NAME1": "Freunde der Staatsgalerie Stuttgart e.V.",
-    "NAME2": "Frau Dammer",
-    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -42776,14 +42616,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2400494,
-    "NAME1": "Medizinisches Versorgungszentrum - Pathologische Praxis",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 5400109,
     "NAME1": "Bayer & Kastner GmbH",
     "NAME2": "Personaldienstleistungen",
@@ -45200,14 +45032,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403504,
-    "NAME1": "Caritasverband f\u00fcr Stuttgart e.V.",
-    "NAME2": "Sozialpsychiatrischer Wohnverbund Kst. 20420",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4012830,
     "NAME1": "Stuttgarter Zeitung Verlagsgesellschaft mbH",
     "NAME2": "",
@@ -46898,6 +46722,30 @@
   {
     "ID": 2400842,
     "NAME1": "Arbeitsgericht Stuttgart",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403504,
+    "NAME1": "Caritasverband f\u00fcr Stuttgart e.V.",
+    "NAME2": "Sozialpsychiatrischer Wohnverbund Kst. 20420",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012333,
+    "NAME1": "Ronald B\u00f6schen",
+    "NAME2": "Schornsteinfegermeister",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012376,
+    "NAME1": "Josko Fenster und T\u00fcren GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -51062,14 +50910,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2403185,
-    "NAME1": "Klett Zentrale Dienste GmbH",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 4013130,
@@ -56395,9 +56235,9 @@
     "ID": 2403359,
     "NAME1": "W\u00fcrttembergische Versicherung AG",
     "NAME2": "Regionaldirektion Ludwigsburg",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2403360,
@@ -58352,6 +58192,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012477,
+    "NAME1": "Andreas Schneider Baumpflege",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4011804,
     "NAME1": "4xB Muth",
     "NAME2": "B\u00fcro- und Datenservice",
@@ -59272,14 +59120,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403542,
-    "NAME1": "DKS Medizinisches Versorgungszentrum gGmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 5404817,
     "NAME1": "Ital. kath. Gemeinde",
     "NAME2": "San Marco Kirchheim",
@@ -59430,6 +59270,14 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
+  },
+  {
+    "ID": 2401838,
+    "NAME1": "Stadt Kornwestheim",
+    "NAME2": "Eigenbetrieb Stadtentw\u00e4sserung",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
   },
   {
     "ID": 4013378,
