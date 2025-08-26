@@ -123,7 +123,7 @@ body {
 }
 
 .current-customer-label, .current-customer-number, .current-customer-label-2 {
-    font-family: cursive, "Roboto Mono", monospace;
+    font-family: sans-serif, "Roboto Mono", monospace;
     font-size: 19px;
     font-weight: bold;
     width: 580px;
@@ -140,7 +140,7 @@ body {
 }
 
 .previous-customer-label, .previous-customer-number, .previous-customer-label-2{
-    font-family: cursive,"Roboto Mono", monospace;
+    font-family: sans-serif,"Roboto Mono", monospace;
     font-size: 14px;
     width: 400px;
     text-align: left;
