@@ -294,7 +294,7 @@ input[type="text"]:focus {
     justify-content: flex-end;
 }
 
-.export-excel, .export-pdf {
+.export-excel, .export-pdf,.export-email {
     padding: 10px 15px;
     font-size: 14px;
     border: none;
@@ -309,6 +309,10 @@ input[type="text"]:focus {
 
 .export-pdf {
     background-color: #f40f02;
+    color: white;
+}
+.export-email {
+    background-color: #027ff4;
     color: white;
 }
 
