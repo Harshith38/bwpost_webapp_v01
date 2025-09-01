@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📦 Warenausgang</title>
+    <link rel="stylesheet" href="warenausgang.css">    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <!-- Type and Tag Selection -->
+
+        <div class="today_date_div">
+            <div class="today_date_div_header"> Heute</div>
+            <div class="today_date"> update</div>
+            <button class="heute_button" id="heute_button">Aktualisieren</button>
+        </div>
+       
+        <div class="dropdown_wagen_palette">
+            <div class="dropdown_wagen_palette_header">Type</div>
+            <select name="wagen_palette" id="dropdown_wagen_palette_list">
+                <option value="wagen">Wagen</option>
+                <option value="palette">Palette</option>
+            </select>
+        </div>
+
+        <div class="dropdown_label_druck">
+            <div class="dropdown_label_druck_header">Label Drucken Type</div>
+            <select name="lable_druck" id="dropdown_label_druck_list">
+                <option value="lang_label">Lang_label</option>
+                <option value="kurz_label">Klebe_Etikett</option>
+            </select>
+        </div>
+
+        <!--<div class="dropdown_tag" hidden>
+            <div class="dropdown_tag_header" hidden>Tag auswählen</div>
+            <select name="machine" id="dropdown_tag_list" hidden>
+                <option value="T">T</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+            </select>
+        </div>-->
+        
+        <!-- Main Information Entry Section -->
+        <div class="content2">
+            <div class="frame2">
+                <div class="ID_nummer">
+                    <div class="ID_nummer_header">ID</div>
+                    <input type="text" class="ID_nummer" id="ID-display" readonly>
+                </div>
+
+                <div class="wagen" hidden>
+                    <div class="wagen_label">Wagen Nummer</div>
+                    <input type="text" class="wagen_nummer" id="wagen_nummer" readonly>
+                </div>
+            
+                <div class="kisten" hidden>
+                    <div class="kisten_header">Kisten</div>
+                    <input type="text" class="kisten_nummer" id="kisten_nummer" readonly>
+                </div> 
+
+                
+                
+                <div class="tour">
+                    <div class="tour_nummer_header">Tour</div>
+                    <input type="text" class="tour_nummer" id="tour_display" autocomplete="off">
+                </div>
+
+                <!--<div class="dropdown_tag">
+                    <div class="dropdown_tag_header">Tag auswählen</div>
+                    <select name="machine" id="dropdown_tag_list">
+                        <option value="T">T</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                    </select>
+                </div>-->
+
+                <div class="wagen_gewicht">
+                    <div class="wagen_gewicht_label">Gewicht (kg)</div>
+                    <input type="text" class="wagen_gewicht_nummer" id="wagen_gewicht_nummer" autocomplete="off">
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <div class="display_box">
+                    <div class="current-id-head">ID:</div>
+                    <div class="current-id">0000</div>
+                    <div>-------------------</div>
+                    <!--<div class="current_day_head" id="current_day1">Tag</div>
+                    <div class="current_day" id="current_day">none</div>
+                    <div>-------------------</div>-->
+                    <div class="current-tour-head">Tour</div>
+                    <div class="current-tour">None</div>
+                    <div>-------------------</div>
+                    <div class="current-wagen-weight-head">Gewicht</div>
+                    <div class="current-wagen-weight">0000</div>
+                    <div></div>
+                </div>
+
+                <div class="ok_button_div">
+                    <button class="ok_button" id="ok_button">OK</button>
+                </div>
+
+                <div class="print_button_div">
+                    <button class="print_button" id="print_button">Wiederholung Drucken</button>
+                </div>
+
+                <div class="overall_scan_button_div">
+                    <button class="overall_scan_button" id="overall_scan_button">Scan Übersicht</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cancel Order Section -->
+        <div class="cancel_div">
+            <div class="cancel_oder">
+                <div class="cancel_oder_label">Scan ID zum Stornieren</div>
+                <input type="text" class="cancel_oder_nummer" id="cancel_oder_nummer" autocomplete="off">
+            </div>
+            <button class="cancel_button" id="cancel_button">Stornieren!</button>
+        </div>
+
+        <!-- Report Button Section -->
+        <div class="versand_bericht_div">
+            <button class="versand_bericht_button" id="versand_bericht_button">Versandbericht</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="BrowserPrint-3.1.250.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+  
+    <!--<script src="warenausgang.js"></script>-->
+    <script src="warenausgang_test_email.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.7.0/jspdf.plugin.autotable.min.js"></script>
+  
+</body>
+</html>
