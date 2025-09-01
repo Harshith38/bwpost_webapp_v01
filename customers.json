@@ -400,14 +400,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2056100,
-    "NAME1": "Neuform-T\u00fcrenwerk Hans Glock GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2058000,
     "NAME1": "CNC Fertigungs Technik WAGNER",
     "NAME2": "",
@@ -4339,14 +4331,6 @@
     "ID": 2265200,
     "NAME1": "ADE DRUCK + MEDIEN",
     "NAME2": "Inh. Steffen Ade",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2265300,
-    "NAME1": "Dentimed GmbH",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -8315,9 +8299,9 @@
     "ID": 2400798,
     "NAME1": "Korbmayer GmbH",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 3,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2400834,
@@ -14378,7 +14362,7 @@
   {
     "ID": 4011352,
     "NAME1": "Remstalbaugenossenschaft eG",
-    "NAME2": "Gesch\u00e4ftsstelle Schorndorf",
+    "NAME2": "Kreisbaugesellschaft Waiblingen mbH",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -15908,14 +15892,6 @@
     "NAME1": "Horst Dieterich",
     "NAME2": "Zahnarztpraxis - Postkarten",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2152200,
-    "NAME1": "Hodum GmbH / PriSend-Kunde",
-    "NAME2": "",
-    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -32090,7 +32066,7 @@
   {
     "ID": 74011528,
     "NAME1": "Immobilien Service",
-    "NAME2": "B\u00e4rbel Bahr",
+    "NAME2": "B\u00e4rbel Bahr e.K.",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -35620,14 +35596,6 @@
     "NAME1": "BROCK industries gmbh",
     "NAME2": "Schilder + Stempel",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2294800,
-    "NAME1": "Dr. Dorothee Scheurer",
-    "NAME2": "Fachzahn\u00e4rztin f\u00fcr Kieferorthop\u00e4die",
-    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -39720,14 +39688,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4012524,
-    "NAME1": "Schleyer Systemtechnik",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 74014734,
     "NAME1": "Dr. med. Brigitte Painz",
     "NAME2": "Frauen\u00e4rztin / Hom\u00f6ophatie",
@@ -43714,7 +43674,7 @@
   {
     "ID": 4012391,
     "NAME1": "Gaupp\u00b4sche Apotheke",
-    "NAME2": "",
+    "NAME2": "Christian Roth e.K.",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -46336,14 +46296,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4012780,
-    "NAME1": "TSG Esslingen 1898 e.V.",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4012595,
     "NAME1": "Grundbuchzentralarchiv",
     "NAME2": "",
@@ -46746,6 +46698,22 @@
   {
     "ID": 4012376,
     "NAME1": "Josko Fenster und T\u00fcren GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012779,
+    "NAME1": "Debeka Serviceb\u00fcro Urbach",
+    "NAME2": "Sebastian Vees",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012780,
+    "NAME1": "TSG Esslingen 1898 e.V.",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -48382,14 +48350,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2403376,
-    "NAME1": "Home and more design",
-    "NAME2": "Elvisa Hamzic",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 4013282,
@@ -52533,14 +52493,6 @@
     "NAME2": "Herotooler GmbH",
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 4012779,
-    "NAME1": "Debeka Serviceb\u00fcro Urbach",
-    "NAME2": "Sebastian Vees",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -59280,6 +59232,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012524,
+    "NAME1": "Schleyer Systemtechnik",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013378,
     "NAME1": "Bunja Fatty",
     "NAME2": "",
@@ -59645,6 +59605,14 @@
     "NAME2": "Frank Beuchle, Holger Hainle",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403667,
+    "NAME1": "Evangelische Kirchengemeinde Stuttgart-Vaihingen",
+    "NAME2": "Pfarramt Stadtkirche Mitte",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
