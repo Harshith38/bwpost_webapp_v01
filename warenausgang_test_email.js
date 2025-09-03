@@ -338,8 +338,8 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        if (gewichtInput.value>300) {
-            alert('Achtung!!!, Bitte Nicht mehr als 300 kg Eintagen.');
+        if (gewichtInput.value>300 && typeSelector.value == 'wagen') {
+            alert('Achtung!!!, Bitte Nicht mehr als 300 kg in WAGEN Eintagen.');
             return;
         }
 
@@ -1292,7 +1292,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Email recipients
-        const recipients = ['sai.harshithmalka8@gmail.com', 'dce@mail.de'];
+        const recipients = ['m.andreas@bwpost.de', 'a.blehm@bwpost.de', 'd.diebold@bwpost.de', 'v.fassnacht@bwpost.de', 'J.Haeneke@bwpost.de', 'r.jonischkeit@bwpost.de', 'f.neininger@bwpost.de', 'u.ottlinger@bwpost.de','a.secgin@bwpost.de', 'M.Speidel@bwpost.de','z.urbanczyk@bwpost.de', 'k.witzmann@bwpost.de'];
     
         // Group data by tour
         const groupedByTour = {};
@@ -1318,7 +1318,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     
         // Create email body in vertical list format (most reliable for all email clients)
-        let emailBody = `Hallo Zusammen, \n \nheir ist der Versandbericht vom ${new Date().toLocaleDateString('de-DE')}\n`;
+        let emailBody = `Hallo Zusammen, \n \nanbei sende ich Ihnen der Versandbericht vom ${new Date().toLocaleDateString('de-DE')}\n`;
         //emailBody += '================================================\n\n';
         emailBody += '\n\n';
         
