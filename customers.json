@@ -57096,6 +57096,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 5404849,
+    "NAME1": "Evangelische Kirchengemeinde Bonlanden",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403534,
     "NAME1": "Caritasverband f\u00fcr Stuttgart e.V.",
     "NAME2": "Kst. 16230 Wohnverbund Wangen/Ost",
@@ -57219,6 +57227,14 @@
     "ID": 5404821,
     "NAME1": "Comunit\u00e0 Cattolica Italiana",
     "NAME2": "Ital. Kath. Gemeinde Esslingen-Plochingen",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403668,
+    "NAME1": "Evangelische Kirchengemeinde Stuttgart-West",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -57421,6 +57437,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016267,
+    "NAME1": "Rehm Sportwerbung Sponsoring & Druck",
+    "NAME2": "Matthias Rehm",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016268,
+    "NAME1": "Josefa Barbara von Hohenzollern-Emden",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -57842,7 +57874,7 @@
   {
     "ID": 4014000,
     "NAME1": "Zeitungsverlag GmbH & Co. Waiblingen KG",
-    "NAME2": "ID 1174",
+    "NAME2": "ID 1173",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -58289,8 +58321,8 @@
   },
   {
     "ID": 4014005,
-    "NAME1": "Stadtwerke Waiblingen GmbH",
-    "NAME2": "ID 14005",
+    "NAME1": "Stadtwerke Winnenden GmbH",
+    "NAME2": "ID 1558",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -59024,6 +59056,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016266,
+    "NAME1": "ZMVZ Dres. Sonnenberg GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013380,
     "NAME1": "Ernst Uwe Neubauer",
     "NAME2": "c/o Guido Wiest",
@@ -59238,6 +59278,14 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012896,
+    "NAME1": "Rudolf Bede",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4013378,
@@ -59480,6 +59528,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 5404848,
+    "NAME1": "Marc-Andr\u00e8 Kolly",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2027600,
     "NAME1": "Knisel Bus + Reisen GmbH + Co. KG",
     "NAME2": "",
@@ -59611,6 +59667,14 @@
     "ID": 2403667,
     "NAME1": "Evangelische Kirchengemeinde Stuttgart-Vaihingen",
     "NAME2": "Pfarramt Stadtkirche Mitte",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4014006,
+    "NAME1": "ZVW Zeitungsvertrieb Rems-Murr GmbH",
+    "NAME2": "ID 1174",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
