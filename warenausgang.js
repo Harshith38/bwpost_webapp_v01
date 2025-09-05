@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('Bitte füllen Sie alle Felder aus.');
             return;
         }
-        if (gewichtInput.value>300 && typeSelector.value == 'wagen') {
+        if (gewichtInput.value>310 && typeSelector.value == 'wagen') {
             alert('Achtung!!!, Bitte Nicht mehr als 300 kg in WAGEN Eintagen.');
             return;
         }
