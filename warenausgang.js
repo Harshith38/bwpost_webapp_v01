@@ -371,7 +371,7 @@ document.addEventListener('DOMContentLoaded', function() {
             tour_value == "Sperre-RMK" ||
             tour_value == "R-5043-WAGEN-3" ) {
             tour_sum_value = "Rems-Murr";
-            print_label_status = true;
+            //print_label_status = true;
 
         } 
         else {
