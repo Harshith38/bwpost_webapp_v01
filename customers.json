@@ -884,8 +884,8 @@
     "NAME1": "VVS Verkehrs- und Tarifverbund Stuttgart GmbH - Verbundp\u00e4sse",
     "NAME2": "",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2088400,
@@ -13557,14 +13557,6 @@
     "NAME2": "Gesch\u00e4ftsstelle Winnenden",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 4010689,
-    "NAME1": "MANGLER Immobilien & Hausverwaltung",
-    "NAME2": "Inhaberin Gabriele Roser",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -28475,8 +28467,8 @@
     "ID": 74011586,
     "NAME1": "VfL Sindelfingen",
     "NAME2": "Glaspalast",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -32748,8 +32740,8 @@
     "NAME1": "Polygo",
     "NAME2": "VVS Verkehrs- und Tarifverbund Stuttgart GmbH",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2210901,
@@ -34894,6 +34886,14 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012261,
+    "NAME1": "SV SparkassenVersicherung - SV Team Backnang",
+    "NAME2": "Gesch\u00e4ftsstelle Markus Olp",
+    "STATUS": 95,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4012263,
@@ -37850,7 +37850,7 @@
   {
     "ID": 4012648,
     "NAME1": "J\u00fcrgen K\u00f6hler",
-    "NAME2": "c/o K\u00f6hler/Hirche",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
@@ -46425,7 +46425,7 @@
   },
   {
     "ID": 5404820,
-    "NAME1": "Katholische Sozialstation Wernau GmbH",
+    "NAME1": "Ambulante Dienste St. Raphael gGmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -54995,7 +54995,7 @@
     "ID": 2403200,
     "NAME1": "Archonic GmbH",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -55268,7 +55268,7 @@
     "NAME1": "G\u00f6tz Offterdinger",
     "NAME2": "c/o B\u00fcro G\u00f6tz Offterdinger",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -56992,6 +56992,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013487,
+    "NAME1": "Margarete M\u00fcller",
+    "NAME2": "c/o Silvia Ott",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013488,
+    "NAME1": "Lutz GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403673,
+    "NAME1": "Haus und Partner",
+    "NAME2": "Werbeagentur",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012852,
     "NAME1": "Hausarztpraxis Dangel",
     "NAME2": "",
@@ -57101,6 +57125,62 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013492,
+    "NAME1": "Iris Blume",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013491,
+    "NAME1": "Sven Rommel",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013493,
+    "NAME1": "E. Sch\u00e4fer Vertrieb",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013496,
+    "NAME1": "Animexus GmbH",
+    "NAME2": "c/o Bodo Henkel",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013497,
+    "NAME1": "Ulrich J. Mager",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013498,
+    "NAME1": "Heiko Stahl",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013499,
+    "NAME1": "Josef Stefan Schwartz",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -57229,6 +57309,22 @@
     "NAME2": "Ital. Kath. Gemeinde Esslingen-Plochingen",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403669,
+    "NAME1": "Evangelische Kirchengemeinde",
+    "NAME2": "Feuerbach Wahlen",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013495,
+    "NAME1": "Sven Istler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -57453,6 +57549,38 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403671,
+    "NAME1": "Evangelische Christuskirche Stuttgart",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012897,
+    "NAME1": "Luhr Kfz + Kiosk",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404850,
+    "NAME1": "H\u00e4mmerling - Serfass",
+    "NAME2": "Immobilien",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013500,
+    "NAME1": "Jens Frings",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -57825,7 +57953,7 @@
   },
   {
     "ID": 2403637,
-    "NAME1": "Immoservice BW",
+    "NAME1": "Immoservice BW Q-care-M GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -58840,6 +58968,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013494,
+    "NAME1": "Michelle Hasert",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013501,
+    "NAME1": "avialytics GmbH",
+    "NAME2": "im Hof hinter Hausnr. 3",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4001271,
     "NAME1": "",
     "NAME2": "",
@@ -59058,6 +59202,22 @@
   {
     "ID": 74016266,
     "NAME1": "ZMVZ Dres. Sonnenberg GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403670,
+    "NAME1": "Evangelische Kirchengemeinde",
+    "NAME2": "Ost",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403672,
+    "NAME1": "KOMI Infrastructure Services GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -59529,7 +59689,7 @@
   },
   {
     "ID": 5404848,
-    "NAME1": "Marc-Andr\u00e8 Kolly",
+    "NAME1": "Marc-Andr\u00e9 Kolly",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
