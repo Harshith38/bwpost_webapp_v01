@@ -2548,8 +2548,8 @@
     "NAME1": "Maritim Hotel Gesellschaft mbH",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2176900,
@@ -6580,8 +6580,8 @@
     "NAME1": "Katholisches Stadtdekanat Verwaltungszentrum",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 5400148,
@@ -7020,16 +7020,16 @@
     "NAME1": "Katholische Hospizstiftung",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2400271,
     "NAME1": "Zentrale Meldestelle",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2400274,
@@ -8652,8 +8652,8 @@
     "NAME1": "Katholische Sozialstation Stuttgart",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2400275,
@@ -21713,8 +21713,8 @@
   },
   {
     "ID": 4010897,
-    "NAME1": "BAD Gesundheitsvorsorge",
-    "NAME2": "und Sicherheitstechnik GmbH",
+    "NAME1": "BG prevent",
+    "NAME2": "Gesundheitszentrum Waiblingen",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -41594,7 +41594,7 @@
   {
     "ID": 2402972,
     "NAME1": "Berufsaus\u00fcbungsgemeinschaft",
-    "NAME2": "Dr. med. Bacher, Dr. Empacher, Dr. med. Feldmann",
+    "NAME2": "Dr. med. F\u00fctterer, Dr. med. Empacher, Dr. med. Feldmann",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -51777,8 +51777,8 @@
   },
   {
     "ID": 2403188,
-    "NAME1": "FORUM AM SCHLOSSPARK",
-    "NAME2": "Stadt Ludwigsburg, Fachbereich Kunst und Kultur",
+    "NAME1": "Stadtverwaltung Ludwigsburg",
+    "NAME2": "Fachbereich Kunst und Kultur",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -52249,8 +52249,8 @@
   },
   {
     "ID": 2403231,
-    "NAME1": "Fibu-L\u00f6wen UG",
-    "NAME2": "( haftungsbeschr\u00e4nkt)",
+    "NAME1": "ASMENDA UG",
+    "NAME2": "(haftungsbeschr\u00e4nkt)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -57009,7 +57009,7 @@
   },
   {
     "ID": 2403673,
-    "NAME1": "Haus und Partner",
+    "NAME1": "Haug und Partner",
     "NAME2": "Werbeagentur",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -57364,8 +57364,8 @@
     "NAME1": "BSKP Dr. Broll-Schmitt-Kaufmann-Partner",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 74016137,
@@ -57581,6 +57581,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012898,
+    "NAME1": "Beiersdorf Dermo Medical GmbH",
+    "NAME2": "Herr Florian Mauthe",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -59690,6 +59698,14 @@
   {
     "ID": 5404848,
     "NAME1": "Marc-Andr\u00e9 Kolly",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016269,
+    "NAME1": "HANKE BROTHERS OFFICE",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
