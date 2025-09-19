@@ -20,9 +20,20 @@ body {
 }
 
 /* Container for type and tag dropdowns */
-.dropdown_wagen_palette, .dropdown_tag, .dropdown_label_druck, .today_date_div{
+.dropdown_wagen_palette, .dropdown_tag, .dropdown_label_druck, .waage_connect_div{
     display: inline-block;
-    width: 48%;
+    width: 32%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+.today_date_div{
+    display: inline-block;
+    width: 45%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -35,7 +46,7 @@ body {
     margin-right: 2%;
 }
 
-.dropdown_wagen_palette_header, .dropdown_tag_header, .today_date_div_header, .dropdown_label_druck {
+.dropdown_wagen_palette_header, .dropdown_tag_header, .today_date_div_header, .dropdown_label_druck, .waage_connect_header {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -126,7 +137,7 @@ input[type="text"]:focus {
     text-align: center;
 }
 
-.ok_button, .print_button, .cancel_button, .versand_bericht_button, .heute_button, .fracht_button,.overall_scan_button {
+.ok_button, .print_button, .cancel_button, .versand_bericht_button, .heute_button, .fracht_button,.overall_scan_button, .waage_connect_button, .waage_disconnect_button {
     padding: 12px 25px;
     font-size: 16px;
     font-weight: 600;
@@ -138,6 +149,10 @@ input[type="text"]:focus {
 }
 
 
+.waage_connect_button{
+    background-color: #36b457;
+    color: white;
+}
 
 .heute_button {
     background-color: #1bc0b8;
@@ -193,7 +208,7 @@ input[type="text"]:focus {
     color: #333;
 }
 
-.cancel_button {
+.cancel_button,.waage_disconnect_button  {
     flex: 1;
     background-color: #ea4335;
     color: white;
@@ -351,7 +366,7 @@ input[type="text"]:focus {
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .dropdown_wagen_palette, .dropdown_tag, .dropdown_label_druck {
+    .dropdown_wagen_palette, .dropdown_tag, .dropdown_label_druck, .waage_connect_div {
         width: 100%;
         margin-right: 0;
     }
