@@ -337,15 +337,15 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('Bitte füllen Sie alle Felder aus.');
             return;
         }
-        if (gewichtInput.value>310 && typeSelector.value == 'wagen') {
-            alert('Achtung!!!, Bitte Nicht mehr als 300 kg in WAGEN Eintagen.');
+        if (gewichtInput.value > 348 && typeSelector.value == 'wagen') {
+            alert('Achtung!!!, Bitte Nicht mehr als 348 kg in WAGEN Eintagen.');
             return;
         }
 
         let tour_replace_text = tourInput.value;
         let tour_value = tour_replace_text.replace(/ß/g, "-");
         let tour_sum_value = null;
-        let print_label_status = false;
+        let print_label_status = true;
         if (tour_value == "BR-BB" ||
         tour_value == "BR-HBG" ||
         tour_value == "BR-SHO" ||
@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tour_value == "Sperre-BB" ||
         tour_value == "BR-LEO") {
             tour_sum_value = "Böblingen";
-            print_label_status = true;
+            //print_label_status = true;
         } else if(tour_value == "R-5011-WAGEN-1" ||
             tour_value == "R-5013-WAGEN-3" ||
             tour_value == "R-5021-WAGEN-1" ||
