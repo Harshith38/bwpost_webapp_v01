@@ -17,13 +17,8 @@
             <div class="today_date"> update</div>
             <button class="heute_button" id="heute_button">Aktualisieren</button>
         </div>
-        <div class="waage_connect_div">
-            <div class="waage_connect_header"> Waage</div>
-            <div class="waage_connect_status" id="waage_connect_status"> no connections</div>
-            <button class="waage_connect_button" id="waage_connect_button">Connect to Scale</button>
-            <button class="waage_disconnect_button hidden" id="waage_disconnect_button">Disconnect</button>
 
-        </div>
+        
        
         <div class="dropdown_wagen_palette">
             <div class="dropdown_wagen_palette_header">Type</div>
@@ -32,6 +27,7 @@
                 <option value="palette">Palette</option>
             </select>
         </div>
+        
 
         <div class="dropdown_label_druck">
             <div class="dropdown_label_druck_header">Label Drucken Type</div>
@@ -40,6 +36,14 @@
                 <option value="kurz_label">Klebe_Etikett</option>
             </select>
         </div>
+        <div class="waage_connect_div">
+            <div class="waage_connect_header"> Waage</div>
+            <div class="waage_connect_status" id="waage_connect_status"> 📡 Nicht verbunden – Klicken Sie auf <b>„Connect to Scale“</b>, und wählen Sie <b>„USB-Serial-Controller (COM3)“</b> um zu beginnen.</div>
+            <button class="waage_connect_button" id="waage_connect_button">Connect to Scale</button>
+            <button class="waage_disconnect_button hidden" id="waage_disconnect_button">Disconnect</button>
+
+        </div>
+        
 
         <!--<div class="dropdown_tag" hidden>
             <div class="dropdown_tag_header" hidden>Tag auswählen</div>
@@ -87,7 +91,7 @@
                 <div class="wagen_gewicht">
                     <div class="wagen_gewicht_label">Gewicht (kg)</div>
                     <input type="text" class="wagen_gewicht_nummer" id="wagen_gewicht_nummer" autocomplete="off">
-                    <div class="weight_display" id="weight_display"> --- kg</div>
+                    <div class="weight_display" id="weight_display"> 📡 Disconnected</div>
                     
                     <button class="weight_req_button hidden" id="weight_req_button">Weight req</button>
                 </div>
