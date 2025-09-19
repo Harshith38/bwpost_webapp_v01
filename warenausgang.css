@@ -344,6 +344,11 @@ input[type="text"]:focus {
     color: #ffffff;
 }
 
+/*Waage Design*/
+.hidden {
+    display: none;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .dropdown_wagen_palette, .dropdown_tag, .dropdown_label_druck {
