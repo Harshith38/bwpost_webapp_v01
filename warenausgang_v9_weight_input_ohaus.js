@@ -130,6 +130,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('wagen_gewicht_nummer').addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             e.preventDefault();
+        //requestBtn.addEventListener('click', requestWeight);
+            if (document.getElementById('wagen_gewicht_nummer').value =='') {
+            requestWeight();
+            }
+
             document.getElementById('ok_button').focus();
         }
     });
@@ -366,7 +371,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let tour_replace_text = tourInput.value;
         let tour_value = tour_replace_text.replace(/ß/g, "-");
         let tour_sum_value = null;
-        let print_label_status = false;
+        let print_label_status = true;
         if (tour_value == "BR-BB" ||
         tour_value == "BR-HBG" ||
         tour_value == "BR-SHO" ||
@@ -374,7 +379,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tour_value == "Sperre-BB" ||
         tour_value == "BR-LEO") {
             tour_sum_value = "Böblingen";
-            print_label_status = true;
+            //print_label_status = true;
         } else if(tour_value == "R-5011-WAGEN-1" ||
             tour_value == "R-5013-WAGEN-3" ||
             tour_value == "R-5021-WAGEN-1" ||
@@ -1111,12 +1116,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     function updateUI(connected) {
         if (connected) {
-            statusEl.textContent = '✅ Connected to Scale';
+            statusEl.textContent = '✅ Verbunden mit der Waage.';
             //statusEl.className = 'status connected';
             connectBtn.classList.add('hidden');
             disconnectBtn.classList.remove('hidden');
             //tareBtn.classList.remove('hidden');
             requestBtn.classList.remove('hidden');
+            weightDisplayEl.textContent = '✅ Verbunden! Ohne Wert Enter drücken oder Wert eingeben';
+
         } else {
             statusEl.textContent = '📡 Disconnected - Click "Connect to Scale" to begin';
            // statusEl.className = 'status disconnected';
@@ -1124,7 +1131,8 @@ document.addEventListener('DOMContentLoaded', function() {
             disconnectBtn.classList.add('hidden');
             //tareBtn.classList.add('hidden');
             requestBtn.classList.add('hidden');
-            weightDisplayEl.textContent = '--- kg';
+            //weightDisplayEl.textContent = '--- kg';
+
         }
     }
 
@@ -1136,7 +1144,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Based on your output: "8.0 kg 48.0 kg G"
         // It seems your scale sends weight readings that end with unit + possible status
         
-        console.log(`Buffer content: "${dataBuffer}"`);
+        //console.log(`Buffer content: "${dataBuffer}"`);
         
         // Look for patterns that indicate complete weight readings
         const patterns = [
@@ -1161,7 +1169,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 //foundUnit = lastMatch[0].includes('kg') ? 'kg' :'g';
 
                 
-                console.log(`Parsed weight: ${foundWeight} ${foundUnit}`);
+                //console.log(`Parsed weight: ${foundWeight} ${foundUnit}`);
                 //log(`total matches found: ${matches.length}`);
                 break;
             }
@@ -1221,9 +1229,9 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Start requesting weight data periodically for real-time updates
             //weightRequestInterval = setInterval(async () => {
-             //   if (isConnected) {
-              //      await requestWeight();
-              //  }
+            //    if (isConnected) {
+            //       await requestWeight();
+            //    }
             //}, 1000); // Request weight every 1 second
             
             while (isConnected) {
@@ -1231,14 +1239,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (done) break;
                 
                 const text = new TextDecoder().decode(value);
-                console.log(`Raw data received: "${text}"`);
+                //console.log(`Raw data received: "${text}"`);
                 
                 const parsed = parseWeightData(text);
                 
                 if (parsed.weight !== null) {
                     // Update the weight display div
-                    weightDisplayEl.textContent = `${parsed.weight} ${parsed.unit}`;
-                    console.log(`✅ Weight updated: ${parsed.weight} ${parsed.unit}`);
+                    //weightDisplayEl.textContent = `${parsed.weight} ${parsed.unit}`;
+                    //document.getElementById('wagen_gewicht_nummer').value = parsed.weight;
+                    gewichtInput.value = parsed.weight;
+                    //console.log(`✅ Weight updated: ${parsed.weight} ${parsed.unit}`);
                 }
             }
             
@@ -1271,7 +1281,7 @@ document.addEventListener('DOMContentLoaded', function() {
             await writer.write(new TextEncoder().encode(command));
             await writer.releaseLock();
             
-            console.log(`📤 Weight request sent: "${command.replace(/\r\n/g, '\\r\\n')}"`);
+            //console.log(`📤 Weight request sent: "${command.replace(/\r\n/g, '\\r\\n')}"`);
             
         } catch (error) {
             console.log(`❌ Weight request failed: ${error.message}`);
