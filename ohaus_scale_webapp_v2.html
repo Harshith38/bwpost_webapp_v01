@@ -282,6 +282,7 @@
                     if (done) break;
                     
                     const text = new TextDecoder().decode(value);
+                    log(`text:- ${text}`);
                     const parsed = parseWeightData(text);
                     
                     if (parsed.weight !== null) {
