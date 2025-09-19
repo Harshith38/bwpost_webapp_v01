@@ -24203,7 +24203,7 @@
     "ID": 4010691,
     "NAME1": "SG Schorndorf 1846 e.V.",
     "NAME2": "Abteilung Ski und Snowboard",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -57016,6 +57016,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012900,
+    "NAME1": "Hermann Kuhn GmbH & Co. KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012901,
+    "NAME1": "Oberbadisches Verlagshaus Georg Jaumann",
+    "NAME2": "GmbH & Co. KG",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404851,
+    "NAME1": "Krankenfahrdienst Markus",
+    "NAME2": "I.Chrisulas und M. Stuhler GbR",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012852,
     "NAME1": "Hausarztpraxis Dangel",
     "NAME2": "",
@@ -59232,6 +59256,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013503,
+    "NAME1": "Roland Schneider",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012899,
+    "NAME1": "Bragenitz & Jahn GmbH & Co KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403674,
+    "NAME1": "Universit\u00e4t Hohenheim",
+    "NAME2": "150m Engineering Biointelligenter Systeme",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013380,
     "NAME1": "Ernst Uwe Neubauer",
     "NAME2": "c/o Guido Wiest",
@@ -59949,6 +59997,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74014947,
+    "NAME1": "Auto Nell",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
