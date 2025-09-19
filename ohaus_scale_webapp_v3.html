@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohaus Defender 3000 Scale Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .status {
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .status.disconnected {
+            background-color: #ffebee;
+            color: #c62828;
+            border: 1px solid #ef5350;
+        }
+        
+        .status.connected {
+            background-color: #e8f5e8;
+            color: #2e7d32;
+            border: 1px solid #66bb6a;
+        }
+        
+        .weight-display {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            margin: 20px 0;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .connect-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        .connect-btn:hover {
+            background-color: #45a049;
+        }
+        
+        .disconnect-btn {
+            background-color: #f44336;
+            color: white;
+        }
+        
+        .disconnect-btn:hover {
+            background-color: #da190b;
+        }
+        
+        .tare-btn {
+            background-color: #2196F3;
+            color: white;
+        }
+        
+        .tare-btn:hover {
+            background-color: #0b7dda;
+        }
+        
+        .log {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .error {
+            color: #dc3545;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BWPOST Ohaus Defender 3000 Scale Interface</h1>
+        
+        <div id="status" class="status disconnected">
+            📡 Disconnected - Click "Connect to Scale" to begin
+        </div>
+        
+        <div id="error-message" class="error hidden"></div>
+        
+        <div class="weight-display" id="weight-display">
+            --- kg
+        </div>
+        
+        <div class="controls">
+            <button id="connect-btn" class="connect-btn">Connect to Scale</button>
+            <button id="disconnect-btn" class="disconnect-btn hidden">Disconnect</button>
+            <button id="tare-btn" class="tare-btn hidden">Tare Scale</button>
+            <button id="request-btn" class="tare-btn hidden">Request Weight</button>
+        </div>
+        
+        <div class="log" id="log">
+            <div>Ready to connect to your Ohaus Defender 3000 scale...</div>
+        </div>
+    </div>
+
+    <script>
+        let port = null;
+        let reader = null;
+        let isConnected = false;
+        let dataBuffer = ''; // Buffer to collect fragmented data
+        let weightRequestInterval = null;
+        
+        const statusEl = document.getElementById('status');
+        const weightDisplayEl = document.getElementById('weight-display');
+        const connectBtn = document.getElementById('connect-btn');
+        const disconnectBtn = document.getElementById('disconnect-btn');
+        const tareBtn = document.getElementById('tare-btn');
+        const requestBtn = document.getElementById('request-btn');
+        const logEl = document.getElementById('log');
+        const errorEl = document.getElementById('error-message');
+        
+        // Check if Web Serial API is supported
+        if (!('serial' in navigator)) {
+            showError('Web Serial API is not supported in this browser. Please use Chrome or Edge.');
+        }
+        
+        function log(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            logEl.innerHTML += `<div>${timestamp}: ${message}</div>`;
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+        
+        function showError(message) {
+            errorEl.textContent = message;
+            errorEl.classList.remove('hidden');
+            log(`ERROR: ${message}`);
+        }
+        
+        function hideError() {
+            errorEl.classList.add('hidden');
+        }
+        
+        function updateUI(connected) {
+            if (connected) {
+                statusEl.textContent = '✅ Connected to Scale';
+                statusEl.className = 'status connected';
+                connectBtn.classList.add('hidden');
+                disconnectBtn.classList.remove('hidden');
+                tareBtn.classList.remove('hidden');
+                requestBtn.classList.remove('hidden');
+            } else {
+                statusEl.textContent = '📡 Disconnected - Click "Connect to Scale" to begin';
+                statusEl.className = 'status disconnected';
+                connectBtn.classList.remove('hidden');
+                disconnectBtn.classList.add('hidden');
+                tareBtn.classList.add('hidden');
+                requestBtn.classList.add('hidden');
+                weightDisplayEl.textContent = '--- kg';
+            }
+        }
+        
+        function parseWeightData(data) {
+            // Add data to buffer
+            dataBuffer += data;
+            
+            // Look for complete weight readings in the buffer
+            // Based on your output: "8.0 kg 48.0 kg G"
+            // It seems your scale sends weight readings that end with unit + possible status
+            
+            log(`Buffer content: "${dataBuffer}"`);
+            
+            // Look for patterns that indicate complete weight readings
+            const patterns = [
+                /(\d+\.?\d*)\s*kg/gi,  // Weight followed by kg
+                /(\d+\.?\d*)\s*g(?!\s*k)/gi,   // Weight followed by g (but not kg)
+                /(\d+\.?\d*)\s*lb/gi,  // Weight followed by lb
+            ];
+            
+            let foundWeight = null;
+            let foundUnit = 'kg';
+            
+            for (let pattern of patterns) {
+                pattern.lastIndex = 0; // Reset regex
+                const matches = [...dataBuffer.matchAll(pattern)];
+                
+                if (matches.length > 0) {
+                    // Take the last (most recent) weight reading
+                    const lastMatch = matches[matches.length - 1];
+                    foundWeight = parseFloat(lastMatch[1]);
+                    foundUnit = lastMatch[0].includes('kg') ? 'kg' : 
+                              lastMatch[0].includes('lb') ? 'lb' : 'g';
+                    //foundUnit = lastMatch[0].includes('kg') ? 'kg' :'g';
+
+                    
+                    log(`Parsed weight: ${foundWeight} ${foundUnit}`);
+                    log(`total matches found: ${matches.length}`);
+                    break;
+                }
+            }
+            
+            // Clear buffer if it gets too long or contains complete data
+            if (dataBuffer.length > 100 || foundWeight !== null) {
+                dataBuffer = '';
+            }
+            
+            return { 
+                weight: foundWeight, 
+                unit: foundUnit, 
+                raw: data 
+            };
+        }
+        
+        async function connectToScale() {
+            try {
+                hideError();
+                log('Requesting serial port access...');
+                
+                // Request access to serial port
+                port = await navigator.serial.requestPort();
+                
+                log('Opening connection to scale...');
+                
+                // Open the serial port with common Ohaus settings
+                await port.open({
+                    baudRate: 9600,  // Most common for Ohaus scales
+                    dataBits: 8,
+                    stopBits: 1,
+                    parity: 'none',
+                    bufferSize: 1024
+                });
+                
+                isConnected = true;
+                updateUI(true);
+                log('Successfully connected to scale!');
+                
+                // Start reading data
+                await readFromScale();
+                
+            } catch (error) {
+                showError(`Failed to connect: ${error.message}`);
+                isConnected = false;
+                updateUI(false);
+            }
+        }
+        
+        async function readFromScale() {
+            if (!port || !port.readable) return;
+            
+            try {
+                reader = port.readable.getReader();
+                
+                // Start requesting weight data periodically for real-time updates
+                weightRequestInterval = setInterval(async () => {
+                    if (isConnected) {
+                        await requestWeight();
+                    }
+                }, 1000); // Request weight every 1 second
+                
+                while (isConnected) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+                    
+                    const text = new TextDecoder().decode(value);
+                    log(`Raw data received: "${text}"`);
+                    
+                    const parsed = parseWeightData(text);
+                    
+                    if (parsed.weight !== null) {
+                        // Update the weight display div
+                        weightDisplayEl.textContent = `${parsed.weight} ${parsed.unit}`;
+                        log(`✅ Weight updated: ${parsed.weight} ${parsed.unit}`);
+                    }
+                }
+                
+            } catch (error) {
+                showError(`Reading error: ${error.message}`);
+                await disconnectFromScale();
+            } finally {
+                if (reader) {
+                    reader.releaseLock();
+                }
+            }
+        }
+        
+        async function requestWeight() {
+            if (!port || !port.writable || !isConnected) {
+                log('⚠️ Cannot request weight - port not available');
+                return;
+            }
+            
+            try {
+                const writer = port.writable.getWriter();
+                
+                // Try different commands that might work with your scale
+                // Based on Ohaus documentation, try these commands:
+                const commands = ['P\r\n', 'IP\r\n', '\r\n'];  // P=Print, IP=Immediate Print, or just Enter
+                
+                // Try the first command (P for Print)
+                const command = commands[1];
+                
+                await writer.write(new TextEncoder().encode(command));
+                await writer.releaseLock();
+                
+                log(`📤 Weight request sent: "${command.replace(/\r\n/g, '\\r\\n')}"`);
+                
+            } catch (error) {
+                log(`❌ Weight request failed: ${error.message}`);
+            }
+        }
+        
+        async function disconnectFromScale() {
+            try {
+                isConnected = false;
+                
+                // Clear the interval
+                if (weightRequestInterval) {
+                    clearInterval(weightRequestInterval);
+                    weightRequestInterval = null;
+                }
+                
+                if (reader) {
+                    await reader.cancel();
+                    reader.releaseLock();
+                    reader = null;
+                }
+                
+                if (port) {
+                    await port.close();
+                    port = null;
+                }
+                
+                // Clear data buffer
+                dataBuffer = '';
+                
+                updateUI(false);
+                log('Disconnected from scale');
+                hideError();
+                
+            } catch (error) {
+                showError(`Disconnect error: ${error.message}`);
+            }
+        }
+        
+        async function tareScale() {
+            if (!port || !port.writable) {
+                showError('Scale not connected for tare command');
+                return;
+            }
+            
+            try {
+                const writer = port.writable.getWriter();
+                
+                // Common tare commands for Ohaus scales
+                // You may need to adjust this based on your specific model
+                const tareCommand = 'T\r\n';  // or 'Z\r\n' or 'TARE\r\n'
+                
+                await writer.write(new TextEncoder().encode(tareCommand));
+                await writer.releaseLock();
+                
+                log('Tare command sent');
+                
+            } catch (error) {
+                showError(`Tare error: ${error.message}`);
+            }
+        }
+        
+        // Event listeners
+        connectBtn.addEventListener('click', connectToScale);
+        disconnectBtn.addEventListener('click', disconnectFromScale);
+        tareBtn.addEventListener('click', tareScale);
+        requestBtn.addEventListener('click', requestWeight);
+        
+        // Handle page unload
+        window.addEventListener('beforeunload', async (event) => {
+            if (isConnected) {
+                await disconnectFromScale();
+            }
+        });
+        
+        log('Application loaded. Ready to connect to your scale.');
+    </script>
+</body>
+</html>
