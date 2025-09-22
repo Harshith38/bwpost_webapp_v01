@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermec PF4i Printer Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .button:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .status.connected {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .status.disconnected {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .status.info {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        .output {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .warning {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            border: 1px solid #ffeaa7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Intermec Printer Control</h1>
+        
+        <div class="warning">
+            <strong>Note:</strong> Web Serial API requires HTTPS and user interaction. Make sure your printer is connected via USB or serial port.
+        </div>
+
+        <div class="controls">
+            <button id="connectBtn" class="button">Connect to Printer</button>
+            <button id="disconnectBtn" class="button" disabled>Disconnect</button>
+            <button id="getConfigBtn" class="button" disabled>Get Configuration</button>
+            <button id="testPrintBtn" class="button" disabled>Test Print</button>
+            <button id="clearOutputBtn" class="button">Clear Output</button>
+        </div>
+
+        <div id="status" class="status disconnected">Disconnected</div>
+        
+        <h3>Output:</h3>
+        <div id="output" class="output">Ready to connect to printer...</div>
+    </div>
+
+    <script>
+        class IntermecPrinter {
+            constructor() {
+                this.port = null;
+                this.reader = null;
+                this.writer = null;
+                this.outputElement = document.getElementById('output');
+                this.statusElement = document.getElementById('status');
+                this.isConnected = false;
+            }
+
+            log(message, type = 'info') {
+                const timestamp = new Date().toLocaleTimeString();
+                const logMessage = `[${timestamp}] ${message}\n`;
+                this.outputElement.textContent += logMessage;
+                this.outputElement.scrollTop = this.outputElement.scrollHeight;
+                
+                if (type === 'error') {
+                    console.error(message);
+                } else {
+                    console.log(message);
+                }
+            }
+
+            updateStatus(message, isConnected = false) {
+                this.statusElement.textContent = message;
+                this.statusElement.className = `status ${isConnected ? 'connected' : 'disconnected'}`;
+                this.isConnected = isConnected;
+                this.updateButtons();
+            }
+
+            updateButtons() {
+                document.getElementById('connectBtn').disabled = this.isConnected;
+                document.getElementById('disconnectBtn').disabled = !this.isConnected;
+                document.getElementById('getConfigBtn').disabled = !this.isConnected;
+                document.getElementById('testPrintBtn').disabled = !this.isConnected;
+            }
+
+            async connect() {
+                try {
+                    if (!('serial' in navigator)) {
+                        throw new Error('Web Serial API not supported in this browser');
+                    }
+
+                    this.log('Requesting serial port...');
+                    
+                    // Request a port with common printer settings
+                    this.port = await navigator.serial.requestPort();
+                    
+                    this.log('Opening serial connection...');
+                    
+                    // Open the port with standard printer settings
+                    await this.port.open({
+                        baudRate: 9600,
+                        dataBits: 8,
+                        stopBits: 1,
+                        parity: 'none',
+                        flowControl: 'none'
+                    });
+
+                    // Set up reader and writer
+                    this.reader = this.port.readable.getReader();
+                    this.writer = this.port.writable.getWriter();
+
+                    this.log('Connected to Intermec PF4i printer successfully!');
+                    this.updateStatus('Connected', true);
+
+                    // Start reading responses
+                    this.startReading();
+
+                } catch (error) {
+                    this.log(`Connection failed: ${error.message}`, 'error');
+                    this.updateStatus('Connection failed', false);
+                }
+            }
+
+            async startReading() {
+                try {
+                    while (this.port.readable && this.isConnected) {
+                        const { value, done } = await this.reader.read();
+                        if (done) break;
+                        
+                        const response = new TextDecoder().decode(value);
+                        if (response.trim()) {
+                            this.log(`Printer response: ${response.trim()}`);
+                        }
+                    }
+                } catch (error) {
+                    this.log(`Read error: ${error.message}`, 'error');
+                }
+            }
+
+            async sendCommand(command) {
+                if (!this.writer) {
+                    throw new Error('Not connected to printer');
+                }
+
+                this.log(`Sending command: ${command.trim()}`);
+                
+                const encoder = new TextEncoder();
+                await this.writer.write(encoder.encode(command + '\r\n'));
+                
+                // Small delay to allow printer to process
+                await new Promise(resolve => setTimeout(resolve, 100));
+            }
+
+            async getConfiguration() {
+                try {
+                    this.log('Requesting printer configuration...');
+                    
+                    // Intermec command to get printer status and configuration
+                    await this.sendCommand('SETUP');
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                    
+                    // Get printer information
+                    await this.sendCommand('? "PRINTERS"');
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                    
+                    // Get current setup
+                    await this.sendCommand('? SETUP');
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                    
+                    // Get media information
+                    await this.sendCommand('? "MEDIA SIZE"');
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                    
+                    this.log('Configuration request completed.');
+                    
+                } catch (error) {
+                    this.log(`Configuration request failed: ${error.message}`, 'error');
+                }
+            }
+
+            async testPrint() {
+                try {
+                    this.log('Sending test print job...');
+                    
+                    // Intermec IPL (Intermec Printer Language) test label
+                    const testLabel = `
+<STX><ESC>C<ETX>
+<STX><ESC>P<ETX>
+<STX>E1;F1;<ETX>
+<STX>H0;o100,50;f3;c26;h50;w50;d3,TEST PRINT;<ETX>
+<STX>H0;o100,120;f3;c26;h30;w30;d3,Intermec PF4i;<ETX>
+<STX>H0;o100,170;f3;c26;h25;w25;d3,${new Date().toLocaleString()};<ETX>
+<STX>B0;o100,220;f3;c6,0;i0;h50;w2;d3,*TEST123*;<ETX>
+<STX>R<ETX>
+<STX><ESC>E1<ETX>
+`;
+
+                    // Convert control characters
+                    const formattedLabel = testLabel
+                        .replace(/<STX>/g, '\x02')
+                        .replace(/<ESC>/g, '\x1B')
+                        .replace(/<ETX>/g, '\x03');
+
+                    await this.sendCommand(formattedLabel);
+                    
+                    this.log('Test print job sent successfully!');
+                    
+                } catch (error) {
+                    this.log(`Test print failed: ${error.message}`, 'error');
+                }
+            }
+
+            async disconnect() {
+                try {
+                    this.isConnected = false;
+                    
+                    if (this.reader) {
+                        await this.reader.cancel();
+                        await this.reader.releaseLock();
+                        this.reader = null;
+                    }
+                    
+                    if (this.writer) {
+                        await this.writer.releaseLock();
+                        this.writer = null;
+                    }
+                    
+                    if (this.port) {
+                        await this.port.close();
+                        this.port = null;
+                    }
+                    
+                    this.log('Disconnected from printer');
+                    this.updateStatus('Disconnected', false);
+                    
+                } catch (error) {
+                    this.log(`Disconnect error: ${error.message}`, 'error');
+                }
+            }
+
+            clearOutput() {
+                this.outputElement.textContent = 'Output cleared...\n';
+            }
+        }
+
+        // Initialize the printer controller
+        const printer = new IntermecPrinter();
+
+        // Event listeners
+        document.getElementById('connectBtn').addEventListener('click', () => printer.connect());
+        document.getElementById('disconnectBtn').addEventListener('click', () => printer.disconnect());
+        document.getElementById('getConfigBtn').addEventListener('click', () => printer.getConfiguration());
+        document.getElementById('testPrintBtn').addEventListener('click', () => printer.testPrint());
+        document.getElementById('clearOutputBtn').addEventListener('click', () => printer.clearOutput());
+
+        // Handle page unload
+        window.addEventListener('beforeunload', () => {
+            if (printer.isConnected) {
+                printer.disconnect();
+            }
+        });
+
+        // Check Web Serial API support
+        if (!('serial' in navigator)) {
+            document.getElementById('output').textContent = 'Web Serial API is not supported in this browser. Please use Chrome, Edge, or another Chromium-based browser with HTTPS.';
+            document.getElementById('connectBtn').disabled = true;
+        }
+    </script>
+</body>
+</html>

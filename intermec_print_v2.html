@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermec PF4i Web Serial Printer</title>
+    <style>
+        body { 
+            font-family: sans-serif; 
+            line-height: 1.6; 
+            padding: 2em; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; margin-bottom: 0.5em; }
+        .subtitle { color: #666; margin-bottom: 2em; }
+        textarea { 
+            width: 100%; 
+            height: 200px; 
+            font-family: 'Courier New', monospace; 
+            font-size: 12px; 
+            margin-bottom: 1em;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            resize: vertical;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 1em;
+        }
+        button { 
+            font-size: 1em; 
+            padding: 12px 24px; 
+            cursor: pointer; 
+            border: none; 
+            border-radius: 5px; 
+            transition: background-color 0.3s;
+        }
+        .primary-btn {
+            background-color: #007bff; 
+            color: white;
+        }
+        .primary-btn:hover { background-color: #0056b3; }
+        .secondary-btn {
+            background-color: #6c757d;
+            color: white;
+        }
+        .secondary-btn:hover { background-color: #545b62; }
+        .info { 
+            background-color: #e7f3ff; 
+            border-left: 5px solid #007bff; 
+            padding: 15px; 
+            margin: 1em 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 1em 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .status.success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .status.error { background-color: #f8d7da; color: #721c24; border: 1px solid #f1b0b7; }
+        .status.info { background-color: #cce7ff; color: #004085; border: 1px solid #b3d7ff; }
+        code { background-color: #f8f9fa; padding: 2px 4px; border-radius: 3px; font-family: monospace; }
+        .examples {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Web Serial Print Test</h1>
+        <p class="subtitle">Send IPL (Intermec Printer Language) commands to your Intermec PF4i printer</p>
+        
+        <div class="warning">
+            <strong>Important Setup Requirements:</strong>
+            <ul>
+                <li>Use <strong>RS-232 to USB adapter cable</strong> (NOT standard USB A-to-B)</li>
+                <li>Ensure printer is powered on and paper is loaded</li>
+                <li>Check that baud rate matches your printer settings (default: 9600)</li>
+                <li>Use Chrome or Edge browser (Web Serial API required)</li>
+            </ul>
+        </div>
+
+        <div class="examples">
+            <strong>Sample IPL Commands:</strong>
+            <ul>
+                <li><code>Simple Text</code> - Basic text label</li>
+                <li><code>Barcode</code> - Code 128 barcode example</li>
+                <li><code>Test Pattern</code> - Printer test pattern</li>
+            </ul>
+        </div>
+
+        <textarea id="iplCode" placeholder="Enter your IPL commands here..."></textarea>
+        
+        <div class="button-group">
+            <button id="printButton" class="primary-btn">🖨️ Print Label</button>
+            <button id="testButton" class="secondary-btn">🧪 Load Test Command</button>
+            <button id="barcodeButton" class="secondary-btn">📊 Load Barcode Example</button>
+            <button id="clearButton" class="secondary-btn">🗑️ Clear</button>
+        </div>
+
+        <div id="statusDiv"></div>
+
+        <div class="info">
+            <h3>Troubleshooting Tips:</h3>
+            <ul>
+                <li><strong>No response?</strong> Check cable connection and baud rate</li>
+                <li><strong>Garbled output?</strong> Verify IPL command syntax</li>
+                <li><strong>Permission denied?</strong> Make sure to grant serial port access</li>
+                <li><strong>Printer not found?</strong> Try different USB ports or restart the printer</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Status management
+        function showStatus(message, type = 'info') {
+            const statusDiv = document.getElementById('statusDiv');
+            statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+            console.log(`[${type.toUpperCase()}] ${message}`);
+        }
+
+        // Sample IPL commands
+        const sampleCommands = {
+            simple: `<STX>L
+H13
+o70,100
+t0,0,0,1,1
+T1,30,2,30,Hello World!
+T1,60,2,30,Intermec PF4i Test
+T1,90,2,30,Web Serial API
+P1
+<ETX>`,
+            
+            barcode: `<STX>L
+H13
+o70,100
+t0,0,0,1,1
+T1,20,2,30,Barcode Example:
+B1,50,0,1,3,6,60,N,"123456789"
+T1,130,2,30,123456789
+P1
+<ETX>`,
+            
+            test: `<STX>L
+H13
+o70,100
+t0,0,0,1,1
+T1,20,2,30,PRINTER TEST
+T1,40,3,40,PF4i Ready
+T1,70,2,30,Date: ${new Date().toLocaleDateString()}
+T1,90,2,30,Time: ${new Date().toLocaleTimeString()}
+P1
+<ETX>`
+        };
+
+        // Convert readable format to actual control characters
+        function formatIplCommand(command) {
+            return command
+                .replace(/<STX>/g, '\x02')
+                .replace(/<ETX>/g, '\x03')
+                .replace(/\n/g, '\r');
+        }
+
+        // Initialize with simple example
+        document.getElementById('iplCode').value = sampleCommands.simple;
+
+        // Button event listeners
+        document.getElementById('printButton').addEventListener('click', () => {
+            const iplCommand = document.getElementById('iplCode').value;
+            if (!iplCommand.trim()) {
+                showStatus('Please enter an IPL command before printing.', 'error');
+                return;
+            }
+            printToIntermec(iplCommand);
+        });
+
+        document.getElementById('testButton').addEventListener('click', () => {
+            document.getElementById('iplCode').value = sampleCommands.test;
+            showStatus('Test command loaded. Click "Print Label" to test your printer.', 'info');
+        });
+
+        document.getElementById('barcodeButton').addEventListener('click', () => {
+            document.getElementById('iplCode').value = sampleCommands.barcode;
+            showStatus('Barcode example loaded. Modify the barcode data as needed.', 'info');
+        });
+
+        document.getElementById('clearButton').addEventListener('click', () => {
+            document.getElementById('iplCode').value = '';
+            showStatus('Command area cleared.', 'info');
+        });
+
+        /**
+         * Connects to serial port and sends IPL command to Intermec printer
+         * @param {string} iplCommand - The IPL command string to send
+         */
+        async function printToIntermec(iplCommand) {
+            // Check for Web Serial API support
+            if (!("serial" in navigator)) {
+                showStatus('Web Serial API is not supported. Please use Chrome or Edge browser.', 'error');
+                return;
+            }
+
+            showStatus('Requesting serial port access...', 'info');
+
+            try {
+                // Request serial port access
+                const port = await navigator.serial.requestPort();
+                
+                showStatus('Opening connection to printer...', 'info');
+
+                // Open port with Intermec PF4i settings
+                await port.open({ 
+                    baudRate: 9600,
+                    dataBits: 8,
+                    stopBits: 1,
+                    parity: 'none',
+                    flowControl: 'none'
+                });
+
+                showStatus('Connected! Sending print command...', 'info');
+
+                // Get writer for sending data
+                const writer = port.writable.getWriter();
+
+                // Format and encode the IPL command
+                const formattedCommand = formatIplCommand(iplCommand);
+                const data = new TextEncoder().encode(formattedCommand);
+
+                console.log('Sending IPL command:', formattedCommand.replace(/\x02/g, '<STX>').replace(/\x03/g, '<ETX>').replace(/\r/g, '\\r'));
+
+                // Send command to printer
+                await writer.write(data);
+
+                // Add small delay to ensure command is processed
+                await new Promise(resolve => setTimeout(resolve, 100));
+
+                // Clean up
+                writer.releaseLock();
+                
+                showStatus('Closing connection...', 'info');
+                await port.close();
+                
+                showStatus('✅ Print command sent successfully! Check your printer.', 'success');
+
+            } catch (error) {
+                console.error('Printing error:', error);
+                
+                if (error.name === 'NotFoundError') {
+                    showStatus('❌ No serial port selected. Please try again and select your printer.', 'error');
+                } else if (error.name === 'InvalidStateError') {
+                    showStatus('❌ Port communication error. Check cable and printer power.', 'error');
+                } else if (error.name === 'NetworkError') {
+                    showStatus('❌ Communication failed. Verify baud rate and cable connection.', 'error');
+                } else {
+                    showStatus(`❌ Printing failed: ${error.message}`, 'error');
+                }
+            }
+        }
+
+        // Initialize
+        showStatus('Ready to print. Load a sample command or enter your own IPL code.', 'info');
+    </script>
+</body>
+</html>

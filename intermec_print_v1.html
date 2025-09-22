@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermec Web Serial Printer</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 2em; max-width: 800px; margin: 0 auto; }
+        h1 { color: #333; }
+        textarea { width: 100%; height: 150px; font-family: monospace; font-size: 14px; margin-bottom: 1em; }
+        button { font-size: 1.2em; padding: 10px 20px; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px; }
+        button:hover { background-color: #0056b3; }
+        .info { background-color: #f0f0f0; border-left: 5px solid #007bff; padding: 10px; margin-top: 1em;}
+    </style>
+</head>
+<body>
+
+    <h1> Web Serial Printer </h1>
+    <p>Enter the IPL command below and click the button to print.</p>
+
+    <textarea id="iplCode"></textarea>
+    <button id="printButton">Print Label</button>
+
+    <div class="info">
+        <p><strong>Note:</strong> Make sure your Intermec PF4i is connected via an <strong>RS-232 to USB adapter cable</strong>. A standard USB A-to-B cable will not work with this API.</p>
+    </div>
+
+    <script>
+        // --- Sample IPL Command for an Intermec Printer ---
+        // This command prints "Hello World" on the label.
+        // \x02 is the <STX> (Start of Text) character.
+        // \x03 is the <ETX> (End of Text) character.
+        // \r is the <CR> (Carriage Return) character.
+        const sampleIpl = '\x02L\r' +
+                          '121100001000100Print test!\r' +
+                          'E\r\x03';
+
+        // Pre-fill the textarea with the sample command
+        document.getElementById('iplCode').value = sampleIpl;
+
+        const printButton = document.getElementById('printButton');
+
+        printButton.addEventListener('click', () => {
+            const iplCommand = document.getElementById('iplCode').value;
+            printToIntermec(iplCommand);
+        });
+
+        /**
+         * Connects to a serial port and sends the provided IPL command string.
+         * @param {string} iplCommand The raw IPL command to send to the printer.
+         */
+        async function printToIntermec(iplCommand) {
+            if (!("serial" in navigator)) {
+                alert("The Web Serial API is not supported by your browser. Please use Chrome or Edge.");
+                return;
+            }
+
+            console.log("Requesting serial port...");
+            try {
+                // Request permission to access the serial port from the user
+                const port = await navigator.serial.requestPort();
+
+                // Open the port with settings for Intermec printers (9600 baud is common)
+                console.log("Opening port...");
+                await port.open({ baudRate: 9600 });
+                console.log("Port opened.");
+
+                // Get a writer to send data to the serial port
+                const writer = port.writable.getWriter();
+
+                // Encode the IPL string into a format that can be sent (Uint8Array)
+                const data = new TextEncoder().encode(iplCommand);
+
+                // Write the data to the port
+                console.log("Sending command:", iplCommand);
+                await writer.write(data);
+                console.log("Command sent.");
+
+                // Release the writer's lock on the port
+                writer.releaseLock();
+                
+                // Close the port
+                console.log("Closing port...");
+                await port.close();
+                console.log("Port closed. Label should be printing!");
+
+            } catch (error) {
+                console.error("There was an error:", error);
+                alert("Printing failed. Check the console for more details.");
+            }
+        }
+    </script>
+
+</body>
+</html>
