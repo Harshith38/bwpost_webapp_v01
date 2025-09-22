@@ -220,20 +220,24 @@
                     this.log('Requesting printer configuration...');
                     
                     // Intermec command to get printer status and configuration
-                    await this.sendCommand('SETUP');
-                    await new Promise(resolve => setTimeout(resolve, 500));
+                    //await this.sendCommand('SETUP');
+                    //await new Promise(resolve => setTimeout(resolve, 500));
                     
                     // Get printer information
-                    await this.sendCommand('? "PRINTERS"');
-                    await new Promise(resolve => setTimeout(resolve, 500));
+                    //await this.sendCommand('? "PRINTERS"');
+                    //await new Promise(resolve => setTimeout(resolve, 500));
                     
                     // Get current setup
-                    await this.sendCommand('? SETUP');
-                    await new Promise(resolve => setTimeout(resolve, 500));
+                    //await this.sendCommand('? SETUP');
+                    //await new Promise(resolve => setTimeout(resolve, 500));
                     
                     // Get media information
-                    await this.sendCommand('? "MEDIA SIZE"');
-                    await new Promise(resolve => setTimeout(resolve, 500));
+                    //await this.sendCommand('? "MEDIA SIZE"');
+                    //await new Promise(resolve => setTimeout(resolve, 500));
+                    
+                    // Get media information
+                    await this.sendCommand('? VERSION$ ↵');
+                    //await new Promise(resolve => setTimeout(resolve, 500));
                     
                     this.log('Configuration request completed.');
                     
