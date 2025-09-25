@@ -113,9 +113,10 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('tour_display').addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             e.preventDefault();
-            //if (document.getElementById('wagen_gewicht_nummer').value =='') {
-             //   requestWeight();
-              //  }
+            
+            if (document.getElementById('wagen_gewicht_nummer').value =='') {
+                requestWeight();
+                }
             document.getElementById('wagen_gewicht_nummer').focus();
             //document.getElementById('dropdown_tag_list').focus();
 
@@ -367,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         if (gewichtInput.value>348 && typeSelector.value == 'wagen') {
-            alert('Achtung!!!, Bitte Nicht mehr als 300 kg in WAGEN Eintagen.');
+            alert('Achtung!!!, Bitte Nicht mehr als 348 kg in WAGEN Eintagen.');
             return;
         }
 
@@ -1128,7 +1129,7 @@ document.addEventListener('DOMContentLoaded', function() {
             weightDisplayEl.textContent = '✅ Verbunden! Ohne Wert Enter drücken oder Wert eingeben';
 
         } else {
-            statusEl.textContent = '📡 Disconnected - Click "Connect to Scale" to begin';
+            statusEl.textContent = ' 📡 Nicht verbunden – Klicken Sie auf „Connect to Scale“, und wählen Sie „USB-Serial-Controller (COM3)“ um zu beginnen.';
            // statusEl.className = 'status disconnected';
             connectBtn.classList.remove('hidden');
             disconnectBtn.classList.add('hidden');
