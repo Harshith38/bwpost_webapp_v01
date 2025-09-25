@@ -35579,7 +35579,7 @@
     "ID": 2402239,
     "NAME1": "Auto Winter Mathias Loos e.K.",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
@@ -37379,9 +37379,9 @@
     "ID": 2403015,
     "NAME1": "B\u00dcNDNIS 90/DIE GR\u00dcNEN",
     "NAME2": "Kreisverband Stuttgart",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2403021,
@@ -42003,9 +42003,9 @@
     "ID": 2402984,
     "NAME1": "Rechtsanwalt Hans-Peter Gaiser",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4011532,
@@ -45181,7 +45181,7 @@
     "NAME2": "Zahnarzt",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
+    "MAHNSTUFE": 1
   },
   {
     "ID": 74015139,
@@ -46371,9 +46371,9 @@
     "ID": 2403568,
     "NAME1": "Verein zur Hilfe f\u00fcr Ev. Pfarrerinnen und Pfarrer in W\u00fcrttemberg e.V",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2403569,
@@ -46737,7 +46737,7 @@
   },
   {
     "ID": 4013231,
-    "NAME1": "Erwin Kugel und Simone Mack-Kugel",
+    "NAME1": "Erwin Kugel",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -57040,6 +57040,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012902,
+    "NAME1": "Andreas Jahn Verpackung e.K.",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013504,
+    "NAME1": "Alfred und Marlene Wittmeier",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74014895,
+    "NAME1": "Katholische Gesamtkirchengemeinde",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012852,
     "NAME1": "Hausarztpraxis Dangel",
     "NAME2": "",
@@ -57202,6 +57226,22 @@
   {
     "ID": 4013499,
     "NAME1": "Josef Stefan Schwartz",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013508,
+    "NAME1": "Inge Holzwarth",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013507,
+    "NAME1": "Astrid Liebl",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
@@ -59016,6 +59056,46 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016277,
+    "NAME1": "Vereinigte Volksbanken eG",
+    "NAME2": "Aktionen",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013509,
+    "NAME1": "Katja Frey",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013506,
+    "NAME1": "Nicola Manduzio",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013513,
+    "NAME1": "Ursula Schaef",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013512,
+    "NAME1": "Benjamin Scherer",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4001271,
     "NAME1": "",
     "NAME2": "",
@@ -60005,6 +60085,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013505,
+    "NAME1": "Ulrich Thorenz",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013511,
+    "NAME1": "Manfred Lange",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
