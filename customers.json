@@ -4443,9 +4443,9 @@
     "ID": 2299200,
     "NAME1": "Richard Schairer",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2300400,
@@ -4529,7 +4529,7 @@
   },
   {
     "ID": 2336500,
-    "NAME1": "Germania Steuerberatungsgesellschaft m.b.H.",
+    "NAME1": "Germania Steuerberatungsgesellschaft mbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -4969,11 +4969,11 @@
   },
   {
     "ID": 2305000,
-    "NAME1": "B.A.D Gesundheitsvorsorge und Sicherheitstechnik GmbH",
+    "NAME1": "BG prevent GmbH",
     "NAME2": "",
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2305200,
@@ -8641,7 +8641,7 @@
   },
   {
     "ID": 2400265,
-    "NAME1": "B\u00b7A\u00b7D Gesundheitsvorsorge und Sicherheitstechnik GmbH",
+    "NAME1": "BG prevent GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -31939,7 +31939,7 @@
     "ID": 74011469,
     "NAME1": "VR - Bank eG",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -35580,7 +35580,7 @@
     "NAME1": "Auto Winter Mathias Loos e.K.",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 0,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -54315,8 +54315,8 @@
     "ID": 74010776,
     "NAME1": "Lippemeier Geb\u00e4udereinigungsdienst GmbH",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -57064,6 +57064,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013515,
+    "NAME1": "Vidhi Metha",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013516,
+    "NAME1": "Stefanie Studir",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012852,
     "NAME1": "Hausarztpraxis Dangel",
     "NAME2": "",
@@ -57389,6 +57405,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016281,
+    "NAME1": "Kath. Pfarramt St. Raphael / Pfarrb\u00fcro St. Raphael",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -58928,6 +58952,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013514,
+    "NAME1": "Thomas K\u00fcssner",
+    "NAME2": "Ute Schwarting",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74015140,
     "NAME1": "Varia",
     "NAME2": "",
@@ -59090,6 +59122,14 @@
   {
     "ID": 4013512,
     "NAME1": "Benjamin Scherer",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013517,
+    "NAME1": "Tobias H\u00e4berle",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
@@ -59360,6 +59400,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016278,
+    "NAME1": "Verein zur F\u00f6rderung Lernbehinderter",
+    "NAME2": "B\u00f6blingen und Umgebung e.V",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403675,
+    "NAME1": "Evangelische Verbundkirchengemeinde",
+    "NAME2": "Oberriexingen",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013380,
     "NAME1": "Ernst Uwe Neubauer",
     "NAME2": "c/o Guido Wiest",
@@ -59582,6 +59638,14 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
+  },
+  {
+    "ID": 2403677,
+    "NAME1": "Christuskirche Korntal",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
   },
   {
     "ID": 4013378,
@@ -60101,6 +60165,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403676,
+    "NAME1": "Evangelische Verbundkirchengemeinde",
+    "NAME2": "Markgr\u00f6ningen",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
