@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('tour_display').addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             e.preventDefault();
-            
+
             if (document.getElementById('wagen_gewicht_nummer').value =='') {
                 requestWeight();
                 }
@@ -1129,7 +1129,7 @@ document.addEventListener('DOMContentLoaded', function() {
             weightDisplayEl.textContent = '✅ Verbunden! Ohne Wert Enter drücken oder Wert eingeben';
 
         } else {
-            statusEl.textContent = ' 📡 Nicht verbunden – Klicken Sie auf „Connect to Scale“, und wählen Sie „USB-Serial-Controller (COM3)“ um zu beginnen.';
+            statusEl.textContent = ' ❌ Nicht verbunden – Klicken Sie auf „Connect to Scale“, und wählen Sie „USB-Serial-Controller (COM3)“ um zu beginnen.';
            // statusEl.className = 'status disconnected';
             connectBtn.classList.remove('hidden');
             disconnectBtn.classList.add('hidden');
