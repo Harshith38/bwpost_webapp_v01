@@ -11976,14 +11976,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5400247,
-    "NAME1": "Evangelische Gesamtkirchengemeinde",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2400993,
     "NAME1": "Presse-Verlag Aktuell GmbH",
     "NAME2": "",
@@ -15873,7 +15865,7 @@
   },
   {
     "ID": 4010897,
-    "NAME1": "BG prevent",
+    "NAME1": "BG prevent GmbH",
     "NAME2": "Gesundheitszentrum Waiblingen",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -20939,7 +20931,7 @@
     "ID": 74011057,
     "NAME1": "Kinderuni in der Keplerstadt",
     "NAME2": "Weil der Stadt e.V.",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -53664,14 +53656,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404800,
-    "NAME1": "Generalagentur Gregor Karker",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2403387,
     "NAME1": "IKK classic - Stuttgart",
     "NAME2": "H01BW08014",
@@ -60274,6 +60258,118 @@
   {
     "ID": 2403687,
     "NAME1": "Evang. Kirchengemeinde Markus-Haigst",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013520,
+    "NAME1": "J\u00f6rg Sachers",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013519,
+    "NAME1": "Andreas Panz",
+    "NAME2": "Nachlass-Kanzlei Panz",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013502,
+    "NAME1": "Hans-Stefan Scholz",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013518,
+    "NAME1": "Michael Mittler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 7402390,
+    "NAME1": "Dr. Georg H. Schmickl",
+    "NAME2": "Zahnarztpraxis",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403688,
+    "NAME1": "Evangelische Kirchengemeinde Stuttgart Nord",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403689,
+    "NAME1": "Evangelische Leonhardsgemeinde",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403690,
+    "NAME1": "Kirchengemeinde Degerloch",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012903,
+    "NAME1": "Ev. Kirchgemeinde Unteres Bottwartal",
+    "NAME2": "Pfarrer Matthias Maier",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012904,
+    "NAME1": "Ev. Verbundkirchengemeinde Remshalden",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403691,
+    "NAME1": "Arno Keck",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403692,
+    "NAME1": "Klaus Sommer",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403693,
+    "NAME1": "Heinz-Dieter M\u00fcller",
+    "NAME2": "c/o Dr. Med. Michael M\u00fcller.",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403694,
+    "NAME1": "",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
