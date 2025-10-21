@@ -6441,8 +6441,8 @@
   },
   {
     "ID": 5400139,
-    "NAME1": "BAD Gesundheitsvorsorge und",
-    "NAME2": "Sicherheitstechnik GmbH",
+    "NAME1": "BG prevent GmbH",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -37003,7 +37003,7 @@
     "ID": 2402712,
     "NAME1": "Praxis f\u00fcr Physiotherapie",
     "NAME2": "Hermann Beddigs",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -37147,7 +37147,7 @@
     "ID": 2402968,
     "NAME1": "Architekturb\u00fcro Waschitza",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -37331,7 +37331,7 @@
     "ID": 2403021,
     "NAME1": "Metallbau Heimsch GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -37451,7 +37451,7 @@
     "ID": 2403023,
     "NAME1": "MDE \u2013 Messdienstleistungen Ertemelli GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -37483,7 +37483,7 @@
     "ID": 2403036,
     "NAME1": "Katzenhilfe Stuttgart e.V.",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -37675,7 +37675,7 @@
     "ID": 2403043,
     "NAME1": "Zimmermann Dienstleistungen",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -37915,7 +37915,7 @@
     "ID": 2402766,
     "NAME1": "Liv Bergen",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -37955,7 +37955,7 @@
     "ID": 2402769,
     "NAME1": "Thorsten Blickle",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -38035,7 +38035,7 @@
     "ID": 2403058,
     "NAME1": "Michael Schlotterbeck",
     "NAME2": "Fuhrunternehmen",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -38280,14 +38280,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4011279,
-    "NAME1": "ECOVIS RTS BW Steuerberatungsgesellschaft",
-    "NAME2": "GmbH & Co. KG",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2340600,
     "NAME1": "Huttenlocher & Sch\u00e4fer GmbH",
     "NAME2": "",
@@ -38323,7 +38315,7 @@
     "ID": 2403075,
     "NAME1": "Flyertyre Ambient Media",
     "NAME2": "Dienstleistungen & Marketing",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -38411,7 +38403,7 @@
     "ID": 2402690,
     "NAME1": "Theater in der Badewanne e.V.",
     "NAME2": "Stefan Kuntze",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -38443,7 +38435,7 @@
     "ID": 2402795,
     "NAME1": "Lamarketing e. K.",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -38963,7 +38955,7 @@
     "ID": 2402831,
     "NAME1": "Hansa Touristik GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
@@ -38971,7 +38963,7 @@
     "ID": 2402832,
     "NAME1": "tualo solution GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -39811,7 +39803,7 @@
     "ID": 2402883,
     "NAME1": "WIIPP GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -40163,7 +40155,7 @@
     "ID": 2402902,
     "NAME1": "Reise-Architektour",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -40603,7 +40595,7 @@
     "ID": 2402940,
     "NAME1": "Paladin Design- und Werbemanufaktur",
     "NAME2": "Holger Koch",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -40723,7 +40715,7 @@
     "ID": 2402935,
     "NAME1": "Forum Stadt Verlag",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -41483,7 +41475,7 @@
     "ID": 2402957,
     "NAME1": "Thomas Keck",
     "NAME2": "H\u00f6ren und Leben",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -41801,8 +41793,8 @@
   },
   {
     "ID": 74014839,
-    "NAME1": "R\u00f6hm Medien GmbH & Co. KG",
-    "NAME2": "Kostenstelle 21",
+    "NAME1": "R\u00f6hm Verlag und Medien GmbH",
+    "NAME2": "Kostenstelle 22",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -42931,7 +42923,7 @@
     "ID": 2402835,
     "NAME1": "Geisselmann GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -42955,7 +42947,7 @@
     "ID": 2402840,
     "NAME1": "T&D Dienstleitung GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -44227,7 +44219,7 @@
     "ID": 2402855,
     "NAME1": "Maler Maier GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -44467,7 +44459,7 @@
     "ID": 2402899,
     "NAME1": "ARINKO Stuttgart GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -49163,7 +49155,7 @@
     "ID": 2403396,
     "NAME1": "Enventa Group GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -50539,7 +50531,7 @@
     "ID": 2403096,
     "NAME1": "Fahrschule Uhl",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -54355,7 +54347,7 @@
     "ID": 2403303,
     "NAME1": "Gewerkschaft BTBkomba Baden W\u00fcrttenberg e.v.",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -54651,7 +54643,7 @@
     "ID": 2403317,
     "NAME1": "F\u00f6rderverein",
     "NAME2": "Deutsches Landwirtschaftsmuseum e.V.",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -54923,7 +54915,7 @@
     "ID": 2403200,
     "NAME1": "Archonic GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -56115,7 +56107,7 @@
     "ID": 2403360,
     "NAME1": "Piet Tanz & Veranstaltungs GmbH",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -60385,7 +60377,7 @@
   },
   {
     "ID": 4012905,
-    "NAME1": "Omas Studio GmbH & Co KG",
+    "NAME1": "Omas Studio GmbH & Co. KG",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60432,6 +60424,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403711,
+    "NAME1": "Volksbank Stuttgart eG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74016286,
     "NAME1": "R\u00f6hm GmbH & Co.KG",
     "NAME2": "Hockey Kst.: 92, Kto.4910000",
@@ -60448,6 +60448,78 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403707,
+    "NAME1": "Evang. Sarahkirchengemeinde Stuttgart",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4001506,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403710,
+    "NAME1": "Hockey-Club Ludwigsburg 1912 e.V.",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4001509,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012910,
+    "NAME1": "Ev. Kirchengemeinde Weissach im Tal",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403708,
+    "NAME1": "Evang. Magdalenenkirchengemeinde",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403713,
+    "NAME1": "Bundesagentur f\u00fcr Arbeit Stuttgart - Interner Service",
+    "NAME2": "Kurierfahrten",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012909,
+    "NAME1": "Evang. Kirchengemeinde Auenwald",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012908,
+    "NAME1": "Evang. Kirchengemeinde Steinenberg",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403704,
     "NAME1": "Evang. Stiftskirchengemeinde",
     "NAME2": "",
@@ -60458,6 +60530,30 @@
   {
     "ID": 2403705,
     "NAME1": "Evangelische Gesamtkirchengemeinde Obert\u00fcrkheim-Uhlbach",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403709,
+    "NAME1": "Evang. Stadt-Wallmerkirchengemeinde",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404852,
+    "NAME1": "Ev. Stadtkirchengemeinde Kirchheim",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012907,
+    "NAME1": "Maria Chatzisavvidou",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60483,6 +60579,22 @@
     "ID": 4012906,
     "NAME1": "Ev. Kirchengemeinde Kirchberg an der Murr",
     "NAME2": "- Pfarramt -",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4001505,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403712,
+    "NAME1": "Zech Hochbau GmbH",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
