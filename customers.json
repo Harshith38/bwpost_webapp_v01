@@ -256,14 +256,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2034500,
-    "NAME1": "Baden-W\u00fcrttembergischer Handwerkstag e.V.",
-    "NAME2": "",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2034900,
     "NAME1": "Jugendwerk der AWO W\u00fcrttemberg e.V.",
     "NAME2": "",
@@ -406,14 +398,6 @@
     "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2060000,
-    "NAME1": "Daunquart GbR",
-    "NAME2": "Martin Daunquart und Maxim Daunquart",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2062200,
@@ -1048,14 +1032,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2071600,
-    "NAME1": "Breckle GmbH",
-    "NAME2": "",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2072400,
     "NAME1": "Stadtverwaltung Sachsenheim",
     "NAME2": "",
@@ -1155,7 +1131,7 @@
     "ID": 2083900,
     "NAME1": "Deming KG",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -1376,14 +1352,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2148300,
-    "NAME1": "Andretta Fruchtimport GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2148600,
     "NAME1": "WUD IT-Systemhaus",
     "NAME2": "",
@@ -1414,22 +1382,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2150200,
-    "NAME1": "Werner Mitschele GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2151000,
-    "NAME1": "Autohaus Felix Kloz GmbH",
-    "NAME2": "",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2139000,
@@ -1582,14 +1534,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2156500,
-    "NAME1": "B\u00fcrgermeisteramt Sersheim",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2158600,
@@ -1846,14 +1790,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2119700,
-    "NAME1": "Walter Diebold GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2197700,
@@ -2606,14 +2542,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2222800,
-    "NAME1": "mc Seniorenstift Ludwigsburg gemeinn\u00fctzige GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2222900,
@@ -3782,14 +3710,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2271500,
-    "NAME1": "Praxis Dr. Stihler, Dr. Langenbach, Dr. Hoffmann,",
-    "NAME2": "Deeg & Partner",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2246300,
@@ -5872,14 +5792,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2270800,
-    "NAME1": "Z.O.N. Zentrum f\u00fcr Orthop\u00e4die und Neurochirurgie",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2307300,
     "NAME1": "RSK Alenco GmbH",
     "NAME2": "",
@@ -6360,14 +6272,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2046000,
-    "NAME1": "Volksbank Leonberg-Strohg\u00e4u",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2400896,
     "NAME1": "CDU Landesverband Baden-W\u00fcrttemberg",
     "NAME2": "",
@@ -6398,14 +6302,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2400153,
-    "NAME1": "bgm express logistik GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2400164,
@@ -6692,14 +6588,6 @@
     "NAME1": "Getr\u00e4nke Heck GmbH",
     "NAME2": "Servicepoint",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2400365,
-    "NAME1": "Apleona S\u00fcdwest GmbH",
-    "NAME2": "KST 0721/00000",
-    "STATUS": 3,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -7179,7 +7067,7 @@
     "ID": 2400353,
     "NAME1": "BWPOST ungueltige IDs",
     "NAME2": "ung\u00fcltige Prelabel, fremde IDs",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
@@ -8254,14 +8142,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2400798,
-    "NAME1": "Korbmayer GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2400834,
@@ -10048,14 +9928,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 2401293,
-    "NAME1": "Autohaus Holzer GmbH & Co. KG",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 4000054,
     "NAME1": "BWPOST Rems-Murr GmbH Tagespost -5-",
     "NAME2": "",
@@ -10222,14 +10094,6 @@
     "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402018,
-    "NAME1": "Next Fertility Stuttgart Zweigniederlassung",
-    "NAME2": "der MVZ Next Fertility Ulm GmbH",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2400871,
@@ -12026,7 +11890,7 @@
   {
     "ID": 2401282,
     "NAME1": "Herzzentrum Stuttgart",
-    "NAME2": "Dres. Dr. med. A. Schmidt, M. Linden, K. Putze, M. Woll",
+    "NAME2": "Dres. Dr. med. A. Schmidt, F. Linden, K. Putze, M. Woll",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -26712,14 +26576,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402063,
-    "NAME1": "Lenz Maler GmbH & Co. KG",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 74010136,
     "NAME1": "R\u00f6hm Heizung & Sanit\u00e4r GmbH",
     "NAME2": "",
@@ -27768,28 +27624,12 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402277,
-    "NAME1": "widecare GmbH",
-    "NAME2": "",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2402014,
     "NAME1": "IMV-Verlag OHG",
     "NAME2": "Tourisierte Aktionen",
     "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2400123,
-    "NAME1": "BorgWarner Ludwigsburg GmbH",
-    "NAME2": "Werk Ludwigsburg",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2400225,
@@ -28505,8 +28345,8 @@
   },
   {
     "ID": 74011658,
-    "NAME1": "Klau\u00df & Partner",
-    "NAME2": "Immobilien Management GmbH",
+    "NAME1": "hallo theo Stuttgart GmbH",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -32520,14 +32360,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402387,
-    "NAME1": "Fachanwaltspraxis f\u00fcr Verwaltungsrecht und f\u00fcr Bau- und Architektenrecht",
-    "NAME2": "RA Marc Wennberg",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2402718,
     "NAME1": "BrennerPlan GmbH",
     "NAME2": "",
@@ -32709,14 +32541,6 @@
     "NAME2": "Tajana Gali",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2402492,
-    "NAME1": "Kruse & Partner Steuerberatungsgesellschaft mbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
   {
@@ -33006,14 +32830,6 @@
     "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402523,
-    "NAME1": "Drees & Sommer SE",
-    "NAME2": "",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 4010636,
@@ -34848,14 +34664,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402124,
-    "NAME1": "Rechtsanw\u00e4lte Schenzer F\u00fcllborn",
-    "NAME2": "B\u00fcrogemeinschaft",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 74014524,
     "NAME1": "Sindelfinger Holzringe e.K.",
     "NAME2": "",
@@ -35894,14 +35702,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402477,
-    "NAME1": "Rentschler Reven GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 74014649,
@@ -37357,14 +37157,6 @@
     "NAME2": "",
     "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2400976,
-    "NAME1": "SFML Fitness- Sport- Management & Liegenschaftsverwaltung",
-    "NAME2": "Hans-Peter Wieland",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -40264,14 +40056,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402679,
-    "NAME1": "Bruno Wachtmeister GmbH+ Co. KG",
-    "NAME2": "Aktionen - Industrie-Bewachungen",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 4012423,
     "NAME1": "Denis L\u00f6w",
     "NAME2": "Schornsteinfegermeister",
@@ -40446,14 +40230,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402666,
-    "NAME1": "HALARIT Composites GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2402906,
@@ -40694,6 +40470,14 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012425,
+    "NAME1": "Evang. Pfarramt Stadtkirche West",
+    "NAME2": "",
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4012429,
@@ -41769,7 +41553,7 @@
   },
   {
     "ID": 2402685,
-    "NAME1": "",
+    "NAME1": "Evangelische Kirchengemeinde Erdmannhausen",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -42056,14 +41840,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402696,
-    "NAME1": "ZWEI HERREN - Musikkabarett",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2402698,
     "NAME1": "E.VITA GmbH - Marketing",
     "NAME2": "ID 1045",
@@ -42316,14 +42092,6 @@
     "NAME1": "Bahn-Landwirtschaft Bezirk Stuttgart e.V.",
     "NAME2": "ID 884",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2402728,
-    "NAME1": "Stuttgarter Werkst\u00e4tten der Lebenshilfe GmbH",
-    "NAME2": "",
-    "STATUS": 3,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -42910,14 +42678,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402826,
-    "NAME1": "Schiel Hentze Steuerberater GbR",
-    "NAME2": "",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2402835,
@@ -43576,14 +43336,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402847,
-    "NAME1": "Dr. med. Gerd Hase",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2402521,
     "NAME1": "Gassmann + Grossmann Baumanagement GmbH",
     "NAME2": "",
@@ -44140,14 +43892,6 @@
     "NAME1": "Evangelische Johannesgemeinde",
     "NAME2": "",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2402613,
-    "NAME1": "Autohaus Schreiber GmbH",
-    "NAME2": "",
-    "STATUS": 3,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -46625,7 +46369,7 @@
   },
   {
     "ID": 4012779,
-    "NAME1": "Debeka Serviceb\u00fcro Urbach",
+    "NAME1": "Allianz Vertretung Mohr & Vees GbR",
     "NAME2": "Sebastian Vees",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -46742,14 +46486,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2403324,
-    "NAME1": "Haus Edelberg",
-    "NAME2": "Dienstleistungsgesellschaft f\u00fcr Senioren mbH",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 5400319,
@@ -48552,14 +48288,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403082,
-    "NAME1": "Dr. med. vet. Patrick Hirsch",
-    "NAME2": "Tierarztpraxis",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2402446,
     "NAME1": "Log.-Briefkastenstandort",
     "NAME2": "Marie-Juchacz-Platz",
@@ -48974,14 +48702,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2403076,
-    "NAME1": "Schenker Deutschland AG",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 4010316,
@@ -51768,14 +51488,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403485,
-    "NAME1": "Rund um GmbH",
-    "NAME2": "I.Zeller GmbH",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 74016046,
     "NAME1": "Druckerei Zaiser",
     "NAME2": "",
@@ -53958,14 +53670,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2403164,
-    "NAME1": "Stuttgarter Werkst\u00e4tten der Lebenshilfe GmbH",
-    "NAME2": "Werkstatt am L\u00f6wentor",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 4013078,
@@ -56440,14 +56144,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402830,
-    "NAME1": "Jobman Workwear GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2143100,
     "NAME1": "ElringKlinger AG Werk Lenningen",
     "NAME2": "Bestellung-Nr. 4500109682",
@@ -56526,14 +56222,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2401831,
-    "NAME1": "Weinfactum Bad Cannstatt GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2401489,
@@ -58592,14 +58280,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2400292,
-    "NAME1": "Best Western Hotel Favorit Betriebs GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2400573,
     "NAME1": "Postcon Regional Frankfurt GmbH (TNT)",
     "NAME2": "MA-6521",
@@ -59080,14 +58760,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403577,
-    "NAME1": "Evangelische Kirchengemeinde Stuttgart-Wangen",
-    "NAME2": "Gemeindeb\u00fcro",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4013494,
     "NAME1": "Michelle Hasert",
     "NAME2": "",
@@ -59222,14 +58894,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2308100,
-    "NAME1": "Krankenhaus vom Roten Kreuz Bad-Cannstatt GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 5404814,
@@ -60432,6 +60096,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403714,
+    "NAME1": "Evang. Thomaskirchengemeinde",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74016286,
     "NAME1": "R\u00f6hm GmbH & Co.KG",
     "NAME2": "Hockey Kst.: 92, Kto.4910000",
@@ -60488,6 +60160,38 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012911,
+    "NAME1": "Ev. Kirchengemeinde Pl\u00fcderhausen",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013524,
+    "NAME1": "Franz Prosig",
+    "NAME2": "c/o Beate Weber",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013522,
+    "NAME1": "Milan Drazic",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403577,
+    "NAME1": "Evangelische Kirchengemeinde Stuttgart-Wangen",
+    "NAME2": "Gemeindeb\u00fcro",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403708,
     "NAME1": "Evang. Magdalenenkirchengemeinde",
     "NAME2": "",
@@ -60515,6 +60219,14 @@
     "ID": 4012908,
     "NAME1": "Evang. Kirchengemeinde Steinenberg",
     "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403715,
+    "NAME1": "Garkuscha",
+    "NAME2": "Orthoga",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60560,6 +60272,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012912,
+    "NAME1": "No.31",
+    "NAME2": "Alexander Knaf",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74011491,
     "NAME1": "Kleintierarztpraxis Jessie Bryant",
     "NAME2": "",
@@ -60597,6 +60317,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012913,
+    "NAME1": "Gesamtkirchengemeinde Rudersberg/Schlechtbach",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013523,
+    "NAME1": "Anastasios Mageiropoulos",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   }
 ]
