@@ -1072,14 +1072,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2078500,
-    "NAME1": "PHV Service GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2081000,
     "NAME1": "Servicepharm Mark+Crossmedia-Dialog GmbH",
     "NAME2": "",
@@ -1490,22 +1482,6 @@
   {
     "ID": 2166604,
     "NAME1": "KIM STN Abo",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2166612,
-    "NAME1": "KIM STZ FON",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2166613,
-    "NAME1": "KIM STN FON",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -7172,14 +7148,6 @@
     "NAME1": "Hautzentrum Innenstadt",
     "NAME2": "Dr. med. Jens Tesmann",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2082500,
-    "NAME1": "Sonntag Aktuell GmbH",
-    "NAME2": "",
-    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -17794,7 +17762,7 @@
   {
     "ID": 4011979,
     "NAME1": "Haus & Grund Fellbach und Umgebung e. V.",
-    "NAME2": "C/o Kurz & Knapp",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -36224,14 +36192,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2402181,
-    "NAME1": "Stuttgarter Nachrichten Verlagsgesellschaft mbH",
-    "NAME2": "Betriebsf\u00fchrungsmailings",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4012236,
     "NAME1": "Dr. med. Roya Amiri",
     "NAME2": "Fach\u00e4rztin f\u00fcr Augenheilkunde",
@@ -37337,8 +37297,8 @@
   },
   {
     "ID": 2402753,
-    "NAME1": "",
-    "NAME2": "",
+    "NAME1": "Premiummedia GmbH",
+    "NAME2": "\"Feine Adressen\" Stuttgart + Reutlingen",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -52432,25 +52392,9 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403144,
-    "NAME1": "Stuttgarter Nachrichten Verlagsgesellschaft mbH",
-    "NAME2": "MZ Infopost Lesermarkt",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 74015430,
     "NAME1": "Gohm GmbH",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2403145,
-    "NAME1": "Stuttgarter Nachrichten Verlagsgesellschaft mbH",
-    "NAME2": "KWZ Infopost Lesermarkt",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -53763,14 +53707,6 @@
     "ID": 74015622,
     "NAME1": "Marianne Paratore",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2403250,
-    "NAME1": "SWMH Logistik GmbH",
-    "NAME2": "Zustellerlohnabrechnung",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60096,6 +60032,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012916,
+    "NAME1": "Dr. Sauter und Kollegen",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403716,
+    "NAME1": "Evangelische Kirchengemeinde Weilimdorf",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404854,
+    "NAME1": "Ev. Kirchengemeinde St. Bernhardt",
+    "NAME2": "zum Hohenkreuz",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74016286,
     "NAME1": "R\u00f6hm GmbH & Co.KG",
     "NAME2": "Hockey Kst.: 92, Kto.4910000",
@@ -60184,6 +60144,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012919,
+    "NAME1": "Ev. Pfarramt Pauluskirche Schorndorf",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403708,
     "NAME1": "Evang. Magdalenenkirchengemeinde",
     "NAME2": "",
@@ -60219,6 +60187,22 @@
     "ID": 2403715,
     "NAME1": "Garkuscha",
     "NAME2": "Orthoga",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012917,
+    "NAME1": "Ev. Kirchengemeinde Leutenbach",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012920,
+    "NAME1": "Heizungs-Journal Verlags-GmbH",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60273,8 +60257,8 @@
   },
   {
     "ID": 5404853,
-    "NAME1": "",
-    "NAME2": "",
+    "NAME1": "Evangelische Heimstiftung",
+    "NAME2": "Johanniterstift",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60299,6 +60283,14 @@
     "ID": 4012915,
     "NAME1": "Hausarztpraxis",
     "NAME2": "Dres.med. Heim",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012918,
+    "NAME1": "Evangelisches Dekanatamt Waiblingen",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
