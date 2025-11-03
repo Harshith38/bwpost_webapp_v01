@@ -977,7 +977,7 @@
   },
   {
     "ID": 2090001,
-    "NAME1": "Forum Theater",
+    "NAME1": "Forum Theater gGmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -5531,7 +5531,7 @@
     "ID": 2355000,
     "NAME1": "Heinrich B\u00f6ll Stiftung Baden-W\u00fcrttemberg e.V.",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -37064,14 +37064,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404734,
-    "NAME1": "Blasmusikverband Baden-W\u00fcrttemberg e.V.",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2403015,
     "NAME1": "B\u00dcNDNIS 90/DIE GR\u00dcNEN",
     "NAME2": "Kreisverband Stuttgart",
@@ -37297,7 +37289,7 @@
   },
   {
     "ID": 2402753,
-    "NAME1": "Premiummedia GmbH",
+    "NAME1": "Premiummedia Publishing GmbH",
     "NAME2": "\"Feine Adressen\" Stuttgart + Reutlingen",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -41154,14 +41146,6 @@
   {
     "ID": 74014801,
     "NAME1": "Brillenschmiede",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5404663,
-    "NAME1": "BELEGWERTE GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60152,6 +60136,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4014007,
+    "NAME1": "Nicolai Ding",
+    "NAME2": "ID 2294",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403708,
     "NAME1": "Evang. Magdalenenkirchengemeinde",
     "NAME2": "",
@@ -60339,6 +60331,14 @@
     "ID": 4012914,
     "NAME1": "Hausarztpraxis",
     "NAME2": "Dres.med. Heim",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012921,
+    "NAME1": "Pflegemoment GmbH",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
