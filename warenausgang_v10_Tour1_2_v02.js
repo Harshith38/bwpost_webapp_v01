@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Storage for warenausgang data
     let warenausgangData = [];
-    let warenausgangData2 = [];
+    let warenausgangData_tour1 = [];
 
     // Waage parameters
     let port = null;
@@ -77,6 +77,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const typeSelector = document.getElementById('dropdown_wagen_palette_list');
     const drucktypeSelector = document.getElementById('dropdown_label_druck_list');
     const tagSelector = document.getElementById('dropdown_tag_list');
+
+    const tourtypeSelector = document.getElementById('dropdown_tour_list');
+
 
     // Waage connections
     const statusEl = document.getElementById('waage_connect_status');
@@ -424,11 +427,23 @@ document.addEventListener('DOMContentLoaded', function() {
         };
         
         // Add to data array
-        warenausgangData2.push(newData);
+        //warenausgangData.push(newData);
         
         // Save to localStorage
-        localStorage.setItem('warenausgangData2', JSON.stringify(warenausgangData2));
+        //localStorage.setItem('warenausgangData', JSON.stringify(warenausgangData));
+
+
+        if(tourtypeSelector.value ==='tour1'){
+            warenausgangData_tour1.push(newData);
         
+        // Save to localStorage
+        localStorage.setItem('warenausgangData_tour1', JSON.stringify(warenausgangData_tour1));
+        } else {
+            warenausgangData.push(newData);
+        
+        // Save to localStorage
+        localStorage.setItem('warenausgangData', JSON.stringify(warenausgangData));
+        }
         
         currentIdLabel.textContent = newData.id;
 
@@ -504,6 +519,8 @@ document.addEventListener('DOMContentLoaded', function() {
         //console.log(date); // 31.7.2025
 
         localStorage.removeItem('warenausgangData');
+
+        localStorage.removeItem('warenausgangData_tour1');
 
         // refreshes the page
         location.reload();
@@ -711,9 +728,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function loadDataFromStorage() {
-        const storedData = localStorage.getItem('warenausgangData2');
+        const storedData_tour1 = localStorage.getItem('warenausgangData_tour1');
+        if (storedData_tour1) {
+            warenausgangData_tour1 = JSON.parse(storedData_tour1);
+        }
+        const storedData = localStorage.getItem('warenausgangData');
         if (storedData) {
-            warenausgangData2 = JSON.parse(storedData);
+            warenausgangData = JSON.parse(storedData);
         }
     }
     
@@ -743,9 +764,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const tableContainer = document.createElement('div');
         tableContainer.id = 'bericht-table-container';
         
-        const tableContainer2 = document.createElement('div');
-        tableContainer2.id = 'bericht-table-container-2';
-        
         // Add export buttons
         const exportButtons = document.createElement('div');
         exportButtons.className = 'export-buttons';
@@ -767,8 +785,6 @@ document.addEventListener('DOMContentLoaded', function() {
         modalContent.appendChild(closeButton);
         modalContent.appendChild(title);
         modalContent.appendChild(tableContainer);
-        modalContent.appendChild(tableContainer2);
-
         modalContent.appendChild(exportButtons);
         
         modal.appendChild(modalContent);
@@ -792,7 +808,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Load latest data
         loadDataFromStorage();
         
-        if (warenausgangData2.length === 0) {
+        if (warenausgangData.length === 0) {
             alert('Keine Daten vorhanden für den Bericht.');
             return;
         }
@@ -806,7 +822,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Group data by tour
         const groupedByTour = {};
         
-        warenausgangData2.forEach(item => {
+        warenausgangData.forEach(item => {
             if (!groupedByTour[item.tour]) {
                 groupedByTour[item.tour] = {
                     tour: item.tour,
@@ -906,123 +922,13 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Show modal
         modal.style.display = 'block';
-
-        const modal2 = document.getElementById('berichtModal');
-        const tableContainer2 = document.getElementById('bericht-table-container-2');
-        
-        // Clear previous content
-        tableContainer2.innerHTML = '';
-        
-        // Group data by tour
-        const groupedByTour2 = {};
-        
-        warenausgangData2.forEach(item => {
-            if (!groupedByTour[item.tour]) {
-                groupedByTour[item.tour] = {
-                    tour: item.tour,
-                    kisten: parseInt(item.kisten) || 0,
-                    gewicht: parseFloat(item.gewicht) || 0,
-                    wagenCount: item.type === 'wagen' ? 1 : 0,
-                    palettenCount: item.type === 'palette' ? 1 : 0,
-                    entries: [item],
-                    lastUpdated: new Date(item.timestamp)
-                };
-            } else {
-                groupedByTour[item.tour].kisten += parseInt(item.kisten) || 0;
-                groupedByTour[item.tour].gewicht += parseFloat(item.gewicht) || 0;
-                groupedByTour[item.tour].wagenCount += item.type === 'wagen' ? 1 : 0;
-                groupedByTour[item.tour].palettenCount += item.type === 'palette' ? 1 : 0;
-                groupedByTour[item.tour].entries.push(item);
-            
-                // Update last updated time to the most recent
-                const entryDate = new Date(item.timestamp);
-                if (entryDate > groupedByTour[item.tour].lastUpdated) {
-                    groupedByTour[item.tour].lastUpdated = entryDate;
-                }
-            }
-        });
-        
-        // Create table
-        const table2 = document.createElement('table2');
-        table2.className = 'bericht-table';
-        
-        // Create header
-        const thead2 = document.createElement('thead');
-        const headerRow2 = document.createElement('tr');
-        
-        //const headers = ['Tour', 'Abstellzeit', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten', 'Tag'];
-        //const headers = ['Tour', 'Abstellzeit', 'Anzahl Kisten', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten'];
-        const headers2 = ['Tour', 'Abstellzeit', 'Gesamtgewicht (kg)', 'Anzahl Wagen', 'Anzahl Paletten'];
-
-        
-        headers2.forEach(headerText => {
-            const th2 = document.createElement('th');
-            th2.textContent = headerText;
-            headerRow.appendChild(th2);
-        });
-        
-        thead.appendChild(headerRow);
-        table2.appendChild(thead);
-        
-        // Create table body
-        const tbody2 = document.createElement('tbody');
-        
-        Object.values(groupedByTour).forEach(groupData => {
-            const row = document.createElement('tr');
-            
-            // Tour
-            const tourCell = document.createElement('td');
-            tourCell.textContent = groupData.tour;
-            row.appendChild(tourCell);
-
-            // Abstellzeit (last updated time)
-            const abstellzeitCell = document.createElement('td');
-            const abstellzeit = `${String(groupData.lastUpdated.getHours()).padStart(2, '0')}:${String(groupData.lastUpdated.getMinutes()).padStart(2, '0')}`;
-            abstellzeitCell.textContent = abstellzeit;
-            row.appendChild(abstellzeitCell);
-            
-            // Kisten
-            //const kistenCell = document.createElement('td');
-            //kistenCell.textContent = groupData.kisten;
-            //row.appendChild(kistenCell);
-            
-            // Gewicht
-            const gewichtCell = document.createElement('td');
-            gewichtCell.textContent = groupData.gewicht.toFixed(2);
-            row.appendChild(gewichtCell);
-            
-            // Anzahl Wagen
-            const wagenCell = document.createElement('td');
-            wagenCell.textContent = groupData.wagenCount || 0;
-            row.appendChild(wagenCell);
-            
-            // Anzahl Paletten
-            const palettenCell = document.createElement('td');
-            palettenCell.textContent = groupData.palettenCount || 0;
-            row.appendChild(palettenCell);
-            
-            // Tag
-            //const tagCell = document.createElement('td');
-            // Get unique tags
-            //const tags = [...new Set(groupData.entries.map(item => item.tag))].join(', ');
-            //tagCell.textContent = tags;
-            //row.appendChild(tagCell);
-            
-            tbody2.appendChild(row);
-        });
-        
-        table2.appendChild(tbody2);
-        tableContainer2.appendChild(table2);
-        
-        // Show modal
-        //modal2.style.display = 'block';
     }
 
     function showScanUbersicht() {
         // Load latest data from storage
         loadDataFromStorage();
     
-        if (warenausgangData2.length === 0) {
+        if (warenausgangData.length === 0) {
             alert('Keine Daten vorhanden.');
             return;
         }
@@ -1120,7 +1026,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
         // Table body
         const tbody = document.createElement('tbody');
-        warenausgangData2.forEach(item => {
+        warenausgangData.forEach(item => {
             const row = document.createElement('tr');
     
             const idCell = document.createElement('td');

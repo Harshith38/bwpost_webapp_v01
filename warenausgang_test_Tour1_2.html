@@ -15,8 +15,10 @@
         <div class="today_date_div">
             <div class="today_date_div_header"> Heute</div>
             <div class="today_date"> update</div>
-            <button class="heute_button" id="heute_button">Aktualisieren</button>
+            <button class="heute_button" id="heute_button">Neu Bericht</button>
         </div>
+        
+        
 
         
        
@@ -42,6 +44,14 @@
             <button class="waage_connect_button" id="waage_connect_button">Anschluss an Waage</button>
             <button class="waage_disconnect_button hidden" id="waage_disconnect_button">trennen</button>
 
+        </div>
+
+        <div class="versand_bericht_div">
+            <div class="dropdown_wagen_palette_header">Fahrer Abholung Tour</div>
+            <select name="tour_select" id="dropdown_tour_list">
+                <option value="Tour_1">Tour 1 (FRÜHSICHT Abholung bis 22:00)</option>
+                <option value="Tour_2">Tour 2 (SPÄTSICHT Abholung ab 23:00)</option>
+            </select>
         </div>
         
 
@@ -145,7 +155,7 @@
     <script type="text/javascript" src="BrowserPrint-3.1.250.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
   
-    <script src="warenausgang_v10_Tour1_2.js"></script>
+    <script src="warenausgang_v10_Tour1_2_v04_scanUbrs.js"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.7.0/jspdf.plugin.autotable.min.js"></script>
