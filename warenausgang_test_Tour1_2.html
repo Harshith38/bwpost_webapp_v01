@@ -13,7 +13,7 @@
         <!-- Type and Tag Selection -->
 
         <div class="today_date_div">
-            <div class="today_date_div_header"> Heute</div>
+            <div class="today_date_div_header"> Heute:</div>
             <div class="today_date"> update</div>
             <button class="heute_button" id="heute_button">Neu Bericht</button>
         </div>
@@ -46,7 +46,7 @@
 
         </div>
 
-        <div class="versand_bericht_div">
+        <div class="abhol_tour_div">
             <div class="dropdown_wagen_palette_header">Fahrer Abholung Tour</div>
             <select name="tour_select" id="dropdown_tour_list">
                 <option value="Tour_1">Tour 1 (FRÜHSICHT Abholung bis 22:00)</option>
@@ -85,7 +85,7 @@
                 
                 
                 <div class="tour">
-                    <div class="tour_nummer_header">Tour</div>
+                    <div class="tour_nummer_header">Bezirk_Tour</div>
                     <input type="text" class="tour_nummer" id="tour_display" autocomplete="off">
                 </div>
 
@@ -115,7 +115,7 @@
                     <!--<div class="current_day_head" id="current_day1">Tag</div>
                     <div class="current_day" id="current_day">none</div>
                     <div>-------------------</div>-->
-                    <div class="current-tour-head">Tour</div>
+                    <div class="current-tour-head">Bezirk_Tour</div>
                     <div class="current-tour">None</div>
                     <div>-------------------</div>
                     <div class="current-wagen-weight-head">Gewicht</div>
@@ -155,9 +155,13 @@
     <script type="text/javascript" src="BrowserPrint-3.1.250.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
   
-    <script src="warenausgang_v10_Tour1_2_v04_scanUbrs.js"></script>
-    
+    <script src="warenausgang_v10_Tour1_2_v05_newlabel_exportstyle.js"></script>
+    <!-- Replace your current XLSX library with this 
+    <script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.bundle.js"></script>
+-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.7.0/jspdf.plugin.autotable.min.js"></script>
   
 </body>
