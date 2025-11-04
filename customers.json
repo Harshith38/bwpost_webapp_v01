@@ -18076,8 +18076,8 @@
     "NAME1": "Brandsch Finanzconsulting",
     "NAME2": "GmbH & Co. KG",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 74013953,
@@ -42969,7 +42969,7 @@
   },
   {
     "ID": 2402580,
-    "NAME1": "Digital Publishers",
+    "NAME1": "dp Digital Publishers GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -47241,7 +47241,7 @@
   },
   {
     "ID": 2403638,
-    "NAME1": "",
+    "NAME1": "Evang. Kirchengemeinde Poppenweiler",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60144,6 +60144,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016302,
+    "NAME1": "Zahnarzt Nico Zissler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403708,
     "NAME1": "Evang. Magdalenenkirchengemeinde",
     "NAME2": "",
@@ -60282,6 +60290,30 @@
   {
     "ID": 4012918,
     "NAME1": "Evangelisches Dekanatamt Waiblingen",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4001528,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012922,
+    "NAME1": "Pfarramt Schorndorf Vers\u00f6hnungskirche",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403717,
+    "NAME1": "IHK Industrie- und Handelskammer Region Stuttgart",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
