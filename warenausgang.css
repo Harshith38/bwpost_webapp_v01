@@ -33,7 +33,7 @@ body {
 
 .today_date_div{
     display: inline-block;
-    width: 45%;
+    width: 65%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@ body {
     margin-right: 2%;
 }
 
-.dropdown_wagen_palette_header, .dropdown_tag_header, .today_date_div_header, .dropdown_label_druck, .waage_connect_header {
+.dropdown_wagen_palette_header, .dropdown_tag_header, .dropdown_label_druck, .waage_connect_header {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -137,7 +137,7 @@ input[type="text"]:focus {
     text-align: center;
 }
 
-.ok_button, .print_button, .cancel_button, .versand_bericht_button, .heute_button, .fracht_button,.overall_scan_button, .waage_connect_button, .waage_disconnect_button {
+.ok_button, .print_button, .cancel_button, .versand_bericht_button, .fracht_button,.overall_scan_button, .waage_connect_button, .waage_disconnect_button {
     padding: 12px 25px;
     font-size: 16px;
     font-weight: 600;
@@ -146,6 +146,17 @@ input[type="text"]:focus {
     cursor: pointer;
     transition: background-color 0.3s;
     width: 100%;
+}
+
+.heute_button{
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 65%;
 }
 
 
@@ -197,6 +208,22 @@ input[type="text"]:focus {
     margin-bottom: 20px;
 }
 
+.today_date{
+    font-size: 18px;
+    font-weight: 600;
+    
+    padding:12px 8px;
+    width: 130%;   
+    
+}
+.today_date_div_header{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+    padding: 12px 0px;
+}
+
 .cancel_oder, .tour_frachtschein {
     flex: 3;
 }
@@ -229,7 +256,7 @@ input[type="text"]:focus {
 }
 
 /* Versand Bericht section */
-.versand_bericht_div {
+.versand_bericht_div, .abhol_tour_div {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
