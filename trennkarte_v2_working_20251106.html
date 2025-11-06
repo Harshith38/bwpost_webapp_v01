@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trennkarte Erstellen</title>
+    <!--<link rel="stylesheet" href="trennkarte.css">-->
+    <link rel="stylesheet" href="trennkarte_v3_PZA.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-links">
+            <a href="./dashboard.html">Home</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="logo-container">
+            <img src="./images/bw_post_logo_png.png" alt="bw-post-logo" class="logo">
+        </div>
+        <!-- Left Section - Scan Frame -->
+        <div class="content1">
+            <div class="kunde-einlesen">
+                <label>Kunde einlesen oder<br>weitere Labels drucken:</label>
+                <input inputmode="none" type="text" id="kunde-nummer" class="kunde-nummer">
+            </div>
+            
+            <div class="frame1">
+                <div class="status-label">Bereit zum Scannen 🙂 </div>
+            </div>
+
+            <div class="content3">
+                
+                <div class="number-buttons">
+                    <button class="number-button" data-value="1">1</button>
+                    <button class="number-button" data-value="2">2</button>
+                    <button class="number-button" data-value="3">3</button>
+                    <button class="number-button" data-value="4">4</button>
+                    <button class="number-button" data-value="5">5</button>
+                    <button class="number-button" data-value="6">6</button>
+                    <button class="number-button" data-value="7">7</button>
+                    <button class="number-button" data-value="8">8</button>
+                    <button class="number-button" data-value="9">9</button>
+                    <button class="number-button clear" data-value="clear">←</button>
+                    <button class="number-button" data-value="0">0</button>
+                    <button class="number-button" data-value="enter">Enter</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle Section - Customer Display -->
+        <div class="content2">
+            <div class="frame2">
+                <div class="current-frame">
+                    <div class="current-customer-number">0000</div>
+                    <div class="current-customer-label">None</div>
+                    <div class="current-customer-label-2">None</div>
+                </div>
+                <div class="seperator_line">__________________________________</div>
+                <div class="previous-frame">
+                    <div class="previous-customer-number">0000</div>
+                    <div class="previous-customer-label">None</div>
+                    <div class="previous-customer-label-2">None</div>
+                </div>
+            </div>
+            <div class="action-buttons">
+                <button class="ok-button">OK</button>
+                <button class="update-button" onclick="location.reload()">Update ⭮</button>
+            </div>
+        </div>
+
+        
+    
+        <!-- Right Section - Print Labels -->
+        <div class="print-container">
+            
+
+            <!-- Adding 6 print label buttons -->
+            <div class="print-labels-header">Weitere Labels drucken:</div>
+            <div class="print-label-buttons">
+                <button class="print-button">1</button>
+                <button class="print-button">2</button>
+                <button class="print-button">3</button>
+                <button class="print-button">4</button>
+                <button class="print-button">5</button>
+                <button class="print-button">6</button>
+            </div>
+            
+            <div class="content4">
+                <div class="system-info">
+                    <span class="destop-name">name of destop</span>
+                    <span class="date-time">current time</span>
+                </div>
+                <div class="update-info">
+                    <span class="last-update">Letztes Update: </span>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="tab-navigation">
+        <button class="tab-button active" onclick="switchTab(1)">Standard</button>
+        <button class="tab-button" onclick="switchTab(2)">PZA</button>
+    </div>
+
+    <!-- Frist Set of Quick Access Buttons for PostCon (New) -->
+    <div id="quick-access-1" class="quick-access-container">
+        <div class="quick-access section1">
+            <div class="quick-section-header">Postcon</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="2217600">703-1</button>
+                <button class="quick-button" data-customer="2400738">705-1</button>
+                <button class="quick-button" data-customer="4000000">712-1</button>
+                <button class="quick-button" data-customer="2340400">717-2</button>
+                <button class="quick-button" data-customer="5400022">734-1</button>
+                <div class="quick-section-header">Tourisierte Sendungen</div>
+                <div class="quick-buttons section5">
+                    <button class="quick-button" data-customer="2402559">Sem, P2 | 2402559</button>
+                </div>
+                <button class="quick-button" data-customer="2402158">AOK Hauptverwaltung FB II.8.3</button>
+            </div>
+        </div>
+
+        <div class="quick-access section2">
+            <div class="quick-section-header">Mailalliance</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="2322600">MA 7031</button>
+                <button class="quick-button" data-customer="4000001">MA 7121</button>
+                <button class="quick-button" data-customer="2340200">MA 8345</button>
+                <button class="quick-button" data-customer="5404723">MA 7341</button>
+            </div>
+        </div>
+
+        <div class="quick-access section3">
+            <div class="quick-section-header">P2</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="2124900">P2-rest | 6431</button>
+                <button class="quick-button" data-customer="2080400">P2-003 | 8821</button>
+            <button class="quick-button" data-customer="2139300">P2-008 | 0912</button>
+                <button class="quick-button" data-customer="2139500">P2-010 | 9961</button>
+                <button class="quick-button" data-customer="2078300">P2-037 | 7212</button>
+            </div>
+        </div>
+        <div class="quick-access section3">
+            <div class="quick-section-header">P2</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="4000006">P2-057 | 7121</button>
+                <button class="quick-button" data-customer="2401591">P2-071 | 4503</button>
+                <button class="quick-button" data-customer="7400513">P2-091 | 7112</button>
+                <button class="quick-button" data-customer="2403566">sMail GEA</button>
+            </div>
+        </div>
+
+        <div class="quick-access section4">
+            <div class="quick-section-header">Briefmarken/Prelabel</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="2185000">Briefmarken Stgt/VS</button>
+                <button class="quick-button" data-customer="5400123">Briefmarken ES</button>
+                <button class="quick-button" data-customer="7400016">Briefmarken Böblingen</button>
+                <button class="quick-button" data-customer="2234600">PreLabel BWPOST</button>
+                <button class="quick-button" data-customer="7400045">PreLabel Böblingen</button>
+                <button class="quick-button" id="quick-button-postkarten" data-customer="74016101">Böblingen-Postkarten</button>
+                <button class="quick-button" data-customer="4000058">Briefmarken BWPOST Rems-Murr</button>
+            </div>
+
+        </div>
+        <!--
+        <div class="quick-access section5">
+            <div class="quick-section-header">Tourisierte Sendungen</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="2402559">Sem, P2 | 2402559</button>
+            </div>
+        </div>
+        -->
+
+
+    </div>
+
+    <!-- Second Set of Quick Access Buttons for PZA (New) -->
+    <div id="quick-access-2" class="quick-access-container hidden">
+        <div class="quick-section new-section1">
+            <div class="quick-section-header">PZA</div>
+            <div class="quick-buttons">
+                <button class="quick-button PZA_color" id="quick-button-PZA" data-customer="2284500">Stadtverwaltung Leonberg (PZA)</button>
+                <button class="quick-button" data-customer="2403297">Amtsgericht Stuttgart - Bad Cannstatt</button>
+                <button class="quick-button" data-customer="4000002">BWPOST Rems-Murr GmbH</button>
+                <button class="quick-button" data-customer="2287700">Regionales Jobcenter Herrenberg (Jobcenter Landkreis Böblingen)</button>
+                <button class="quick-button" data-customer="2080400">Südmail (2080400)</button>
+            </div>
+        </div>
+        <div class="quick-access section2">
+            <div class="quick-section-header">Extra</div>
+            <div class="quick-buttons">
+                <button class="quick-button" id="quick-button-PZA" data-customer="2069100">Stadt Bietigheim - Bissingen</button>
+            </div>
+        </div>
+        <!--
+        <div class="quick-section new-section2">
+            <div class="quick-section-header">International</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="3100001">INT-EU-001</button>
+                <button class="quick-button" data-customer="3100002">INT-US-002</button>
+                <button class="quick-button" data-customer="3100003">INT-ASIA-003</button>
+            </div>
+        </div>
+
+        <div class="quick-section new-section3">
+            <div class="quick-section-header">Special Services</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="3200001">SPEC-001</button>
+                <button class="quick-button" data-customer="3200002">SPEC-002</button>
+                <button class="quick-button" data-customer="3200003">SPEC-003</button>
+            </div>
+        </div>
+
+        <div class="quick-section new-section4">
+            <div class="quick-section-header">Premium</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="3300001">PREM-001</button>
+                <button class="quick-button" data-customer="3300002">PREM-002</button>
+            </div>
+        </div>
+
+        <div class="quick-section new-section5">
+            <div class="quick-section-header">Archive</div>
+            <div class="quick-buttons">
+                <button class="quick-button" data-customer="3400001">ARCH-001</button>
+            </div>
+        </div>
+        -->
+    </div>
+
+    <script type="text/javascript" src="BrowserPrint-3.1.250.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+    
+    <script src="trennkarte_v5_gesperrt_print.js"></script>
+    <!--<script src="tab-toggle.js"></script>-->
+</body>
+</html>
+
