@@ -99,6 +99,10 @@ body {
     font-weight: bold;
 }
 
+.date-time{
+    
+    padding: 0px 5px;
+}
 .destop-name {
     background-color: white;
 }
@@ -354,11 +358,11 @@ body {
 }
 
 .section5 .quick-button {
-    background-color: #e6565d;
+    background-color: #d8646a;
 }
 
 .section5 .quick-button:hover {
-    background-color: #f7afb3;
+    background-color: #e68d91;
 }
 
 .tab-navigation {
