@@ -552,7 +552,22 @@ document.addEventListener('DOMContentLoaded', function() {
     //document.querySelector('.destop-name').textContent = window.location.hostname || 'Local Computer';
 
     setInterval(function() {
-        document.querySelector('.date-time').textContent = new Date().toLocaleTimeString();
+        //document.querySelector('.date-time').textContent = new Date().toLocaleTimeString();
+        const options = { 
+            weekday: 'long', 
+            year: '2-digit', 
+            month: 'short', 
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            second:'2-digit'
+          };
+        document.querySelector('.date-time').textContent = new Date().toLocaleString('de-DE', options);
+          // Output: Donnerstag, 6. November 2025 um 15:47
+          
+
+       
+        
     }, 1000);
 
     // Load customer data when the page loads
