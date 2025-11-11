@@ -6452,8 +6452,8 @@
     "NAME1": "Diak Altenhilfe Stuttgart gGmbH",
     "NAME2": "Paulinen Park",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 5400174,
@@ -60032,6 +60032,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4001534,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016308,
+    "NAME1": "Evangelische Kirchengemeinde \u00d6hringen",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74010442,
+    "NAME1": "Dr. Dinkelacker & Dr. Brendel",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74016286,
     "NAME1": "R\u00f6hm GmbH & Co.KG",
     "NAME2": "Hockey Kst.: 92, Kto.4910000",
@@ -60144,6 +60168,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016303,
+    "NAME1": "PMG Immobilien",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016305,
+    "NAME1": "Allianz Versicherung Emanuel Isaak",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016306,
+    "NAME1": "Dachbau Fahro GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403708,
     "NAME1": "Evang. Magdalenenkirchengemeinde",
     "NAME2": "",
@@ -60208,6 +60256,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016304,
+    "NAME1": "Zahnarztpraxis G\u00fcray Imbram",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013529,
+    "NAME1": "Heidrun Naujoks",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403704,
     "NAME1": "Evang. Stiftskirchengemeinde",
     "NAME2": "",
@@ -60261,6 +60325,38 @@
     "NAME2": "Johanniterstift",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016307,
+    "NAME1": "Frank Amann Versicherungen",
+    "NAME2": "Frank Amann GmbH",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013530,
+    "NAME1": "Christel Dorothee Dobler",
+    "NAME2": "c/o Jennifer Emrich",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 7400991,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013531,
+    "NAME1": "Miguel Jimenez Martinez",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -60352,6 +60448,30 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 7402364,
+    "NAME1": "Rechtsanwaltskanzlei Wurst",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403718,
+    "NAME1": "Urologische Praxis Stuttgart Ost",
+    "NAME2": "Dr. Roozbeh Tanhaeivash",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016309,
+    "NAME1": "LBS Baden-W\u00fcrttemberg",
+    "NAME2": "Beratungsstelle B\u00f6blingen",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4012906,
     "NAME1": "Ev. Kirchengemeinde Kirchberg an der Murr",
     "NAME2": "- Pfarramt -",
@@ -60402,6 +60522,22 @@
   {
     "ID": 4012921,
     "NAME1": "Pflegemoment GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012923,
+    "NAME1": "Hautzentrum Dr. Pfeifer",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012924,
+    "NAME1": "Evangelisches Pfarramt Hertmannsweiler",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
