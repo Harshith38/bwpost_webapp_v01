@@ -939,9 +939,9 @@
     "ID": 2099500,
     "NAME1": "Dr. med. Susanne Mao",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 3,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2100000,
@@ -2245,14 +2245,6 @@
     "NAME2": "P2-0611/015",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2164600,
-    "NAME1": "Stadt Filderstadt - Zentrale Verwaltung",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -4395,14 +4387,6 @@
     "ID": 2337100,
     "NAME1": "St. Anna-Klinik",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2337200,
-    "NAME1": "Schwimmsportverein Esslingen e. V. 1908",
-    "NAME2": "SSV Esslingen",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -8280,14 +8264,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 2362100,
-    "NAME1": "TSV W\u00e4ldenbronn - Esslingen e. V.",
-    "NAME2": "Herr Barth",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2400403,
     "NAME1": "Fachverband Friseur und Kosmetik Baden-W\u00fcrttemberg",
     "NAME2": "",
@@ -8542,14 +8518,6 @@
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2361300,
-    "NAME1": "SVS Rechtsanw\u00e4lte",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
   },
   {
     "ID": 2400055,
@@ -9164,6 +9132,14 @@
     "NAME1": "Deutscher Wetterdienst",
     "NAME2": "",
     "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
+  },
+  {
+    "ID": 2401042,
+    "NAME1": "Stadtverwaltung Ludwigsburg - Fachbereich 33",
+    "NAME2": "Standesamt",
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -40411,9 +40387,9 @@
     "ID": 4012425,
     "NAME1": "Evang. Pfarramt Stadtkirche West",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
+    "MAHNSTUFE": 0
   },
   {
     "ID": 4012429,
@@ -52337,8 +52313,8 @@
   },
   {
     "ID": 5404762,
-    "NAME1": "Kreisdiakonieverband",
-    "NAME2": "Die Br\u00fccke",
+    "NAME1": "Kreisdiakonieverband im Landkreis Esslingen",
+    "NAME2": "Die Br\u00fccke Plochingen",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60192,6 +60168,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016310,
+    "NAME1": "Frey",
+    "NAME2": "Garten- und Landschaftsbau GmbH",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403720,
+    "NAME1": "automatek GmbH",
+    "NAME2": "Gesellschaft f\u00fcr automationstechnik",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403708,
     "NAME1": "Evang. Magdalenenkirchengemeinde",
     "NAME2": "",
@@ -60269,6 +60261,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016311,
+    "NAME1": "4 YOUR EYES Optiker",
+    "NAME2": "Inh. Janine Drachsler",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012925,
+    "NAME1": "Stadt Schorndorf",
+    "NAME2": "Fachbereich Kommunales",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -60357,6 +60365,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403722,
+    "NAME1": "Autohaus Staiger GmbH",
+    "NAME2": "Mahnschreiben",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -60538,6 +60554,30 @@
   {
     "ID": 4012924,
     "NAME1": "Evangelisches Pfarramt Hertmannsweiler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403719,
+    "NAME1": "Kunsthaus Fischer",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403721,
+    "NAME1": "Praxis f\u00fcr MKG Chirurgie, Plastische Operationen",
+    "NAME2": "Dr. Dr. Neuschl",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012926,
+    "NAME1": "Gesundheitsrondell Waiblingen",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
