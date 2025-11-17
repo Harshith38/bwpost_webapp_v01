@@ -6435,7 +6435,7 @@
     "ID": 2400741,
     "NAME1": "Diak Altenhilfe Stuttgart gGmbH",
     "NAME2": "Paulinen Park",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -12059,14 +12059,6 @@
     "ID": 5400318,
     "NAME1": "Leben inklusive e.V.",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2095500,
-    "NAME1": "Bollore logistics Deutschland GmbH",
-    "NAME2": "SDV Geis",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -22728,14 +22720,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4011837,
-    "NAME1": "PHV-Dialysezentrum Waiblingen",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4011711,
     "NAME1": "Tabakb\u00f6rse Weinstadt",
     "NAME2": "Jens Wengert",
@@ -32819,14 +32803,6 @@
     "ID": 74010089,
     "NAME1": "Stadtverwaltung Weil der Stadt",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402443,
-    "NAME1": "l\u00b4tur Agentur Stuttgart",
-    "NAME2": "Franziska Pickardt",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -47752,14 +47728,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403112,
-    "NAME1": "Zinger & Leicht",
-    "NAME2": "Steuerberatungsgesellschaft mbH",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4012738,
     "NAME1": "Tier\u00e4rztin Sigrun Schenk",
     "NAME2": "POSTKARTENVERSAND",
@@ -60371,6 +60339,38 @@
     "ID": 2403722,
     "NAME1": "Autohaus Staiger GmbH",
     "NAME2": "Mahnschreiben",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403723,
+    "NAME1": "Sch\u00fctzenverein Breitenstein 1960 e.V.",
+    "NAME2": "ID 2300",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74010916,
+    "NAME1": "Garten- und Forstger\u00e4te",
+    "NAME2": "Schollenberger",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016316,
+    "NAME1": "Praxis Dr. Friese",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016317,
+    "NAME1": "VFB Stuttgart 1893 e.V.",
+    "NAME2": "Clubzentrum-Hockey Abteilung",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
