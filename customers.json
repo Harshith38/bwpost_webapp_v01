@@ -720,14 +720,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2017003,
-    "NAME1": "Stuttgarter Zeitung \"Info-Mailing\" ",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2017004,
     "NAME1": "Stuttgarter Zeitung Verlagsgesellschaft mbH - Marketing",
     "NAME2": "Gesamt f\u00fcr SWM.N / Hellstern",
@@ -5268,8 +5260,8 @@
     "NAME1": "Coeur de Lion Schmuckdesign GmbH",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2223900,
@@ -12880,14 +12872,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2401401,
-    "NAME1": "Zollfahndungsamt Stuttgart",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2401228,
     "NAME1": "Sana DGS pro service GmbH (KOK)",
     "NAME2": "",
@@ -12945,7 +12929,7 @@
   },
   {
     "ID": 4010949,
-    "NAME1": "Drs. med. Linda Schmidtborn & Astrid Thode",
+    "NAME1": "Drs. med. Linda Schmidtborn",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -28693,7 +28677,7 @@
     "NAME2": "",
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2401950,
@@ -30292,8 +30276,8 @@
     "NAME1": "www.siebdruck.net",
     "NAME2": "Druckerei Salzmann - Ulrich Salzmann",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2401859,
@@ -36410,7 +36394,7 @@
   {
     "ID": 4012257,
     "NAME1": "Pr\u00e4nataldiagnostik Waiblingen",
-    "NAME2": "Praxis Dr. med. Pietzsch + Dr. med. Stopper",
+    "NAME2": "Praxis Dr. med. Stopper & Dr.med Pierdant",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -58866,7 +58850,7 @@
   {
     "ID": 2403630,
     "NAME1": "Stuttgarter Nachrichten Verlags GmbH",
-    "NAME2": "f\u00fcr KIM",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60376,6 +60360,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013532,
+    "NAME1": "Ebner Wohn- und St\u00e4dtebau GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74011491,
     "NAME1": "Kleintierarztpraxis Jessie Bryant",
     "NAME2": "",
@@ -60581,6 +60573,30 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404855,
+    "NAME1": "Kreisdiakonieverband im Landkreis Esslingen",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013533,
+    "NAME1": "Kurt Kahler",
+    "NAME2": "c/o Bettina Maier",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013537,
+    "NAME1": "Andreas Rittberger",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   }
 ]
