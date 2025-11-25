@@ -1345,7 +1345,7 @@
   },
   {
     "ID": 2148700,
-    "NAME1": "Gemeinschaftspraxis Dr. Bernd K\u00fcppers & Matthias Schickerling GbR",
+    "NAME1": "Dr Bernd K\u00fcppers & Omar Bakri",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -9369,8 +9369,8 @@
   },
   {
     "ID": 2401237,
-    "NAME1": "Verlag f\u00fcr Hausbesitzer GmbH",
-    "NAME2": "Haus & Grund Stuttgart",
+    "NAME1": "Haus & Grund Stuttgart -",
+    "NAME2": "Verlag und Service GmbH",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -12929,8 +12929,8 @@
   },
   {
     "ID": 4010949,
-    "NAME1": "Drs. med. Linda Schmidtborn",
-    "NAME2": "",
+    "NAME1": "Augenarztpraxis",
+    "NAME2": "Dr. med. Linda Schmidtborn",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -42601,8 +42601,8 @@
   },
   {
     "ID": 74014744,
-    "NAME1": "B A D Gesundheitsvorsorge und",
-    "NAME2": "Sicherheitstechnik GmbH",
+    "NAME1": "BG prevent GmbH",
+    "NAME2": "Gesundheitszentrum B\u00f6blingen - Team Assistenz - Team Assistenz 1",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -57977,8 +57977,8 @@
   },
   {
     "ID": 2401892,
-    "NAME1": "Verlag f\u00fcr Hausbesitzer GmbH",
-    "NAME2": "Haus & Grund Monatszeitschrift",
+    "NAME1": "Haus & Grund Stuttgart \u2013",
+    "NAME2": "Verlag und Service GmbH Monatszeitschrift",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -59984,6 +59984,38 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4001546,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013538,
+    "NAME1": "Frank Grosch",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013525,
+    "NAME1": "G\u00fcnther und Ute Ulfert",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016319,
+    "NAME1": "Stadtwerke B\u00f6blingen GmbH & Co. KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74016286,
     "NAME1": "R\u00f6hm GmbH & Co.KG",
     "NAME2": "Hockey Kst.: 92, Kto.4910000",
@@ -60225,8 +60257,8 @@
   },
   {
     "ID": 4012925,
-    "NAME1": "Stadt Schorndorf",
-    "NAME2": "Fachbereich Kommunales",
+    "NAME1": "Stadt Schorndorf - Fachbereich Kommunales",
+    "NAME2": "Landtagswahl 2026",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60594,6 +60626,30 @@
   {
     "ID": 4013537,
     "NAME1": "Andreas Rittberger",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013536,
+    "NAME1": "Stadler Metallbearbeitung GmbH",
+    "NAME2": "c/o Schwabentechnik OHG",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4001544,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013535,
+    "NAME1": "Martina Kilian",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
