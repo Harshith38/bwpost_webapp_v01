@@ -1440,14 +1440,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2164608,
-    "NAME1": "Filderstadt Volkshoch- und Kunstschule",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2165000,
     "NAME1": "Hessel u. Sohn GmbH",
     "NAME2": "",
@@ -2242,22 +2234,6 @@
   {
     "ID": 2164601,
     "NAME1": "Filderstadtwerke",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2164605,
-    "NAME1": "Filderstadt - Musikschule",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2164606,
-    "NAME1": "Filderstadt - St\u00e4dtische Galerie",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -4904,14 +4880,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2288500,
-    "NAME1": "Esther Liontos",
-    "NAME2": "PES",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2322600,
     "NAME1": "mailworXs GmbH",
     "NAME2": "7031",
@@ -4994,14 +4962,6 @@
   {
     "ID": 2281600,
     "NAME1": "ipi Institut f\u00fcr Produktforschung GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2281800,
-    "NAME1": "Tennis-Club Donzdorf e. V.",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -5630,14 +5590,6 @@
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2164602,
-    "NAME1": "Filderstadt - FILharmonie + I-Punkt-Kartenservice",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
   },
   {
     "ID": 2017200,
@@ -6438,14 +6390,6 @@
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
-  },
-  {
-    "ID": 5400174,
-    "NAME1": "Gro\u00dfabnehmerverband Energie",
-    "NAME2": "Baden-W\u00fcrttemberg e.V.",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
   },
   {
     "ID": 5400175,
@@ -7440,14 +7384,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5400113,
-    "NAME1": "Stadtseniorenrat Esslingen e.V.",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2400634,
     "NAME1": "Karl Kr\u00e4mer Fachbuchhandlung GmbH & Co. KG",
     "NAME2": "Briefsendungen",
@@ -7688,14 +7624,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5400134,
-    "NAME1": "Beck Servicepack GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2400693,
     "NAME1": "SWSG Stuttgarter Wohnungs- und St\u00e4dtebaugesellschaft mbH",
     "NAME2": "- Tourisierte Sendungen -",
@@ -7787,14 +7715,6 @@
     "ID": 2400658,
     "NAME1": "Autohaus Rhein Ludwigsburg",
     "NAME2": "Zweigniederlassung der Heermann und Rhein GmbH",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5400129,
-    "NAME1": "M&S Messebau u. Service GmbH",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -7938,14 +7858,6 @@
   {
     "ID": 2400740,
     "NAME1": "Lettershop Raible GmbH & Co. KG",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5400165,
-    "NAME1": "Prei\u00dfer Hausverwaltung GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -9436,14 +9348,6 @@
     "NAME1": "Heilpraxis Enrico Thiele",
     "NAME2": "",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5400288,
-    "NAME1": "Arno GmbH",
-    "NAME2": "",
-    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -27696,14 +27600,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5400367,
-    "NAME1": "Harry Fuhrmann",
-    "NAME2": "Briefmarkenhandel",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4011742,
     "NAME1": "VIW Wohnbau GmbH",
     "NAME2": "Christine M\u00fcller",
@@ -32240,14 +32136,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404618,
-    "NAME1": "Topregal GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4012351,
     "NAME1": "Manfred Schert",
     "NAME2": "",
@@ -36016,14 +35904,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5400381,
-    "NAME1": "Horn Verleihservice",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 74014375,
     "NAME1": "Croissant und Ivancic Architekten PartGmbH",
     "NAME2": "",
@@ -38176,14 +38056,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404651,
-    "NAME1": "Zahn\u00e4rzte im Carr\u00e8",
-    "NAME2": "Dr. Erol Bilali & Dr. Alexander K\u00fchn",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2402573,
     "NAME1": "Kanzlei Dr. Werner",
     "NAME2": "",
@@ -38651,14 +38523,6 @@
     "ID": 2402556,
     "NAME1": "Dres. Kaufhardt, Pr\u00fcfer, Kneer und Krone-Kaufhardt",
     "NAME2": "Zahn\u00e4rztliche Gemeinschaftspraxis",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5404650,
-    "NAME1": "An\u00e4sthesiepraxis Kirchheim",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -42872,14 +42736,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404641,
-    "NAME1": "Diakoniestation auf den Fildern",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 74014700,
     "NAME1": "Samariterstift G\u00e4rtringen",
     "NAME2": "",
@@ -45600,14 +45456,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404791,
-    "NAME1": "AMS J\u00fcrgen Schulz GmbH Mitsubishi Vertragsh\u00e4ndler",
-    "NAME2": "Bosch Car Service Saab Service",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4013244,
     "NAME1": "J\u00fcrgen Baader",
     "NAME2": "",
@@ -47163,7 +47011,7 @@
     "ID": 7400951,
     "NAME1": "",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -48336,14 +48184,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404750,
-    "NAME1": "Temberger",
-    "NAME2": "Amit Bakshi",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4013019,
     "NAME1": "Joachim B\u00e4chle",
     "NAME2": "",
@@ -48531,14 +48371,6 @@
     "ID": 74016020,
     "NAME1": "Pos.30 PC 50000 Arbeitsgruppe Bessey",
     "NAME2": "GWW Gemeinn\u00fctzige Werkst\u00e4tten u. Wohnst\u00e4tten GmbH",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 7400882,
-    "NAME1": "",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -51368,14 +51200,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 7400896,
-    "NAME1": "",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 74016048,
     "NAME1": "SPD Ortsvorstand Steinenbronn",
     "NAME2": "Vorsitzende Antje Lindemeyer",
@@ -51835,14 +51659,6 @@
     "ID": 4013347,
     "NAME1": "Marcel Koch",
     "NAME2": "#scanbox13999",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5404807,
-    "NAME1": "DMG Mori Management GmbH",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -53091,14 +52907,6 @@
     "ID": 4013121,
     "NAME1": "Melanie Stoltmann",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5404773,
-    "NAME1": "Zeller & Frey GmbH & Co.KG",
-    "NAME2": "Elektro Sanit\u00e4r Heizung",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -55328,14 +55136,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 7400826,
-    "NAME1": "",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4013286,
     "NAME1": "Rainer K\u00f6pf",
     "NAME2": "",
@@ -55602,14 +55402,6 @@
   {
     "ID": 2403353,
     "NAME1": "Fitness f\u00fcr Ditzingen GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5404792,
-    "NAME1": "Political Communication Expert creategy GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -57094,14 +56886,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2349800,
-    "NAME1": "ap-solut GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 4013424,
@@ -58792,14 +58576,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 565656,
-    "NAME1": "Maschinenpr\u00fcfung",
-    "NAME2": "Briefzentrum",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 74016165,
     "NAME1": "Lisa Zeleny",
     "NAME2": "MiniMoves",
@@ -59672,14 +59448,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2164604,
-    "NAME1": "Filderstadt - Stadtbibliothek",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2403641,
     "NAME1": "PEN Performance GmbH",
     "NAME2": "",
@@ -60347,7 +60115,7 @@
     "ID": 7400991,
     "NAME1": "",
     "NAME2": "",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -60425,8 +60193,8 @@
   },
   {
     "ID": 4012915,
-    "NAME1": "Hausarztpraxis",
-    "NAME2": "Dres.med. Heim",
+    "NAME1": "Dres.med. Heim",
+    "NAME2": "Hausarztpraxis",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60561,8 +60329,8 @@
   },
   {
     "ID": 4012914,
-    "NAME1": "Hausarztpraxis",
-    "NAME2": "Dres.med. Heim",
+    "NAME1": "Dres.med. Heim",
+    "NAME2": "Hausarztpraxis",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60688,9 +60456,33 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013534,
+    "NAME1": "Benjamin Schmid",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403727,
+    "NAME1": "Bosch Service Kurz GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403724,
     "NAME1": "Mauri Waiblingen GmbH",
     "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 565656,
+    "NAME1": "Maschinenpr\u00fcfung",
+    "NAME2": "Briefzentrum",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
