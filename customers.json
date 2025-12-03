@@ -6763,9 +6763,9 @@
     "ID": 2400270,
     "NAME1": "Katholische Hospizstiftung",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
+    "MAHNSTUFE": 0
   },
   {
     "ID": 2400271,
@@ -34384,6 +34384,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 5404628,
+    "NAME1": "Herbst Logistics GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 5404629,
     "NAME1": "Heinrich Feess GmbH & Co. KG",
     "NAME2": "Zentrale",
@@ -50273,7 +50281,7 @@
   },
   {
     "ID": 2403213,
-    "NAME1": "teamtechnik Maschinen und Anlagen GmbH",
+    "NAME1": "BBS Automation Stuttgart GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60169,7 +60177,7 @@
   },
   {
     "ID": 4013532,
-    "NAME1": "Ebner Wohn- und St\u00e4dtebau GmbH",
+    "NAME1": "Ebner Projektbau GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
@@ -60440,8 +60448,24 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403728,
+    "NAME1": "Aral Autocenter Matos",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 5404856,
     "NAME1": "TSV Scharnhauen 1897 e.V.",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013541,
+    "NAME1": "Haag Immobilien GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60469,6 +60493,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013539,
+    "NAME1": "Miguel Adrian Panetta",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013540,
+    "NAME1": "Sonja Kraning",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
