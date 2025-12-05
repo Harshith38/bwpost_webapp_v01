@@ -300,9 +300,9 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       // Example usage
-      const code_1 = "040000002018500";
-      const prufziffer = calculatePrufziffer(code_1);
-      console.log("Prüfziffer:", prufziffer);
+      //const code_1 = "040000002018500";
+      //const prufziffer = calculatePrufziffer(code_1);
+      //console.log("Prüfziffer:", prufziffer);
 
     function generateBarcodeText(customerId) {
         const customerIdString = String(customerId);
@@ -461,7 +461,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to handle print button clicks
     async function handlePrintButtonClick(e) {
         const buttonText = e.target.textContent;
-        console.log(`Printing ${buttonText} for customer: ${currentCustomer || 'None'}, ID: ${currentCustomerNumber}, Device: ${selectedDevice ? selectedDevice.name : 'None'}`);
+        //console.log(`Printing ${buttonText} for customer: ${currentCustomer || 'None'}, ID: ${currentCustomerNumber}, Device: ${selectedDevice ? selectedDevice.name : 'None'}`);
 
         if (!currentCustomer || !selectedDevice) {
             statusLabel.textContent = 'Bitte scannen Sie zuerst eine Kundenummer.';

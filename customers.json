@@ -532,8 +532,8 @@
     "NAME1": "BAG Dres.Gro\u00dfe,Huss,Melms & Kollegen",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2034400,
@@ -60512,6 +60512,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016325,
+    "NAME1": "HKL Herrenberg",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403724,
     "NAME1": "Mauri Waiblingen GmbH",
     "NAME2": "",
@@ -60523,6 +60531,14 @@
     "ID": 565656,
     "NAME1": "Maschinenpr\u00fcfung",
     "NAME2": "Briefzentrum",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016326,
+    "NAME1": "GWW Gemeinn\u00fctzige Wohn- und Werkst\u00e4tten GmbH",
+    "NAME2": "Kostenstelle 57100",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
