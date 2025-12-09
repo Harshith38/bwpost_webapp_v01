@@ -9666,7 +9666,7 @@
   {
     "ID": 2401315,
     "NAME1": "Verein landwirtschaftliche Fachbildung Ludwigsburg e.V.",
-    "NAME2": "",
+    "NAME2": "FB 27",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -40584,14 +40584,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 4012529,
-    "NAME1": "Quick Logistics Beteiligungs GmbH",
-    "NAME2": "Versand HC Cargo",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4000556,
     "NAME1": "",
     "NAME2": "",
@@ -54524,8 +54516,8 @@
     "NAME1": "MHS Print GmbH",
     "NAME2": "L\u00b4Osservatore Romano",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4013224,
@@ -60440,6 +60432,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013543,
+    "NAME1": "Kai Budde",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012927,
+    "NAME1": "Columbus Reiseb\u00fcro",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403726,
     "NAME1": "",
     "NAME2": "",
@@ -60450,6 +60458,14 @@
   {
     "ID": 2403728,
     "NAME1": "Aral Autocenter Matos",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403729,
+    "NAME1": "Binder Reisen GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60468,7 +60484,7 @@
     "NAME1": "Haag Immobilien GmbH",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
