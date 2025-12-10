@@ -458,7 +458,7 @@
   {
     "ID": 2032200,
     "NAME1": "Stadt Ditzingen -Hauptamt-",
-    "NAME2": "",
+    "NAME2": "OE-101",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -466,7 +466,7 @@
   {
     "ID": 2032201,
     "NAME1": "Stadt Ditzingen",
-    "NAME2": "KST 0000 Oberb\u00fcrgermeister, B\u00fcrgermeister, OB-Referent, ST03",
+    "NAME2": "KST 0000 Oberb\u00fcrgermeister, B\u00fcrgermeister, OB-Referent, ST03 (OE101)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -474,7 +474,7 @@
   {
     "ID": 2032202,
     "NAME1": "Stadt Ditzingen",
-    "NAME2": "KST 0200 - 10 Hauptamt",
+    "NAME2": "KST 0200 - 10 Hauptamt (OE101)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -482,7 +482,7 @@
   {
     "ID": 2032203,
     "NAME1": "Stadt Ditzingen",
-    "NAME2": "KST 0300 - 20 Finanzen und Controlling",
+    "NAME2": "KST 0300 - 20 Finanzen und Controlling (OE101)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -490,7 +490,7 @@
   {
     "ID": 2032204,
     "NAME1": "Stadt Ditzingen",
-    "NAME2": "KST 0350 - 21 Liegenschaften und Geb\u00e4udemanagement",
+    "NAME2": "KST 0350 - 21 Liegenschaften und Geb\u00e4udemanagement (OE101)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -498,7 +498,7 @@
   {
     "ID": 2032206,
     "NAME1": "Stadt Ditzingen",
-    "NAME2": "KST 3000 \u2013 Amt 12 \u2013 Kultur, Sport, Engagement",
+    "NAME2": "KST 3000 \u2013 Amt 12 \u2013 Kultur, Sport, Engagement (OE101)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -506,7 +506,7 @@
   {
     "ID": 2032207,
     "NAME1": "Stadt Ditzingen",
-    "NAME2": "KST 6000 - 30 Stadtbauamt",
+    "NAME2": "KST 6000 - 30 Stadtbauamt (OE101)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -5890,7 +5890,7 @@
   {
     "ID": 2032205,
     "NAME1": "Stadt Ditzingen",
-    "NAME2": "KST 1100",
+    "NAME2": "KST 1100 (OE101)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -37602,7 +37602,7 @@
   {
     "ID": 2403059,
     "NAME1": "Stadt Ditzingen",
-    "NAME2": "Amt 11 - Jugend, Bildung, Betreuung",
+    "NAME2": "Amt 11 - Jugend, Bildung, Betreuung (OE101)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -44066,7 +44066,7 @@
   {
     "ID": 2402825,
     "NAME1": "Stadt Ditzingen",
-    "NAME2": "KST 5111- gemeinsamer Gutachterausschuss Strohg\u00e4u",
+    "NAME2": "KST 5111- gemeinsamer Gutachterausschuss Strohg\u00e4u (OE101)",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60448,6 +60448,38 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403730,
+    "NAME1": "Manfred R\u00f6\u00dfler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4001555,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013544,
+    "NAME1": "Sarah",
+    "NAME2": "Neuwirth-Wellinger",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403732,
+    "NAME1": "BRUDERKOPF Verwaltungs GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403726,
     "NAME1": "",
     "NAME2": "",
@@ -60525,6 +60557,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403731,
+    "NAME1": "St\u00e4rkentrainer GmbH",
+    "NAME2": "Frank Rebmann",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
