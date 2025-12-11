@@ -9056,6 +9056,14 @@
     "MAHNSTUFE": 1
   },
   {
+    "ID": 2401045,
+    "NAME1": "Stadtverwaltung Ludwigsburg - Fachbereich 41",
+    "NAME2": "Museum",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2400904,
     "NAME1": "TABACUM - La Casa del Habano e.K.",
     "NAME2": "",
@@ -54267,7 +54275,7 @@
     "ID": 2403200,
     "NAME1": "Archonic GmbH",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -60472,11 +60480,27 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403736,
+    "NAME1": "Uluz",
+    "NAME2": "Rechtsanwaltskanzlei Heitmann",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403742,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403732,
     "NAME1": "BRUDERKOPF Verwaltungs GmbH",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -60496,11 +60520,67 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403734,
+    "NAME1": "Heitmann",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 7401002,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403735,
+    "NAME1": "Maly",
+    "NAME2": "Rechtsanwaltskanzlei Heitmann",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403738,
+    "NAME1": "Mueller",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403739,
+    "NAME1": "IHK Industrie- und Handelskammer Region Stuttgart",
+    "NAME2": "Pr\u00fcfungsaufgaben- und Lehrmittelentwicklungsstelle",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403740,
+    "NAME1": "IHK Industrie- und Handelskammer Region Stuttgart",
+    "NAME2": "IHK-Exportakademie GmbH",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403729,
     "NAME1": "Binder Reisen GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403741,
+    "NAME1": "Riedel",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -60576,6 +60656,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403733,
+    "NAME1": "Moehle",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403724,
     "NAME1": "Mauri Waiblingen GmbH",
     "NAME2": "",
@@ -60595,6 +60683,14 @@
     "ID": 74016326,
     "NAME1": "GWW Gemeinn\u00fctzige Wohn- und Werkst\u00e4tten GmbH",
     "NAME2": "Kostenstelle 57100",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403737,
+    "NAME1": "Lech",
+    "NAME2": "c/o Udo Lech",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
