@@ -3296,14 +3296,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2275300,
-    "NAME1": "IHK-Exportakademie GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2275600,
     "NAME1": "M\u00d6BEL WURSTER GmbH",
     "NAME2": "",
@@ -6764,7 +6756,7 @@
     "NAME1": "Katholische Hospizstiftung",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 0,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -34033,7 +34025,7 @@
   },
   {
     "ID": 5400387,
-    "NAME1": "CDU Esslingen Geburtstagskarten Holger Kappel",
+    "NAME1": "CDU Esslingen Geburtstagskarten Stefanie Schantze",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60489,6 +60481,62 @@
   },
   {
     "ID": 2403742,
+    "NAME1": "Kanzlei Toprak",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403758,
+    "NAME1": "Moench",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403760,
+    "NAME1": "Rockit Manufacturing GmbH",
+    "NAME2": "c/o. Thorsten Sch\u00e4uble",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403762,
+    "NAME1": "Ludwig & Mende Partnerschaftsgesellsschaft mbB",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403763,
+    "NAME1": "Lanz",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403765,
+    "NAME1": "Engel",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403767,
+    "NAME1": "Waltenberger",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 7401003,
     "NAME1": "",
     "NAME2": "",
     "STATUS": 1,
@@ -60496,9 +60544,41 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403769,
+    "NAME1": "F\u00fce\u00df",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403732,
     "NAME1": "BRUDERKOPF Verwaltungs GmbH",
     "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403747,
+    "NAME1": "Schindele",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403748,
+    "NAME1": "Frerichs",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403751,
+    "NAME1": "Schwerttner",
+    "NAME2": "c/o. Joachim Schwerttner",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
@@ -60568,6 +60648,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403750,
+    "NAME1": "Hold",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403729,
     "NAME1": "Binder Reisen GmbH",
     "NAME2": "",
@@ -60584,6 +60672,46 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403745,
+    "NAME1": "Heine + Jud",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403753,
+    "NAME1": "Ewald",
+    "NAME2": "c/o  Frank Sch\u00f6nhaar",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403757,
+    "NAME1": "Eliwa",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403761,
+    "NAME1": "Mutz",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013545,
+    "NAME1": "Katja Pleterski",
+    "NAME2": "Contrapunkt Consult G",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 5404856,
     "NAME1": "TSV Scharnhauen 1897 e.V.",
     "NAME2": "",
@@ -60595,6 +60723,14 @@
     "ID": 4013541,
     "NAME1": "Haag Immobilien GmbH",
     "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403752,
+    "NAME1": "BauLog Stuttgart 21 GmbH & Co. KG",
+    "NAME2": "Fischer Weilheim GmbH & Co. KG",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
@@ -60618,6 +60754,22 @@
   {
     "ID": 2403727,
     "NAME1": "Bosch Service Kurz GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403759,
+    "NAME1": "Kabasaj",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4001559,
+    "NAME1": "",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60648,6 +60800,38 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403743,
+    "NAME1": "LAVA GmbH & Co. KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013546,
+    "NAME1": "David Kern",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403755,
+    "NAME1": "Sekin",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403770,
+    "NAME1": "Augenheilkunde Banyai GbR",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74016325,
     "NAME1": "HKL Herrenberg",
     "NAME2": "",
@@ -60664,11 +60848,43 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403744,
+    "NAME1": "Schmidt-Aursch",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403749,
+    "NAME1": "Vogler",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403768,
+    "NAME1": "Bertozzi Geb\u00e4udeservice GmbH",
+    "NAME2": "c/o Patrizia Bertozzi",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403724,
     "NAME1": "Mauri Waiblingen GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403746,
+    "NAME1": "Grieshaber Immobilien",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -60688,11 +60904,43 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403754,
+    "NAME1": "Jehle",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403756,
+    "NAME1": "ENDES Engineering und Design GmbH Stuttgart",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403764,
+    "NAME1": "Goebel-Wald",
+    "NAME2": "C/O Stephanie Weyermann",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403737,
     "NAME1": "Lech",
     "NAME2": "c/o Udo Lech",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403766,
+    "NAME1": "Zwink",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   }
 ]
