@@ -11945,8 +11945,8 @@
   },
   {
     "ID": 2135400,
-    "NAME1": "Raumausstatter Tobias Roser",
-    "NAME2": "",
+    "NAME1": "Raumausstatter Roser",
+    "NAME2": "Tobias Roser",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -36913,8 +36913,8 @@
   },
   {
     "ID": 2403027,
-    "NAME1": "Rainer Stau\u00df",
-    "NAME2": "Wirtschaftspr\u00fcfer Steuerberater",
+    "NAME1": "Stau\u00df - Steuerberatungsgesellschaft PartGmbB",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -58176,14 +58176,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5404830,
-    "NAME1": "TUTI - Kiosk",
-    "NAME2": "ServicePoint",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4013432,
     "NAME1": "Prostuck GmbH",
     "NAME2": "",
@@ -60552,6 +60544,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403773,
+    "NAME1": "Ingenieurkammer Baden-W\u00fcrttemberg",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403732,
     "NAME1": "BRUDERKOPF Verwaltungs GmbH",
     "NAME2": "",
@@ -60579,6 +60579,22 @@
     "ID": 2403751,
     "NAME1": "Schwerttner",
     "NAME2": "c/o. Joachim Schwerttner",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013547,
+    "NAME1": "Tobias Warth",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013550,
+    "NAME1": "Elke Pietsch",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
@@ -60704,6 +60720,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403772,
+    "NAME1": "schneider personalberatung gmbh",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404858,
+    "NAME1": "toom Baumarkt GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013545,
     "NAME1": "Katja Pleterski",
     "NAME2": "Contrapunkt Consult G",
@@ -60776,6 +60808,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013551,
+    "NAME1": "Stefanie Schneider",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013539,
     "NAME1": "Miguel Adrian Panetta",
     "NAME2": "",
@@ -60832,6 +60872,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403771,
+    "NAME1": "Walker MdL",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 74016325,
     "NAME1": "HKL Herrenberg",
     "NAME2": "",
@@ -60867,6 +60915,14 @@
     "ID": 2403768,
     "NAME1": "Bertozzi Geb\u00e4udeservice GmbH",
     "NAME2": "c/o Patrizia Bertozzi",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013548,
+    "NAME1": "Veysel Karaoglan",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
@@ -60941,6 +60997,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013549,
+    "NAME1": "Marco Juresic",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404857,
+    "NAME1": "TUTI Kiosk",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   }
 ]
