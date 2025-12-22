@@ -49234,7 +49234,7 @@
   {
     "ID": 2403140,
     "NAME1": "Stuttgarter Nachrichten Verlagsgesellschaft mbH",
-    "NAME2": "KIM KWZ Abo",
+    "NAME2": "Lesermarkt KWZ Abo",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -49242,7 +49242,7 @@
   {
     "ID": 2403141,
     "NAME1": "Stuttgarter Nachrichten Verlagsgesellschaft mbH",
-    "NAME2": "KIM MZ Abo",
+    "NAME2": "Lesermarkt MZ Abo",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -53100,7 +53100,7 @@
     "NAME1": "MDCT AG",
     "NAME2": "",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -54114,7 +54114,7 @@
   {
     "ID": 2403326,
     "NAME1": "Stuttgarter Nachrichten Verlagsgesellschaft mbH",
-    "NAME2": "KIM LKZ Abo",
+    "NAME2": "Lesermarkt LKZ Abo",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -58626,7 +58626,7 @@
   {
     "ID": 2403630,
     "NAME1": "Stuttgarter Nachrichten Verlags GmbH",
-    "NAME2": "",
+    "NAME2": "Lesermarkt",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -58825,8 +58825,8 @@
   },
   {
     "ID": 5404836,
-    "NAME1": "Katholische Kirchengemeinde St. Paul",
-    "NAME2": "",
+    "NAME1": "Katholische Kirchengemeinde",
+    "NAME2": "St. Paul",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -59394,7 +59394,7 @@
   {
     "ID": 2403629,
     "NAME1": "Stuttgarter Zeitung Verlags GmbH",
-    "NAME2": "f\u00fcr KIM",
+    "NAME2": "Lesermarkt",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60814,6 +60814,30 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403774,
+    "NAME1": "Interessengemeinschaft der Vielseitigkeitsreiter in Baden W\u00fcrttemberg e.V.",
+    "NAME2": "Holger Solntheim",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012928,
+    "NAME1": "Piratenpartei Deutschland",
+    "NAME2": "Landesverband Baden-W\u00fcrttemberg",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012929,
+    "NAME1": "Landeshauptstadt Stuttgart",
+    "NAME2": "Abteilung Kommunikation",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4013539,
