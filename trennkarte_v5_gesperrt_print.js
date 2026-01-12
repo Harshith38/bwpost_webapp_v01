@@ -564,9 +564,6 @@ document.addEventListener('DOMContentLoaded', function() {
           };
         document.querySelector('.date-time').textContent = new Date().toLocaleString('de-DE', options);
           // Output: Donnerstag, 6. November 2025 um 15:47
-          
-
-       
         
     }, 1000);
 
