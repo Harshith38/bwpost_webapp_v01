@@ -60440,6 +60440,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403811,
+    "NAME1": "Sch\u00e4fer-Prasnicki",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403812,
+    "NAME1": "Lohf",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403726,
     "NAME1": "",
     "NAME2": "",
@@ -60522,6 +60538,30 @@
   {
     "ID": 2403787,
     "NAME1": "Tomicic",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403806,
+    "NAME1": "G\u00fcven",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403807,
+    "NAME1": "Klein",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403809,
+    "NAME1": "Neidlinger",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
@@ -60648,6 +60688,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403808,
+    "NAME1": "Niese",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403785,
     "NAME1": "Fischer",
     "NAME2": "",
@@ -60674,6 +60722,14 @@
   {
     "ID": 2403792,
     "NAME1": "Wilpert GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403810,
+    "NAME1": "Schweikert",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
@@ -60765,6 +60821,30 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403803,
+    "NAME1": "Sanit\u00e4rkomfort M. Betzler GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403804,
+    "NAME1": "K\u00f6ppl",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403814,
+    "NAME1": "Wimmershof Rieth",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -61032,6 +61112,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403801,
+    "NAME1": "Ilg",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403805,
+    "NAME1": "Bachhausen",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403724,
     "NAME1": "Mauri Waiblingen GmbH",
     "NAME2": "",
@@ -61096,6 +61192,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403813,
+    "NAME1": "Friedrich -List Gymnasium",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403737,
     "NAME1": "Lech",
     "NAME2": "c/o Udo Lech",
@@ -61128,6 +61232,14 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403802,
+    "NAME1": "BNP Ingenieure GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013549,
     "NAME1": "Marco Juresic",
     "NAME2": "",
@@ -61141,6 +61253,14 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403800,
+    "NAME1": "Bauingenieurb\u00fcro MMV",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   }
 ]
