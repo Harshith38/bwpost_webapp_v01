@@ -514,8 +514,41 @@ document.addEventListener('DOMContentLoaded', function() {
 
     }
 
+    
 
     function createNewDataTable() {
+
+
+        let text = "Wichtig! \nAlle Daten werden gelöscht. \nSind Sie sicher?";
+        if (confirm(text) == true) {
+            exportToExcel()
+            //exportToExcelOverallScan()
+            const options = {
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+            };
+            let datum = new Date().toLocaleDateString("de-DE", options);
+            todayDateLabel.textContent = datum;
+            localStorage.setItem('date', datum);
+            //console.log(date); // 31.7.2025
+
+            localStorage.removeItem('warenausgangData');
+
+            localStorage.removeItem('warenausgangData_tour1');
+
+            // refreshes the page
+            location.reload();
+        }
+
+        
+    }
+     
+
+    /**
+    function createNewDataTable() {
+
         const options = {
             weekday: "long",
             year: "numeric",
@@ -533,7 +566,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // refreshes the page
         location.reload();
-    }
+    } */
     
     function clearFields() {
         wagenNummerInput.value = '0';
