@@ -658,7 +658,7 @@
   {
     "ID": 2015700,
     "NAME1": "Radio-Kombi CP Media S\u00fcdwest GmbH & Co. KG",
-    "NAME2": "Fach 15",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -1216,14 +1216,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2121500,
-    "NAME1": "C.G. Jung Institut",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2121800,
     "NAME1": "Dr. K\u00e4hling & Kollegen Rechtsanw\u00e4lte",
     "NAME2": "",
@@ -1411,22 +1403,6 @@
     "ID": 2139700,
     "NAME1": "TK Aufz\u00fcge GmbH",
     "NAME2": "Niederlassung Stuttgart",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2140400,
-    "NAME1": "Bachofer GmbH & Co. KG",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2141900,
-    "NAME1": "d\u00f6fix-D\u00f6hlemann GmbH",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -2705,7 +2681,7 @@
   },
   {
     "ID": 2220500,
-    "NAME1": "Diakoniestation Aich-Erms-Neckartal",
+    "NAME1": "Diakoniestationsverband Mittlerer Neckar",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -2754,7 +2730,7 @@
   {
     "ID": 2229600,
     "NAME1": "bioMerieux Deutschland GmbH",
-    "NAME2": "Bestellnummer: PO 4400520659",
+    "NAME2": "Bestellnummer: PO 4400566602",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -2835,14 +2811,6 @@
     "ID": 2174300,
     "NAME1": "P2 Die Zweite Post GmbH & Co. KG",
     "NAME2": "P2-6431/000 Einspeiser",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2174700,
-    "NAME1": "BKK Voralb",
-    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -3552,14 +3520,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2256200,
-    "NAME1": "Autohaus Fischer GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2256600,
     "NAME1": "Dres. Dongus/v.Tietzen/M\u00fcller",
     "NAME2": "",
@@ -3928,14 +3888,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2297900,
-    "NAME1": "DAK-Vertrieb - regional",
-    "NAME2": "LOS 21 (regional)",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2298100,
     "NAME1": "DAK-FZE",
     "NAME2": "",
@@ -4281,8 +4233,8 @@
   },
   {
     "ID": 2300500,
-    "NAME1": "Praxis Dr. Seiter",
-    "NAME2": "",
+    "NAME1": "Robert Bosch Krankenhaus",
+    "NAME2": "Ambulantes Gef\u00e4\u00dfzentrum Dr. Seiter GmbH",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -4699,7 +4651,7 @@
     "ID": 2318100,
     "NAME1": "B\u00f6hm Tankschutz",
     "NAME2": "NL EnTec Anlagenservice GmbH",
-    "STATUS": 3,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -4801,8 +4753,8 @@
   },
   {
     "ID": 2305401,
-    "NAME1": "Kolping Bildung Nordw\u00fcrttemberg gGmbH",
-    "NAME2": "Kolping Akademie",
+    "NAME1": "Kolping Education gGmbH",
+    "NAME2": "Standort 350-330",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -4835,14 +4787,6 @@
     "ID": 2287700,
     "NAME1": "Jobcenter Landkreis B\u00f6blingen",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2287800,
-    "NAME1": "Bundesagentur f\u00fcr Arbeit Esslingen",
-    "NAME2": "Operativer Service Esslingen",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -5536,14 +5480,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2037600,
-    "NAME1": "Landesverband Schausteller und Marktkaufleute Baden-W\u00fcrttemberg e.V.",
-    "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2150500,
     "NAME1": "Kom\u00f6die im Marquardt",
     "NAME2": "",
@@ -5630,14 +5566,6 @@
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2336400,
-    "NAME1": "Blackworx GmbH",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
   },
   {
     "ID": 2342700,
@@ -5796,8 +5724,8 @@
     "NAME1": "Techniker Krankenkasse",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2402273,
@@ -5810,14 +5738,6 @@
   {
     "ID": 2401842,
     "NAME1": "Wirtschaftsf\u00f6rderung Region Stuttgart GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2022002,
-    "NAME1": "Volleyball Landesverband W\u00fcrttemberg e.V.",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -8168,14 +8088,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5400072,
-    "NAME1": "Techniker Krankenkasse ",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2400045,
     "NAME1": "Redresskiste leeren",
     "NAME2": "",
@@ -8720,14 +8632,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 2400330,
-    "NAME1": "BWPOST Zollernalb GmbH",
-    "NAME2": "Abrechnung Lohnsortierung",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2400331,
     "NAME1": "LOS Lehrinstitut f\u00fcr Orthographie und Schreibtechnik",
     "NAME2": "Victoria u. Axel Schwartz",
@@ -8963,9 +8867,9 @@
     "ID": 2401045,
     "NAME1": "Stadtverwaltung Ludwigsburg - Fachbereich 41",
     "NAME2": "Museum",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2400904,
@@ -9136,14 +9040,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 2401310,
-    "NAME1": "Briefkastenstandort",
-    "NAME2": "Getr\u00e4nke B\u00e4ssler",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2401095,
     "NAME1": "Pri/Send",
     "NAME2": "Inhaber Oliver Reischle - Auslandssendungen",
@@ -9166,14 +9062,6 @@
     "STATUS": 2,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2401103,
-    "NAME1": "Agroa Raiffeisen eG",
-    "NAME2": "",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2401112,
@@ -9328,14 +9216,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 2401250,
-    "NAME1": "DAK-Gesch\u00e4ftsgebiet - deutschlandweit",
-    "NAME2": "LOS 21 (deutschlandweit)",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2401353,
     "NAME1": "Augenoptik JENDE Contactlinsen GmbH",
     "NAME2": "",
@@ -9363,7 +9243,7 @@
     "ID": 2401430,
     "NAME1": "IKK classic - G\u00f6ppingen",
     "NAME2": "H01BW04003",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -9987,7 +9867,7 @@
     "ID": 2401423,
     "NAME1": "IKK classic - Backnang",
     "NAME2": "H01BW08000",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10003,7 +9883,7 @@
     "ID": 2401425,
     "NAME1": "IKK classic - Heilbronn",
     "NAME2": "H01BW05004",
-    "STATUS": 3,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10011,7 +9891,7 @@
     "ID": 2401426,
     "NAME1": "IKK classic - Schw\u00e4bisch Gm\u00fcnd",
     "NAME2": "H01BW07004",
-    "STATUS": 3,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10019,7 +9899,7 @@
     "ID": 2401429,
     "NAME1": "IKK classic - Geislingen",
     "NAME2": "H01BE04002",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10027,7 +9907,7 @@
     "ID": 2401431,
     "NAME1": "IKK classic - Esslingen",
     "NAME2": "H01BW04000",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10035,7 +9915,7 @@
     "ID": 2401432,
     "NAME1": "IKK classic - Kirchheim",
     "NAME2": "H01BW04004",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10043,7 +9923,7 @@
     "ID": 2401433,
     "NAME1": "IKK classic - N\u00fcrtingen",
     "NAME2": "H01BW04005",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10051,7 +9931,7 @@
     "ID": 2401434,
     "NAME1": "IKK classic - T\u00fcbingen",
     "NAME2": "H01BW01007",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10059,7 +9939,7 @@
     "ID": 2401436,
     "NAME1": "IKK classic - Leonberg",
     "NAME2": "H01BW01006",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10243,7 +10123,7 @@
     "ID": 2401424,
     "NAME1": "IKK classic - Waiblingen",
     "NAME2": "H01BW08005",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10251,7 +10131,7 @@
     "ID": 2401427,
     "NAME1": "IKK classic - Ellwangen",
     "NAME2": "H01BW07002",
-    "STATUS": 3,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -10259,7 +10139,7 @@
     "ID": 2401428,
     "NAME1": "IKK classic - Aalen",
     "NAME2": "H01BW07000",
-    "STATUS": 3,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -11864,14 +11744,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2401486,
-    "NAME1": "BKK ZF & Partner",
-    "NAME2": "Gesch\u00e4ftsstelle Bietigheim-Bissingen",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 5400318,
     "NAME1": "Leben inklusive e.V.",
     "NAME2": "",
@@ -11894,14 +11766,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2079800,
-    "NAME1": "SCHMID IMMOBILIEN STUTTGART",
-    "NAME2": "Angelika und Eberhard-Frank Schmid GbR",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2150400,
@@ -12258,7 +12122,7 @@
   {
     "ID": 4010516,
     "NAME1": "Finanzamt Waiblingen",
-    "NAME2": "Herrn Sellinger",
+    "NAME2": "Herrn Kladensky",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -12537,8 +12401,8 @@
   },
   {
     "ID": 4010894,
-    "NAME1": "Apperger + Idler",
-    "NAME2": "Steuerberater",
+    "NAME1": "Apperger + Idler + Schurig",
+    "NAME2": "Steuerberatung PartG mbB",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -12872,14 +12736,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2401224,
-    "NAME1": "DB Vertrieb GmbH",
-    "NAME2": "",
-    "STATUS": 99,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2401268,
     "NAME1": "SV SparkassenVersicherung Gesch\u00e4ftsstelle",
     "NAME2": "Robert Zimmermann",
@@ -12891,7 +12747,7 @@
     "ID": 2401410,
     "NAME1": "IKK classic - B\u00f6blingen",
     "NAME2": "H01BW01002",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -13445,14 +13301,6 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2400835,
-    "NAME1": "Getr\u00e4nke B\u00e4ssler",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -14280,14 +14128,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 5400323,
-    "NAME1": "BKK Voralb Reichenbach",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2401475,
     "NAME1": "MK Paletten Service",
     "NAME2": "",
@@ -14955,14 +14795,6 @@
     "ID": 2401827,
     "NAME1": "BD B\u00fcrkle Direktmarketing",
     "NAME2": "",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
-    "ID": 2298200,
-    "NAME1": "DAK-Gesch\u00e4ftsgebiet - regional",
-    "NAME2": "LOS 21 (regional)",
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
@@ -15739,7 +15571,7 @@
     "ID": 2401565,
     "NAME1": "Literaturspazierg\u00e4nge Hahn, Kusiek + Laing",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -15772,14 +15604,6 @@
     "NAME1": "Universit\u00e4t Hohenheim",
     "NAME2": "900 Universit\u00e4tsverwaltung",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2401602,
-    "NAME1": "internetstores GmbH",
-    "NAME2": "",
-    "STATUS": 3,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -17235,7 +17059,7 @@
     "ID": 74013883,
     "NAME1": "Sporthaus Klotz GmbH",
     "NAME2": "",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -17489,7 +17313,7 @@
   },
   {
     "ID": 4011627,
-    "NAME1": "Praxis Dr. Traebert",
+    "NAME1": "Gesundheitszentrum Waiblingen e. V.",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -17923,8 +17747,8 @@
     "ID": 74013975,
     "NAME1": "KLAUSS Festbetriebe GmbH & Co. KG",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -18579,7 +18403,7 @@
     "ID": 74013262,
     "NAME1": "Ralf Sklarski ",
     "NAME2": "Bauunternehmen GmbH & Co. KG",
-    "STATUS": 2,
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -18939,8 +18763,8 @@
     "ID": 74013299,
     "NAME1": "IMSYS GmbH & Co. KG",
     "NAME2": "Immersive systems",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -19899,8 +19723,8 @@
     "ID": 74013060,
     "NAME1": "Silberform Aktiengesellschaft",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -21683,8 +21507,8 @@
     "ID": 7402306,
     "NAME1": "Debeka Serviceb\u00fcro",
     "NAME2": "Herr Daniel Becker",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -25435,8 +25259,8 @@
     "ID": 74013783,
     "NAME1": "Augenarztpraxis",
     "NAME2": "Dr. Banyai",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -25467,16 +25291,16 @@
     "ID": 74013792,
     "NAME1": "Brenner Energie- und Geb\u00e4udetechnik GmbH",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
     "ID": 74013793,
     "NAME1": "Augenarztpraxis",
     "NAME2": "Doctor-medic Liliana Banyai",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -25484,7 +25308,7 @@
     "NAME1": "Augenarztpraxis Dr. Banyai",
     "NAME2": "",
     "STATUS": 2,
-    "ISEXPORTMASCHINE": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -25771,8 +25595,8 @@
     "ID": 74010112,
     "NAME1": "Dr. med. Schorm-Ewers",
     "NAME2": "Praxis f\u00fcr Kieferorthop\u00e4die",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -25979,8 +25803,8 @@
     "ID": 74013909,
     "NAME1": "Techniker Krankenkasse",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -26181,6 +26005,14 @@
     "NAME2": "P2-6812/022",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5400372,
+    "NAME1": "AutoPartner GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -28387,8 +28219,8 @@
     "ID": 74011681,
     "NAME1": "Fritz Hartmann GmbH & Co. KG",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -30219,8 +30051,8 @@
     "ID": 74011430,
     "NAME1": "Physiotreff",
     "NAME2": "Brita Scheuerl-Pfaff",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -30305,9 +30137,9 @@
   },
   {
     "ID": 74011457,
-    "NAME1": "Abschleppservice und Pannendienst",
-    "NAME2": "Trautwein GmbH",
-    "STATUS": 2,
+    "NAME1": "Trautwein GmbH",
+    "NAME2": "",
+    "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -33939,7 +33771,7 @@
     "ID": 2401435,
     "NAME1": "IKK classic - Reutlingen",
     "NAME2": "H01BW01005",
-    "STATUS": 1,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -34331,8 +34163,8 @@
     "ID": 4012261,
     "NAME1": "SV SparkassenVersicherung - SV Team Backnang",
     "NAME2": "Gesch\u00e4ftsstelle Markus Olp",
-    "STATUS": 95,
-    "ISEXPORTMASCHINE": 0,
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 1
   },
   {
@@ -36040,14 +35872,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4012298,
-    "NAME1": "Minol Messtechnik W. Lehmann GmbH & Co. KG",
-    "NAME2": "NI121/2. OG",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4012328,
     "NAME1": "Maier Reisen GmbH",
     "NAME2": "",
@@ -36082,14 +35906,6 @@
   {
     "ID": 4012302,
     "NAME1": "PTE Partnersysteme GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5404581,
-    "NAME1": "Autohaus G. Gross GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -36536,14 +36352,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4010802,
-    "NAME1": "B\u00fcrkle Verwaltungen & Immobilien",
-    "NAME2": "G\u00fcnter B\u00fcrkle",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 5404729,
     "NAME1": "Stefanie Schantze",
     "NAME2": "Schornsteinfegerin",
@@ -36566,14 +36374,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2401252,
-    "NAME1": "DAK-Vertrieb - deutschlandweit",
-    "NAME2": "LOS 21 (deutschlandweit)",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 2402992,
@@ -37034,14 +36834,6 @@
   {
     "ID": 4012644,
     "NAME1": "SAPV Rems-Murr e. V.",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2403038,
-    "NAME1": "Dr. Martin Scheurer",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -40067,7 +39859,7 @@
     "ID": 2402678,
     "NAME1": "INDUSTRIE-BEWACHUNG Bruno Wachtmeister GmbH & Co. KG",
     "NAME2": "",
-    "STATUS": 99,
+    "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 1
   },
@@ -40827,8 +40619,8 @@
     "ID": 74014807,
     "NAME1": "\u00dcber\u00f6rtliche Berufsaus\u00fcbungsgemeinschaft",
     "NAME2": "Fach\u00e4rzte f. Innere Medizin-Nephrologie",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -40916,14 +40708,6 @@
     "NAME1": "Hans-Christoph Vomhoff",
     "NAME2": "Steuerberater",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402972,
-    "NAME1": "Berufsaus\u00fcbungsgemeinschaft",
-    "NAME2": "Dr. med. F\u00fctterer, Dr. med. Empacher, Dr. med. Feldmann",
-    "STATUS": 3,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
@@ -41041,7 +40825,7 @@
   },
   {
     "ID": 4012596,
-    "NAME1": "Teldanet GmbH & Co. KG",
+    "NAME1": "SWS TeldaNet GmbH & Co. KG",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -42137,7 +41921,7 @@
   },
   {
     "ID": 4010400,
-    "NAME1": "S. Pahlke GbR",
+    "NAME1": "Pahlke Baustoffe-Mietpark GmbH & Co. KG",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -42174,14 +41958,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2402442,
-    "NAME1": "Dr. Cornelia S. Ludwig",
-    "NAME2": "Fachzahn\u00e4rztin f\u00fcr Oralchirurgie",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 5400375,
@@ -42569,11 +42345,11 @@
   },
   {
     "ID": 5404687,
-    "NAME1": "",
-    "NAME2": "",
+    "NAME1": "BWPOST Esslingen GmbH & Co. KG",
+    "NAME2": "XRechnungs-GP",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2402828,
@@ -42739,14 +42515,6 @@
     "ID": 2402777,
     "NAME1": "Fl\u00fcchtlingsrat Baden-W\u00fcrttemberg e.V.",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2234700,
-    "NAME1": "Dienste f\u00fcr Menschen gGmbH",
-    "NAME2": "Seniorenzentrum Ehmann",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -43418,7 +43186,7 @@
   {
     "ID": 4011887,
     "NAME1": "Stadtwerke Fellbach GmbH",
-    "NAME2": "Frau Strau\u00df - Marketing",
+    "NAME2": "Marketing",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -45562,7 +45330,7 @@
   {
     "ID": 4013218,
     "NAME1": "Josef und Ingrid Fleschurz",
-    "NAME2": "",
+    "NAME2": "c/o Reha-Klinik Schw\u00e4bische Alb",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -46544,14 +46312,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2236900,
-    "NAME1": "Autohaus DURST GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4013023,
     "NAME1": "Astrid Lindenberg",
     "NAME2": "",
@@ -46910,14 +46670,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5400050,
-    "NAME1": "MAILPOWER GmbH",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 4001435,
@@ -47290,7 +47042,7 @@
   {
     "ID": 2403438,
     "NAME1": "Stadtverwaltung Ludwigsburg",
-    "NAME2": "Wahlen Europa und Kommunalwahl",
+    "NAME2": "Wahlen Landtagswahl 2026",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -47694,14 +47446,6 @@
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
-  },
-  {
-    "ID": 2400478,
-    "NAME1": "Kulturgemeinschaft Stuttgart e.V.",
-    "NAME2": "",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
   },
   {
     "ID": 74015410,
@@ -48146,10 +47890,10 @@
   {
     "ID": 2403465,
     "NAME1": "civillent GmbH",
-    "NAME2": "EU-/Kommunalwahl 2024 Los1c",
+    "NAME2": "Landtagswahl 2026 Los 3",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
   },
   {
     "ID": 2403466,
@@ -48264,14 +48008,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403087,
-    "NAME1": "Lizzies Laden",
-    "NAME2": "Service Point",
-    "STATUS": 3,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2403088,
     "NAME1": "Versicherungsb\u00fcro Holzwarth GmbH",
     "NAME2": "",
@@ -48363,8 +48099,8 @@
     "ID": 74015890,
     "NAME1": "IKK classic",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -48683,8 +48419,8 @@
     "ID": 74016030,
     "NAME1": "Pos.120 Prelabel PC 20000 1A Zugang",
     "NAME2": "1 A Beratungsgesellschaft mbH",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -49649,8 +49385,8 @@
   },
   {
     "ID": 74015995,
-    "NAME1": "Landratsamt Calw",
-    "NAME2": "Kreisberufsschul-zentrum Nagold",
+    "NAME1": "Kreisberufsschul-zentrum Nagold",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -50715,8 +50451,8 @@
     "ID": 4012826,
     "NAME1": "S\u00fcdwest Media Network GmbH",
     "NAME2": "Andrea Haller",
-    "STATUS": 2,
-    "ISEXPORTMASCHINE": 0,
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -51162,7 +50898,7 @@
   {
     "ID": 4013182,
     "NAME1": "Anne-Katrin Sch\u00fctze",
-    "NAME2": "Betreuungsb\u00fcro Bethge & Sch\u00fctze",
+    "NAME2": "Betreuungsb\u00fcro Sch\u00fctze",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -54105,7 +53841,7 @@
   },
   {
     "ID": 2403200,
-    "NAME1": "Archonic GmbH",
+    "NAME1": "MPS Archonic GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -55552,14 +55288,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2298101,
-    "NAME1": "DAK - B\u00f6blingen",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 1
-  },
-  {
     "ID": 2400399,
     "NAME1": "ELLER repro + druck GmbH",
     "NAME2": "",
@@ -55960,14 +55688,6 @@
     "MAHNSTUFE": 1
   },
   {
-    "ID": 5400221,
-    "NAME1": "Jehle Technik Esslingen GmbH",
-    "NAME2": "ServicePoint",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 2401361,
     "NAME1": "ZEPP Gastronomie GmbH",
     "NAME2": "Betrieb Amici",
@@ -56035,9 +55755,9 @@
     "ID": 2403650,
     "NAME1": "Gemeinn\u00fctzige Elternstiftung Baden-W\u00fcrttemberg",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 3,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4013481,
@@ -56051,9 +55771,9 @@
     "ID": 2403651,
     "NAME1": "Auto Deko GmbH",
     "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
+    "STATUS": 2,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
   },
   {
     "ID": 4013487,
@@ -56091,14 +55811,6 @@
     "ID": 4012901,
     "NAME1": "Oberbadisches Verlagshaus Georg Jaumann",
     "NAME2": "GmbH & Co. KG",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
-    "ID": 5404851,
-    "NAME1": "Krankenfahrdienst Markus",
-    "NAME2": "I.Chrisulas und M. Stuhler GbR",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -57789,7 +57501,7 @@
     "NAME2": "",
     "STATUS": 2,
     "ISEXPORTMASCHINE": 0,
-    "MAHNSTUFE": 0
+    "MAHNSTUFE": 1
   },
   {
     "ID": 2400713,
@@ -60112,14 +59824,6 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 4012913,
-    "NAME1": "Gesamtkirchengemeinde Rudersberg/Schlechtbach",
-    "NAME2": "",
-    "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
-    "MAHNSTUFE": 0
-  },
-  {
     "ID": 4013523,
     "NAME1": "Anastasios Mageiropoulos",
     "NAME2": "",
@@ -60229,6 +59933,102 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012947,
+    "NAME1": "Albrim Xhenmajliu",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012946,
+    "NAME1": "Florian Mauthe",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012948,
+    "NAME1": "\u00dcbersetzungsb\u00fcro Warth-Herberger",
+    "NAME2": "Eva Maria Warth-Herberger",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
+  },
+  {
+    "ID": 4012952,
+    "NAME1": "VK Automobile",
+    "NAME2": "Vasilios Kotsoglou",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
+  },
+  {
+    "ID": 4012941,
+    "NAME1": "Gemeinde Schwaikheim",
+    "NAME2": "WAHLUNTERLAGEN",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403821,
+    "NAME1": "MVZ f\u00fcr Psychotherapie gGmbH",
+    "NAME2": "am C. G. Jung-Institut Stuttgart e.V.",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012943,
+    "NAME1": "Zurich Generalagentur",
+    "NAME2": "Rainer Kneller",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4001595,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013561,
+    "NAME1": "Bercem Ay",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403822,
+    "NAME1": "IG Metall Stuttgart",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013568,
+    "NAME1": "Daniele Occhibianco",
+    "NAME2": "c/o Salon Daniele",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016365,
+    "NAME1": "Walter Bruckner Transporte OHG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -60368,6 +60168,46 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016369,
+    "NAME1": "Autohaus Kaman",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 7401018,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403827,
+    "NAME1": "",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012949,
+    "NAME1": "Flender + Kaiser",
+    "NAME2": "Steuerberatungsgesellschaft GmbH & Co.KG",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013560,
+    "NAME1": "Ikbal Yalcinkaya",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403732,
     "NAME1": "BRUDERKOPF Verwaltungs GmbH",
     "NAME2": "",
@@ -60456,9 +60296,33 @@
     "MAHNSTUFE": 0
   },
   {
-    "ID": 2403726,
-    "NAME1": "",
+    "ID": 2403819,
+    "NAME1": "C.G. Jung - Gesellschaft",
     "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404860,
+    "NAME1": "Schulz & Schulz GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403825,
+    "NAME1": "Fachspedition Karl Dischinger GmbH",
+    "NAME2": "ID 2148",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403726,
+    "NAME1": "Privomed Neuro",
+    "NAME2": "c/o MVZ am Forum GmbH",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60498,7 +60362,7 @@
   {
     "ID": 2403738,
     "NAME1": "Mueller",
-    "NAME2": "",
+    "NAME2": "c/o Dagmar Schneider",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
@@ -60529,7 +60393,39 @@
   },
   {
     "ID": 4012931,
-    "NAME1": "Kohnle Steuerberatungsgesellschaft MBH",
+    "NAME1": "Kohnle Steuerberatungsgesellschaft mbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016407,
+    "NAME1": "Fachstelle Hausbesuche FHB",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016368,
+    "NAME1": "Fahrschule H\u00f6schele GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016385,
+    "NAME1": "BW Wohnwert GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016384,
+    "NAME1": "Eichner Verwaltungs GmbH",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -60563,6 +60459,14 @@
     "ID": 2403809,
     "NAME1": "Neidlinger",
     "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013557,
+    "NAME1": "Gertrud Halt",
+    "NAME2": "c/o Christina Young",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
@@ -60648,9 +60552,25 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4013559,
+    "NAME1": "Stephan Marx",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013545,
     "NAME1": "Katja Pleterski",
     "NAME2": "Contrapunkt Consult G",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012951,
+    "NAME1": "Praxis A.Beck & Dr. med E. Walter",
+    "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
@@ -60680,6 +60600,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012950,
+    "NAME1": "Radiologie Waiblingen",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013570,
+    "NAME1": "Edgar Retzer",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403752,
     "NAME1": "BauLog Stuttgart 21 GmbH & Co. KG",
     "NAME2": "Fischer Weilheim GmbH & Co. KG",
@@ -60693,6 +60629,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012937,
+    "NAME1": "Seniorenzentrum Bethel Welzheim gGmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403818,
+    "NAME1": "RKH MVZ der Orthop\u00e4dischen Klinik Markgr\u00f6ningen gGmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -60736,6 +60688,54 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 74016338,
+    "NAME1": "Tragwerksplanung Statik",
+    "NAME2": "Bauwerksinstandsetzung GmbH",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016340,
+    "NAME1": "Autoservice R. Binder",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012933,
+    "NAME1": "Chiropraxis Burger und Stehr",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012939,
+    "NAME1": "Pflegedienst Bethel Welzheim gGmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012940,
+    "NAME1": "Heimatverein Waiblingen e.V.",
+    "NAME2": "Herr Wiese",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013567,
+    "NAME1": "Andreas Z\u00f6ldag",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403725,
     "NAME1": "PAZ Pflegerische Ambulanzzentren GmbH",
     "NAME2": "Pflege und Betreuungsdienst",
@@ -60757,6 +60757,62 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012944,
+    "NAME1": "BAG Dres. Weisser & Codagnone Partg MBB",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404859,
+    "NAME1": "Praxis Dr. Machon & Kollegen",
+    "NAME2": "Zahnmedizin & Oralchirurgie",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404851,
+    "NAME1": "Krankenfahrdienst Markus",
+    "NAME2": "I.Chrisulas und M. Stuhler GbR",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013564,
+    "NAME1": "Caroline Rupp",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016367,
+    "NAME1": "Florian Schien",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016363,
+    "NAME1": "Florian Wahl",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016364,
+    "NAME1": "McLaren Stuttgart-D\u00f6rr",
+    "NAME2": "D\u00f6rr Automotive GmbH",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -60820,7 +60876,7 @@
     "NAME1": "Klaus K\u00e4mmerer",
     "NAME2": "",
     "STATUS": 1,
-    "ISEXPORTMASCHINE": 1,
+    "ISEXPORTMASCHINE": 0,
     "MAHNSTUFE": 0
   },
   {
@@ -60845,6 +60901,94 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016402,
+    "NAME1": "iS Immobilien-Service",
+    "NAME2": "(haftungsbeschr\u00e4nkt)",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74011245,
+    "NAME1": "Consult Invest Beteiligungsberatungs GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012935,
+    "NAME1": "SWS TeldaSec GmbH & Co. KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012936,
+    "NAME1": "AWO Rems-Murr gGmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403820,
+    "NAME1": "C.G. Jung Institut",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013563,
+    "NAME1": "IFB Ingenieure GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013565,
+    "NAME1": "Klaus-Dieter Wendel",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403823,
+    "NAME1": "Vital Zentrum Sanit\u00e4tshaus Glotz GmbH",
+    "NAME2": "ID 2324",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016366,
+    "NAME1": "Landesmuseum W\u00fcrttemberg",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403826,
+    "NAME1": "Spiegel",
+    "NAME2": "Buchen laufender Gesch\u00e4ftsvorf\u00e4lle / B\u00fcroorganisation",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016403,
+    "NAME1": "Nesret Misini Holz- und Bautenschutz",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -60944,6 +61088,54 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403816,
+    "NAME1": "Zeitungsverlag GmbH & Co. Waiblingen KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 1
+  },
+  {
+    "ID": 4013562,
+    "NAME1": "Rechtliche Betreuungen Reif-Woelki",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012945,
+    "NAME1": "Dr. med. M. Codagnone",
+    "NAME2": "Dr. med. G. Weisser Partg MBB",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 5404861,
+    "NAME1": "Die Dialogiker GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403824,
+    "NAME1": "Heinrich Schmid GmbH & Co. KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013569,
+    "NAME1": "Rainer Trapp",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013539,
     "NAME1": "Miguel Adrian Panetta",
     "NAME2": "",
@@ -61002,6 +61194,22 @@
   {
     "ID": 2403771,
     "NAME1": "Walker MdL",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 2403817,
+    "NAME1": "Scheurer & Goblisch",
+    "NAME2": "Zahnmedizin am Killesberg",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4012942,
+    "NAME1": "Harmonie Hausverwaltung",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 1,
@@ -61128,6 +61336,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012934,
+    "NAME1": "SWS TeldaTec GmbH & Co. KG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013558,
+    "NAME1": "Georgine D\u00f6beli",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403724,
     "NAME1": "Mauri Waiblingen GmbH",
     "NAME2": "",
@@ -61200,6 +61424,22 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 4012938,
+    "NAME1": "Geriatrische Reha-Klinik Bethel Welzheim gGmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 4013566,
+    "NAME1": "Inge Trautmann",
+    "NAME2": "c/o Carmen-Isabel Kutzner",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 2403737,
     "NAME1": "Lech",
     "NAME2": "c/o Udo Lech",
@@ -61240,11 +61480,27 @@
     "MAHNSTUFE": 0
   },
   {
+    "ID": 2403815,
+    "NAME1": "Rieth",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
     "ID": 4013549,
     "NAME1": "Marco Juresic",
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016370,
+    "NAME1": "Sportivo OHG",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   },
   {
@@ -61261,6 +61517,22 @@
     "NAME2": "",
     "STATUS": 1,
     "ISEXPORTMASCHINE": 0,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016331,
+    "NAME1": "Scheurenbrand + Mast",
+    "NAME2": "Bauunternehmen GmbH",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
+    "MAHNSTUFE": 0
+  },
+  {
+    "ID": 74016339,
+    "NAME1": "Schechinger Verwaltungs GmbH",
+    "NAME2": "",
+    "STATUS": 1,
+    "ISEXPORTMASCHINE": 1,
     "MAHNSTUFE": 0
   }
 ]
